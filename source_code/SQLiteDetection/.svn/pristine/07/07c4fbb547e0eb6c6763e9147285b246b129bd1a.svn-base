@@ -1,0 +1,1538 @@
+--------- beginning of system
+D/SSRM:m  ( 4313): SIOP:: AP = 370, PST = 389, CUR = 500
+--------- beginning of main
+V/GLSActivity( 5000): AuthDelegateWrapperCreated with selected intent: Intent { cmp=com.google.android.gms/.auth.DefaultAuthDelegateService }
+I/GLSUser ( 5000): [GLSUser] getTokenFromCache: [account: <ELLIDED:-20293>, callingPkg: com.android.vending, service: androidsecure]
+I/GLSUser ( 5000): [GLSUser] getTokenFromGoogle [account: <ELLIDED:-20293>, callingPkg: com.android.vending, service: androidsecure
+I/GLSUser ( 5000): [GLSUser] No secrets, returning BAD_AUTH for <ELLIDED:-20293> androidsecure without consulting the cloud. [mastertoken: <EMPTY>, password: <NULL>]
+I/GLSUser ( 5000): [GLSUser] Extracting token using key: Auth
+W/GLSActivity( 5000): gms.StatusHelper Status from wire: BadAuthentication status: BAD_AUTHENTICATION
+V/GLSActivity( 5000): AuthDelegateWrapperCreated with selected intent: Intent { cmp=com.google.android.gms/.auth.DefaultAuthDelegateService }
+D/Finsky  (26051): [1] AppStatesReplicator.handleContentSyncResponse: Completed 1 account content syncs with 0 successful.
+D/Finsky  (26051): [1] ContentSyncService$5.onFinished: Installation state replication failed.
+D/Finsky  (26051): [1] ContentSyncService$5.onFinished: Scheduling replication attempt 3.
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+I/wpa_supplicant(25266): nl80211: Received scan results (52 BSSes)
+D/WifiService( 4313): releaseWifiLockLocked: WifiLock{NlpWifiLock type=2 binder=android.os.BinderProxy@a064019}
+D/gpsd    ( 3629): WakeLock(Acquire,GPSD)
+D/gpsd    ( 3629): WakeLock(Release,GPSD)
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+V/AlarmManager( 4313): waitForAlarm result :8
+D/KeyguardUpdateMonitor( 4474): received broadcast android.intent.action.TIME_TICK
+D/KeyguardUpdateMonitor( 4474): handleTimeUpdate
+D/KeyguardEffectViewController( 4474): onReceive action : android.intent.action.TIME_TICK
+I/KeyguardEffectViewController( 4474): *** don't update sliding image ***
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/DateView( 4474): regionalDateFormat = 11/22/3333 isRTLlanguage = false returnDateFormat = E, MMMM d
+D/DateView( 4474): regionalDateFormat = 11/22/3333 isRTLlanguage = false returnDateFormat = E, MMMM d
+D/CustomFrequencyManagerService( 4313): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1900000  uid : 1000  pid : 4313  pkgName : LAUNCHER_APP_BOOSTER_CPU@7652
+D/accuweather( 5989): [KK AccuPhone]>>> WCS:144 [0:0] action : androidintentactionTIME_TICK
+D/accuweather( 5989): [KK AccuPhone]>>> UIM:40 [0:0] getInstance
+D/accuweather( 5989): [KK AccuPhone]>>> UIM:85 [0:0] direct update clock
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+I/System.out(17211): CONNECTED VIA WIFI
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+I/System.out( 5241): (HTTPLog)-Static: isSBSettingEnabled false
+I/System.out(17211): Thread-11595(ApacheHTTPLog):Reading from variable values from setDefaultValuesToVariables
+I/System.out(17211): Thread-11595(ApacheHTTPLog):isShipBuild true
+I/System.out(17211): Thread-11595(ApacheHTTPLog):SmartBonding Enabling is true, SHIP_BUILD is true, log to file is false, DBG is false
+I/AirplaySDK(17211): Status Code: 200
+I/System.out(17211): sn calls detatch()
+I/AirplaySDK(17211): Info sent: {"status":200,"country_code":1}
+D/CustomFrequencyManagerService( 4313): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1900000  uid : 1000  pid : 4313  tag : LAUNCHER_APP_BOOSTER_CPU@7652
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/InputReader( 4313): Input event: value=1
+I/InputReader( 4313): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.1831 ] when=28176900145000
+I/InputDispatcher( 4313): Delivering touch to (4474): action: 0x4, toolType: 1
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x0, toolType: 1
+D/ViewRootImpl(17211): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4313): Input event: value=0
+I/InputReader( 4313): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=28177015739000
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x1, toolType: 1
+I/Timeline(17211): Timeline: Activity_launch_request id:com.a1.quiz.asvab.free time:28177054
+E/PersonaManagerService( 4313): inState():  stateMachine is null !!
+I/PersonaManagerService( 4313): Failed to execute isKioskModeEnabled. java.lang.SecurityException: You need MANAGE_USERS permission to: query user
+I/ActivityManager( 4313): do not start freezing screen for locked container getKeyguardshowstate = false
+I/ActivityManager( 4313): START u0 {cmp=com.a1.quiz.asvab.free/.ChooseActivity} from uid 10301 on display 0
+D/CustomFrequencyManagerService( 4313): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  pkgName : ACTIVITY_RESUME_BOOSTER@6
+I/SQLiteSecureOpenHelper( 7413): getWritableDatabase(pwd)
+I/SQLiteSecureOpenHelper( 7413): getDatabaseLocked(b,b,pwd)...
+W/ActivityManager( 4313): mDVFSHelper.acquire()
+W/ActivityManager( 4313): getTasks: caller 10301 does not hold GET_TASKS; limiting output
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, mbResultFaceDectection: false
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, Rotation: -1
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, mbResultFaceDectection: false
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, Rotation: -1
+V/WindowManager( 4313): rotationForOrientationLw(orient=-1, last=0); user=0  sensorRotation=-1 mLidState=-1 mDockMode=0 mHdmiPlugged=false
+I/SQLiteSecureOpenHelper( 7413): getWritableDatabase(pwd)
+I/SQLiteSecureOpenHelper( 7413): getDatabaseLocked(b,b,pwd)...
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-xxhdpi-v4/ic_ab_back_holo_light_am.png
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-xxhdpi-v4/sym_def_app_icon.png
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/processing.png
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/btn_startl.png
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/btn_start.png
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/btn_helpl.png
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/btn_help.png
+D/AbsListView(17211): Get MotionRecognitionManager
+D/MotionRecognitionService( 4313):  ssp status : true
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/AirplayMraid(17211): Initializing AdView from xml
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/AirplayMraid(17211): Banner Typeinappad
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+I/BugSenseHandler(17211): Registering default exceptions handler
+I/BugSenseHandler(17211): Flushing...
+I/BugSenseHandler(17211): Registering default exceptions handler
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/logo.png
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+I/System.out(17211): CONNECTED VIA WIFI
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+I/System.out( 5241): (HTTPLog)-Static: isSBSettingEnabled false
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-mdpi/ic_title_home.png
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+D/Activity(17211): performCreate Call secproduct feature valuefalse
+D/Activity(17211): performCreate Call debug elastic valuetrue
+D/ActivityManager( 4313): post active user change for 0
+D/KnoxTimeoutHandler( 4313): postActiveUserChange for user 0
+D/KnoxTimeoutHandler( 4313): handleActiveUserChange for user 0
+D/SSRM:m  ( 4313): SIOP:: AP = 360, PST = 390, CUR = 500
+I/SurfaceFlinger( 3612): id=1440 createSurf (1x1),2 flag=404, com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.ChooseActivity
+V/PhoneStatusBar( 4474): setLightsOn(true)
+D/StatusBarManagerService( 4313): manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams
+D/InputMethodManagerService( 4313): windowGainedFocus mCurrentFocusedUserId - 0 and mSecureKeypadEnabled-false
+I/ActivityManager( 4313): Displayed com.a1.quiz.asvab.free/.ChooseActivity: +203ms
+W/ContextImpl( 4313): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1687 com.android.server.InputMethodManagerService$6.run:2724 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> 
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+I/Timeline(17211): Timeline: Activity_idle id: android.os.BinderProxy@bfddd69 time:28177341
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/AirplayMraid(17211): Lost foucus. Removing thread>>>
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+I/SurfaceFlinger( 3612): id=1438 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.MainActivity (3/8)
+I/SurfaceFlinger( 3612): id=1438 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.MainActivity (-2/8)
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+W/BindingManager(17211): Cannot call determinedVisibility() - never saw a connection for the pid: 17211
+I/Timeline( 4313): Timeline: Activity_windows_visible id: ActivityRecord{1cfc81af u0 com.a1.quiz.asvab.free/.ChooseActivity t4763} time:28177664
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/CustomFrequencyManagerService( 4313): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  tag : ACTIVITY_RESUME_BOOSTER@6
+W/ActivityManager( 4313): mDVFSHelper.release()
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/CustomFrequencyManagerService( 4313): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  pkgName : ACTIVITY_RESUME_BOOSTER@10
+D/CustomFrequencyManagerService( 4313): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  tag : ACTIVITY_RESUME_BOOSTER@10
+I/AirplaySDK(17211): Status Code: 200
+I/System.out(17211): AdView calls detatch()
+I/AirplayMraid(17211): Ad json:{"status":200,"message":"Success","adtype":"BAU","banner_type":"image","error":false,"refreshtime":45,"cdd":5,"data":{"guid":"afd2bf2d7685456520ae7a8005ef19f6","adimage":"http:\/\/manage.airpush.com\/","url":"","api_url":"http:\/\/api.airpush.com\/bannerads\/handle_events.php?apcd=eyJ3aWZpIjoiMSIsImFwcHVpZCI6IjE2MDgzNSIsInNka3ZlcnNpb24iOiI2LjEiLCJscCI6MH0=&guid=afd2bf2d7685456520ae7a8005ef19f6&event=%event%&uber=&ncs=1&adtype=BANNER&sd=5UthbmZznQUisIu7xLkm9v8bPz21e2LnkkH2yUC4sD60TEjplmZRH7t1c+OOdaXZ1GfWq6ZkqRwcdmIFzbOGIA\/T2IO99saY3k8Jc8j9JvopEBfyTygIKqRnbe6I6Ci9gNgIukxmo84fGLE\/NzCImG1Tn9AGZtZWVDuwxH0XL4XbkhjrkArzGNUR1mGDVMF2vJCm3WRmpSjZpmfqtvJhWmwvCOSwPa0wMV8zwBZR3JFkeRJQ2eV6KIU4s2XnYgY+eSG+spWUGniMKD\/W76ABh+xoTXLQG4pTE204SB6ZN9fC1GuVmCIDL1bu3wvsb1KVXToNZLHy\/RghX9ws+Hy5SOOw2aRcA5hyKS8nTFNItc4HjWNJnU8LnFG\/wN5cwF8AZSlFgvB1W66i63gIVtFL6IC8DPz7e\/GlzWXKDH+7g4z6qFpiijMEKL9RSLJ1eozOvo\/mFnhmdBjLeeOJXaGQvTxBc7M83IYnyHJtTAVjagzLfp\/kHiqg2IN5qoGbHTs+VrWdL3r59zbSEfw8RGYJ9A==&hmac=30dea84f91fa8ffb958cfa7f03c990e7614a00d839a306178cac6f2990e04137","title":"New Message","text":"Click here for details!","campaignid":"1969293","creativeid":"3981399","text_color":"#000000","banner_bg":"#FFFFFF","error_url":"http:\/\/api.airpush.com\/bannerads\/handle_error.php","istag":"1","tag":"<A HREF=\"https:\/\/ad.doubleclick.net\/ddm\/jump\/N9515.792587AIRPUSH.COM\/B9324748.127030599;sz=320x50;ord=1454026202780?\">\r\n\r\n<IMG SRC=\"https:\/\/ad.doubleclick.net\/ddm\/ad\/N9515.792587AIRPUSH.COM\/B9324748.127030599;sz=320x50;ord=1454026202780;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?\" BORDER=0 WIDTH=320 HEIGHT=50 ALT=\"Advertisement\"><\/A>","width":"320","height":"50","cdd":5},"crt":45,"clkt":45,"cld":500,"cldc":0,"is_sdk_redirect":false}
+W/BindingManager(17211): Cannot call determinedVisibility() - never saw a connection for the pid: 17211
+I/AirplayMraid(17211): Refresh time changed.
+I/AirplayMraid(17211): Loading banner ad
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/AirplayMraid(17211): Ad loaded successfully
+W/BindingManager(17211): Cannot call determinedVisibility() - never saw a connection for the pid: 17211
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+I/AirplayMraid(17211): Sending banner impression event: 
+I/AirplayMraid(17211): Status code: 200
+I/System.out(17211): banner_event calls detatch()
+I/AirplayMraid(17211): Banner Data: 
+D/NtpTrustedTime( 4313): currentTimeMillis() cache hit
+V/NetworkStats( 4313): performPollLocked(flags=0x1)
+D/NetworkStatsFactory( 4313): UpdateStatsForKnox
+D/ConnectivityService( 4313): returning getNetworkInfo(networkType - 28) :[type: MOBILE_ENT1[] - MOBILE_ENT1, state: DISCONNECTED/DISCONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+D/NtpTrustedTime( 4313): currentTimeMillis() cache hit
+V/NetworkStats( 4313): performPollLocked() took 51ms
+D/NtpTrustedTime( 4313): currentTimeMillis() cache hit
+D/NtpTrustedTime( 4313): currentTimeMillis() cache hit
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/InputReader( 4313): Input event: value=1
+I/InputReader( 4313): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.1832 ] when=28181755890000
+I/InputDispatcher( 4313): Delivering touch to (4474): action: 0x4, toolType: 1
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x0, toolType: 1
+D/ViewRootImpl(17211): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4313): Input event: value=0
+I/InputReader( 4313): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=28181974268000
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x1, toolType: 1
+I/System.out(17211): StartAction1454026210358
+I/QUIZ    (17211): getQuestions query 1: SELECT QuestionID,QuestionName,description,quizid,media,mark FROM Questions WHERE   CategoryID=1   ORDER BY  RANDOM() LIMIT 10
+I/QUIZ    (17211): getQuestions query 2 : SELECT ChoiceID,ChoiceName,Description,IsCorrect,QuestionId FROM Choices WHERE QuestionId IN ( 1027,1084,1030,1077,1021,1045,1029,1034,1061,1023 )
+I/System.out(17211): StartLoop1454026210418
+I/System.out(17211): EndLoop1454026210540
+I/Timeline(17211): Timeline: Activity_launch_request id:com.a1.quiz.asvab.free time:28182161
+E/PersonaManagerService( 4313): inState():  stateMachine is null !!
+I/PersonaManagerService( 4313): Failed to execute isKioskModeEnabled. java.lang.SecurityException: You need MANAGE_USERS permission to: query user
+I/ActivityManager( 4313): do not start freezing screen for locked container getKeyguardshowstate = false
+I/ActivityManager( 4313): START u0 {cmp=com.a1.quiz.asvab.free/.QuizActivity} from uid 10301 on display 0
+D/CustomFrequencyManagerService( 4313): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  pkgName : ACTIVITY_RESUME_BOOSTER@6
+W/ActivityManager( 4313): mDVFSHelper.acquire()
+I/SQLiteSecureOpenHelper( 7413): getWritableDatabase(pwd)
+I/SQLiteSecureOpenHelper( 7413): getDatabaseLocked(b,b,pwd)...
+I/System.out(17211): EndAction1454026210555
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/btn_show.png
+D/AbsListView(17211): Get MotionRecognitionManager
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/btn_submitl.png
+D/MotionRecognitionService( 4313):  ssp status : true
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/btn_submit.png
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/btn_nextl.png
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/btn_next.png
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/btn_finishl.png
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/btn_finish.png
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/choice_a.png
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/choice_b.png
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/choice_c.png
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/choice_d.png
+I/Height >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> :(17211): height total : 640 listviewElementsheight : 640
+I/height of listItem:(17211): 640
+E/QuizActivity(17211): IMG LOAD ERR:
+I/        (17211): getTopic  : SELECT  Description FROM Quizzes WHERE Description!='Single Question' AND  QuizID in (SELECT QuizID FROM Questions   WHERE QuestionID=1027  )
+D/Activity(17211): performCreate Call secproduct feature valuefalse
+D/Activity(17211): performCreate Call debug elastic valuetrue
+D/ActivityManager( 4313): post active user change for 0
+D/KnoxTimeoutHandler( 4313): postActiveUserChange for user 0
+D/KnoxTimeoutHandler( 4313): handleActiveUserChange for user 0
+I/SurfaceFlinger( 3612): id=1441 createSurf (1x1),2 flag=404, com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.QuizActivity
+V/PhoneStatusBar( 4474): setLightsOn(true)
+D/StatusBarManagerService( 4313): manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/btn_favoritel.png
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/btn_comment.png
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/btn_hint.png
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+D/InputMethodManagerService( 4313): windowGainedFocus mCurrentFocusedUserId - 0 and mSecureKeypadEnabled-false
+I/ActivityManager( 4313): Displayed com.a1.quiz.asvab.free/.QuizActivity: +212ms
+W/ContextImpl( 4313): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1687 com.android.server.InputMethodManagerService$6.run:2724 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> 
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+I/Timeline(17211): Timeline: Activity_idle id: android.os.BinderProxy@168d1710 time:28182438
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+W/BindingManager(17211): Cannot call determinedVisibility() - never saw a connection for the pid: 17211
+I/SurfaceFlinger( 3612): id=1440 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.ChooseActivity (3/8)
+I/SurfaceFlinger( 3612): id=1440 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.ChooseActivity (-2/8)
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+I/Timeline( 4313): Timeline: Activity_windows_visible id: ActivityRecord{127791c0 u0 com.a1.quiz.asvab.free/.QuizActivity t4763} time:28182778
+D/CustomFrequencyManagerService( 4313): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  tag : ACTIVITY_RESUME_BOOSTER@6
+W/ActivityManager( 4313): mDVFSHelper.release()
+D/CustomFrequencyManagerService( 4313): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  pkgName : ACTIVITY_RESUME_BOOSTER@10
+W/BindingManager(17211): Cannot call determinedVisibility() - never saw a connection for the pid: 17211
+D/CustomFrequencyManagerService( 4313): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  tag : ACTIVITY_RESUME_BOOSTER@10
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/InputReader( 4313): Input event: value=1
+I/InputReader( 4313): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.1833 ] when=28185059162000
+I/InputDispatcher( 4313): Delivering touch to (4474): action: 0x4, toolType: 1
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x0, toolType: 1
+D/ViewRootImpl(17211): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4313): Input event: value=0
+I/InputReader( 4313): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=28185152563000
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x1, toolType: 1
+I/SurfaceFlinger( 3612): id=1442 createSurf (1x1),1 flag=4, com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.QuizActivity
+D/hwcutils( 3612): MppFactory::MppFactory()
+D/        ( 3612): virtual LibMpp* MppFactory::CreateMpp(int, int, int, int)(6)
+D/libexynosgscaler( 3612): LibMpp::LibMpp()
+D/libexynosgscaler( 3612): virtual CGscaler::~CGscaler()
+D/libexynosgscaler( 3612): virtual LibMpp::~LibMpp()
+D/        ( 3612): virtual MppFactory::~MppFactory()
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/InputReader( 4313): Input event: value=1
+I/InputReader( 4313): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.1834 ] when=28186202004000
+I/InputDispatcher( 4313): Delivering touch to (4474): action: 0x4, toolType: 1
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x0, toolType: 1
+D/ViewRootImpl(17211): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4313): Input event: value=0
+I/InputReader( 4313): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=28186403471000
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x1, toolType: 1
+D/BatteryService( 4313): !@BatteryListener : batteryPropertiesChanged!
+D/BatteryService( 4313): level:18, scale:100, status:3, health:6, present:false, voltage: 3743, temperature: 308, technology: Li-ion, AC powered:false, USB powered:false, Wireless powered:false, icon:17303729, invalid charger:0
+D/BatteryService( 4313): online:1, current avg:500, charge type:0, power sharing:false, high voltage charger:false, capacity:280000
+D/BatteryService( 4313): Sending ACTION_BATTERY_CHANGED.
+D/MotionRecognitionService( 4313):   mReceiver.onReceive : ACTION_BATTERY_CHANGED
+I/MotionRecognitionService( 4313): Unplugged
+D/KeyguardUpdateMonitor( 4474): received broadcast android.intent.action.BATTERY_CHANGED
+D/KeyguardUpdateMonitor( 4474): handleBatteryUpdate
+D/STATUSBAR-PhoneStatusBar( 4474):  mBrightnessEnablebySettings = true mBrightnessEnablebyBattery = true mBrightnessEnablebyDisableFlag = true mPmsBrightnessEnablebySettings = true
+D/InputMethodManagerService( 4313): windowGainedFocus mCurrentFocusedUserId - 0 and mSecureKeypadEnabled-false
+D/BatteryMeterView( 4474): ACTION_BATTERY_CHANGED : level:18 status:3 health:6
+D/BatteryMeterView( 4474): ACTION_BATTERY_CHANGED : level:18 status:3 health:6
+D/BatteryMeterView( 4474): ACTION_BATTERY_CHANGED : level:18 status:3 health:6
+I/SQLiteSecureOpenHelper( 7413): getWritableDatabase(pwd)
+I/SQLiteSecureOpenHelper( 7413): getDatabaseLocked(b,b,pwd)...
+E/ViewRootImpl(17211): sendUserActionEvent() mView == null
+W/InputMethodManagerService( 4313): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@1872eaf0 attribute=android.view.inputmethod.EditorInfo@12235869, token = android.os.BinderProxy@2f57349f
+D/CustomFrequencyManagerService( 4313): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  pkgName : ACTIVITY_RESUME_BOOSTER@6
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, mbResultFaceDectection: false
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, Rotation: -1
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, mbResultFaceDectection: false
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, Rotation: -1
+W/ActivityManager( 4313): mDVFSHelper.acquire()
+V/WindowManager( 4313): rotationForOrientationLw(orient=1, last=0); user=0  sensorRotation=-1 mLidState=-1 mDockMode=0 mHdmiPlugged=false
+D/ActivityManager( 4313): post active user change for 0
+D/KnoxTimeoutHandler( 4313): postActiveUserChange for user 0
+D/KnoxTimeoutHandler( 4313): handleActiveUserChange for user 0
+D/hwcutils( 3612): MppFactory::MppFactory()
+D/        ( 3612): virtual LibMpp* MppFactory::CreateMpp(int, int, int, int)(6)
+D/libexynosgscaler( 3612): LibMpp::LibMpp()
+I/SurfaceFlinger( 3612): id=1443 createSurf (1080x1920),2 flag=404, com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.MainActivity
+V/PhoneStatusBar( 4474): setLightsOn(true)
+D/StatusBarManagerService( 4313): manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams
+D/InputMethodManagerService( 4313): windowGainedFocus mCurrentFocusedUserId - 0 and mSecureKeypadEnabled-false
+W/ContextImpl( 4313): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1687 com.android.server.InputMethodManagerService$6.run:2724 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> 
+I/Timeline(17211): Timeline: Activity_idle id: android.os.BinderProxy@324ef3ff time:28186553
+D/libexynosgscaler( 3612): virtual CGscaler::~CGscaler()
+D/libexynosgscaler( 3612): virtual LibMpp::~LibMpp()
+D/        ( 3612): virtual MppFactory::~MppFactory()
+I/SurfaceFlinger( 3612): id=1442 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.QuizActivity (7/9)
+I/SurfaceFlinger( 3612): id=1442 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.QuizActivity (-2/9)
+I/Timeline( 4313): Timeline: Activity_windows_visible id: ActivityRecord{1e4fcdef u0 com.a1.quiz.asvab.free/.MainActivity t4763} time:28186848
+D/CustomFrequencyManagerService( 4313): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  tag : ACTIVITY_RESUME_BOOSTER@6
+W/ActivityManager( 4313): mDVFSHelper.release()
+I/SurfaceFlinger( 3612): id=1441 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.QuizActivity (6/8)
+I/SurfaceFlinger( 3612): id=1441 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.QuizActivity (-2/8)
+D/CustomFrequencyManagerService( 4313): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  pkgName : ACTIVITY_RESUME_BOOSTER@10
+D/CustomFrequencyManagerService( 4313): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  tag : ACTIVITY_RESUME_BOOSTER@10
+D/SSRM:m  ( 4313): SIOP:: AP = 370, PST = 392, CUR = 500
+V/AlarmManager( 4313): waitForAlarm result :4
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+V/GLSActivity( 5000): AuthDelegateWrapperCreated with selected intent: Intent { cmp=com.google.android.gms/.auth.DefaultAuthDelegateService }
+I/GLSUser ( 5000): [GLSUser] getTokenFromCache: [account: <ELLIDED:-20293>, callingPkg: com.android.vending, service: androidsecure]
+I/GLSUser ( 5000): [GLSUser] getTokenFromGoogle [account: <ELLIDED:-20293>, callingPkg: com.android.vending, service: androidsecure
+I/GLSUser ( 5000): [GLSUser] No secrets, returning BAD_AUTH for <ELLIDED:-20293> androidsecure without consulting the cloud. [mastertoken: <EMPTY>, password: <NULL>]
+I/GLSUser ( 5000): [GLSUser] Extracting token using key: Auth
+W/GLSActivity( 5000): gms.StatusHelper Status from wire: BadAuthentication status: BAD_AUTHENTICATION
+V/GLSActivity( 5000): AuthDelegateWrapperCreated with selected intent: Intent { cmp=com.google.android.gms/.auth.DefaultAuthDelegateService }
+D/Finsky  (26051): [1] AppStatesReplicator.handleContentSyncResponse: Completed 1 account content syncs with 0 successful.
+D/Finsky  (26051): [1] ContentSyncService$5.onFinished: Installation state replication failed.
+D/Finsky  (26051): [1] ContentSyncService$5.onFinished: Scheduling replication attempt 4.
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/InputReader( 4313): Input event: value=1
+I/InputReader( 4313): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.1831 ] when=28189696238000
+I/InputDispatcher( 4313): Delivering touch to (4474): action: 0x4, toolType: 1
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x0, toolType: 1
+D/ViewRootImpl(17211): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4313): Input event: value=0
+I/InputReader( 4313): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=28189812292000
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x1, toolType: 1
+I/Timeline(17211): Timeline: Activity_launch_request id:com.a1.quiz.asvab.free time:28189818
+E/PersonaManagerService( 4313): inState():  stateMachine is null !!
+I/PersonaManagerService( 4313): Failed to execute isKioskModeEnabled. java.lang.SecurityException: You need MANAGE_USERS permission to: query user
+I/ActivityManager( 4313): do not start freezing screen for locked container getKeyguardshowstate = false
+I/ActivityManager( 4313): START u0 {cmp=com.a1.quiz.asvab.free/.ChooseActivity} from uid 10301 on display 0
+D/CustomFrequencyManagerService( 4313): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  pkgName : ACTIVITY_RESUME_BOOSTER@6
+W/ActivityManager( 4313): mDVFSHelper.acquire()
+I/SQLiteSecureOpenHelper( 7413): getWritableDatabase(pwd)
+I/SQLiteSecureOpenHelper( 7413): getDatabaseLocked(b,b,pwd)...
+W/ActivityManager( 4313): getTasks: caller 10301 does not hold GET_TASKS; limiting output
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, mbResultFaceDectection: false
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, Rotation: -1
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, mbResultFaceDectection: false
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, Rotation: -1
+V/WindowManager( 4313): rotationForOrientationLw(orient=-1, last=0); user=0  sensorRotation=-1 mLidState=-1 mDockMode=0 mHdmiPlugged=false
+I/SQLiteSecureOpenHelper( 7413): getWritableDatabase(pwd)
+I/SQLiteSecureOpenHelper( 7413): getDatabaseLocked(b,b,pwd)...
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-xxhdpi-v4/sym_def_app_icon.png
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/processing.png
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/btn_startl.png
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/btn_start.png
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/btn_helpl.png
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/logo.png
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-mdpi/ic_title_home.png
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/btn_help.png
+D/AbsListView(17211): Get MotionRecognitionManager
+D/MotionRecognitionService( 4313):  ssp status : true
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/AirplayMraid(17211): Initializing AdView from xml
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/AirplayMraid(17211): Banner Typeinappad
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+I/BugSenseHandler(17211): Registering default exceptions handler
+I/BugSenseHandler(17211): Flushing...
+I/BugSenseHandler(17211): Registering default exceptions handler
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+I/System.out(17211): CONNECTED VIA WIFI
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+I/System.out( 5241): (HTTPLog)-Static: isSBSettingEnabled false
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+D/Activity(17211): performCreate Call secproduct feature valuefalse
+D/Activity(17211): performCreate Call debug elastic valuetrue
+D/ActivityManager( 4313): post active user change for 0
+D/KnoxTimeoutHandler( 4313): postActiveUserChange for user 0
+D/KnoxTimeoutHandler( 4313): handleActiveUserChange for user 0
+I/SurfaceFlinger( 3612): id=1444 createSurf (1x1),2 flag=404, com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.ChooseActivity
+V/PhoneStatusBar( 4474): setLightsOn(true)
+D/StatusBarManagerService( 4313): manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams
+D/InputMethodManagerService( 4313): windowGainedFocus mCurrentFocusedUserId - 0 and mSecureKeypadEnabled-false
+I/ActivityManager( 4313): Displayed com.a1.quiz.asvab.free/.ChooseActivity: +230ms
+W/ContextImpl( 4313): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1687 com.android.server.InputMethodManagerService$6.run:2724 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> 
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+I/Timeline(17211): Timeline: Activity_idle id: android.os.BinderProxy@101b3715 time:28190130
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/AirplayMraid(17211): Lost foucus. Removing thread>>>
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+W/BindingManager(17211): Cannot call determinedVisibility() - never saw a connection for the pid: 17211
+I/SurfaceFlinger( 3612): id=1443 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.MainActivity (2/8)
+I/SurfaceFlinger( 3612): id=1443 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.MainActivity (-2/8)
+D/CustomFrequencyManagerService( 4313): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  tag : ACTIVITY_RESUME_BOOSTER@6
+I/Timeline( 4313): Timeline: Activity_windows_visible id: ActivityRecord{8018baa u0 com.a1.quiz.asvab.free/.ChooseActivity t4763} time:28190465
+W/ActivityManager( 4313): mDVFSHelper.release()
+D/CustomFrequencyManagerService( 4313): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  pkgName : ACTIVITY_RESUME_BOOSTER@10
+W/BindingManager(17211): Cannot call determinedVisibility() - never saw a connection for the pid: 17211
+D/CustomFrequencyManagerService( 4313): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  tag : ACTIVITY_RESUME_BOOSTER@10
+I/AirplaySDK(17211): Status Code: 200
+I/System.out(17211): AdView calls detatch()
+I/AirplayMraid(17211): Ad json:{"status":200,"message":"Success","adtype":"BAU","banner_type":"image","error":false,"refreshtime":45,"cdd":5,"data":{"guid":"0824de8382247715998020ef0e60850e","adimage":"http:\/\/manage.airpush.com\/","url":"","api_url":"http:\/\/api.airpush.com\/bannerads\/handle_events.php?apcd=eyJ3aWZpIjoiMSIsImFwcHVpZCI6IjE2MDgzNSIsInNka3ZlcnNpb24iOiI2LjEiLCJscCI6MH0=&guid=0824de8382247715998020ef0e60850e&event=%event%&uber=&ncs=1&adtype=BANNER&sd=5UthbmZznQUisIu7xLkm9v8bPz21e2LnkkH2yUC4sD60TEjplmZRH7t1c+OOdaXZ1GfWq6ZkqRwcdmIFzbOGIA\/T2IO99saY3k8Jc8j9Jvogot+DbwjE5axvmLf1qk\/0BP+ltPb0h+9bZxDcH8UtbWwqE5lSrhPiS0bgvOQPorbS4S3rfdjmdTklg5j+jYOLpJabtgx90HXajmx0eGB3xuUdqDDY8Qfv6weXXnGnG4XSka6N\/wbkKASAOchfbLO5bw5XzfNKKGbi3ruR2DKLC3ylXWDgOcQGagSSwSZDD8Jo4v21mAB7EXsSvruP11u7ENi\/m285OWYOhiB93bqw30NI6WxIrEWULU0EOchSbDYj3OnM55uNj4BGWw9IVGZCEUT7BlREJKEhS5Opx8RjPsurmxfprz7iP0aTBH9Un9tOeqfdlOzI6pVI+uVXXs11fA9HP7ovYQ8kFtrTVKGYVeAuDKnkfirIoPclpZAsMXMiiLuFeHZlwvIHNXPuzW\/fxmIJud0UWGcUenlshk\/wzQ==&hmac=0e3ed97e91afda1310781f77b0575e110cbf471ad31e6c18a8515ae4ce903cb2","title":"New Message","text":"Click here for details!","campaignid":"1969293","creativeid":"3981399","text_color":"#000000","banner_bg":"#FFFFFF","error_url":"http:\/\/api.airpush.com\/bannerads\/handle_error.php","istag":"1","tag":"<A HREF=\"https:\/\/ad.doubleclick.net\/ddm\/jump\/N9515.792587AIRPUSH.COM\/B9324748.127030599;sz=320x50;ord=1454026215790?\">\r\n\r\n<IMG SRC=\"https:\/\/ad.doubleclick.net\/ddm\/ad\/N9515.792587AIRPUSH.COM\/B9324748.127030599;sz=320x50;ord=1454026215790;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?\" BORDER=0 WIDTH=320 HEIGHT=50 ALT=\"Advertisement\"><\/A>","width":"320","height":"50","cdd":5},"crt":45,"clkt":45,"cld":500,"cldc":0,"is_sdk_redirect":false}
+I/AirplayMraid(17211): Refresh time changed.
+I/AirplayMraid(17211): Loading banner ad
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/AirplayMraid(17211): Ad loaded successfully
+W/BindingManager(17211): Cannot call determinedVisibility() - never saw a connection for the pid: 17211
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+I/AirplayMraid(17211): Sending banner impression event: 
+I/AirplayMraid(17211): Status code: 200
+I/System.out(17211): banner_event calls detatch()
+I/AirplayMraid(17211): Banner Data: 
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/InputReader( 4313): Input event: value=1
+I/InputReader( 4313): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.1832 ] when=28194552633000
+I/InputDispatcher( 4313): Delivering touch to (4474): action: 0x4, toolType: 1
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x0, toolType: 1
+D/ViewRootImpl(17211): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4313): Input event: value=0
+I/InputReader( 4313): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=28194738853000
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x1, toolType: 1
+I/System.out(17211): StartAction1454026223124
+I/QUIZ    (17211): getQuestions query 1: SELECT QuestionID,QuestionName,description,quizid,media,mark FROM Questions WHERE   CategoryID=1   ORDER BY  RANDOM() LIMIT 10
+I/QUIZ    (17211): getQuestions query 2 : SELECT ChoiceID,ChoiceName,Description,IsCorrect,QuestionId FROM Choices WHERE QuestionId IN ( 1073,1029,1086,1048,1018,1087,1012,1017,1077,1003 )
+I/System.out(17211): StartLoop1454026223170
+E/Watchdog( 4313): !@Sync 939
+I/System.out(17211): EndLoop1454026223349
+I/Timeline(17211): Timeline: Activity_launch_request id:com.a1.quiz.asvab.free time:28194968
+E/PersonaManagerService( 4313): inState():  stateMachine is null !!
+I/PersonaManagerService( 4313): Failed to execute isKioskModeEnabled. java.lang.SecurityException: You need MANAGE_USERS permission to: query user
+I/ActivityManager( 4313): do not start freezing screen for locked container getKeyguardshowstate = false
+I/ActivityManager( 4313): START u0 {cmp=com.a1.quiz.asvab.free/.QuizActivity} from uid 10301 on display 0
+D/CustomFrequencyManagerService( 4313): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  pkgName : ACTIVITY_RESUME_BOOSTER@6
+W/ActivityManager( 4313): mDVFSHelper.acquire()
+I/SQLiteSecureOpenHelper( 7413): getWritableDatabase(pwd)
+I/SQLiteSecureOpenHelper( 7413): getDatabaseLocked(b,b,pwd)...
+I/System.out(17211): EndAction1454026223370
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/btn_show.png
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/btn_submitl.png
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/btn_submit.png
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/btn_nextl.png
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/btn_next.png
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-xxhdpi-v4/sym_def_app_icon.png
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/choice_b.png
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/choice_c.png
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/choice_d.png
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/btn_favoritel.png
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/btn_finishl.png
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/btn_finish.png
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/btn_comment.png
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/btn_hint.png
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/choice_a.png
+D/AbsListView(17211): Get MotionRecognitionManager
+D/MotionRecognitionService( 4313):  ssp status : true
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+I/Height >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> :(17211): height total : 640 listviewElementsheight : 640
+I/height of listItem:(17211): 640
+E/QuizActivity(17211): IMG LOAD ERR:
+I/        (17211): getTopic  : SELECT  Description FROM Quizzes WHERE Description!='Single Question' AND  QuizID in (SELECT QuizID FROM Questions   WHERE QuestionID=1073  )
+D/Activity(17211): performCreate Call secproduct feature valuefalse
+D/Activity(17211): performCreate Call debug elastic valuetrue
+D/ActivityManager( 4313): post active user change for 0
+D/KnoxTimeoutHandler( 4313): postActiveUserChange for user 0
+D/KnoxTimeoutHandler( 4313): handleActiveUserChange for user 0
+I/SurfaceFlinger( 3612): id=1445 createSurf (1x1),2 flag=404, com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.QuizActivity
+D/StatusBarManagerService( 4313): manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams
+V/PhoneStatusBar( 4474): setLightsOn(true)
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+D/InputMethodManagerService( 4313): windowGainedFocus mCurrentFocusedUserId - 0 and mSecureKeypadEnabled-false
+I/ActivityManager( 4313): Displayed com.a1.quiz.asvab.free/.QuizActivity: +223ms
+W/ContextImpl( 4313): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1687 com.android.server.InputMethodManagerService$6.run:2724 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> 
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+I/Timeline(17211): Timeline: Activity_idle id: android.os.BinderProxy@2630f58d time:28195279
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+W/BindingManager(17211): Cannot call determinedVisibility() - never saw a connection for the pid: 17211
+I/SurfaceFlinger( 3612): id=1444 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.ChooseActivity (2/8)
+I/SurfaceFlinger( 3612): id=1444 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.ChooseActivity (-2/8)
+I/Timeline( 4313): Timeline: Activity_windows_visible id: ActivityRecord{378ea150 u0 com.a1.quiz.asvab.free/.QuizActivity t4763} time:28195608
+D/CustomFrequencyManagerService( 4313): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  tag : ACTIVITY_RESUME_BOOSTER@6
+W/ActivityManager( 4313): mDVFSHelper.release()
+D/CustomFrequencyManagerService( 4313): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  pkgName : ACTIVITY_RESUME_BOOSTER@10
+W/BindingManager(17211): Cannot call determinedVisibility() - never saw a connection for the pid: 17211
+D/CustomFrequencyManagerService( 4313): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  tag : ACTIVITY_RESUME_BOOSTER@10
+D/SSRM:m  ( 4313): SIOP:: AP = 390, PST = 391, CUR = 500
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/InputReader( 4313): Input event: value=1
+I/InputReader( 4313): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.1833 ] when=28197823322000
+I/InputDispatcher( 4313): Delivering touch to (4474): action: 0x4, toolType: 1
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x0, toolType: 1
+D/ViewRootImpl(17211): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4313): Input event: value=0
+I/InputReader( 4313): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=28197916236000
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x1, toolType: 1
+I/SurfaceFlinger( 3612): id=1446 createSurf (1x1),1 flag=4, com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.QuizActivity
+D/hwcutils( 3612): MppFactory::MppFactory()
+D/        ( 3612): virtual LibMpp* MppFactory::CreateMpp(int, int, int, int)(6)
+D/libexynosgscaler( 3612): LibMpp::LibMpp()
+D/libexynosgscaler( 3612): virtual CGscaler::~CGscaler()
+D/libexynosgscaler( 3612): virtual LibMpp::~LibMpp()
+D/        ( 3612): virtual MppFactory::~MppFactory()
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/InputReader( 4313): Input event: value=1
+I/InputReader( 4313): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.1834 ] when=28198965845000
+I/InputDispatcher( 4313): Delivering touch to (4474): action: 0x4, toolType: 1
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x0, toolType: 1
+D/ViewRootImpl(17211): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4313): Input event: value=0
+I/InputReader( 4313): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=28199126723000
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x1, toolType: 1
+E/ViewRootImpl(17211): sendUserActionEvent() mView == null
+D/InputMethodManagerService( 4313): windowGainedFocus mCurrentFocusedUserId - 0 and mSecureKeypadEnabled-false
+W/InputMethodManagerService( 4313): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@3674fe80 attribute=android.view.inputmethod.EditorInfo@2c5b8cb9, token = android.os.BinderProxy@3162f56f
+I/SQLiteSecureOpenHelper( 7413): getWritableDatabase(pwd)
+I/SQLiteSecureOpenHelper( 7413): getDatabaseLocked(b,b,pwd)...
+D/CustomFrequencyManagerService( 4313): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  pkgName : ACTIVITY_RESUME_BOOSTER@6
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, mbResultFaceDectection: false
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, Rotation: -1
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, mbResultFaceDectection: false
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, Rotation: -1
+W/ActivityManager( 4313): mDVFSHelper.acquire()
+V/WindowManager( 4313): rotationForOrientationLw(orient=1, last=0); user=0  sensorRotation=-1 mLidState=-1 mDockMode=0 mHdmiPlugged=false
+D/ActivityManager( 4313): post active user change for 0
+D/KnoxTimeoutHandler( 4313): postActiveUserChange for user 0
+D/KnoxTimeoutHandler( 4313): handleActiveUserChange for user 0
+I/SurfaceFlinger( 3612): id=1447 createSurf (1080x1920),2 flag=404, com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.MainActivity
+D/StatusBarManagerService( 4313): manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams
+V/PhoneStatusBar( 4474): setLightsOn(true)
+D/InputMethodManagerService( 4313): windowGainedFocus mCurrentFocusedUserId - 0 and mSecureKeypadEnabled-false
+W/ContextImpl( 4313): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1687 com.android.server.InputMethodManagerService$6.run:2724 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> 
+D/hwcutils( 3612): MppFactory::MppFactory()
+D/        ( 3612): virtual LibMpp* MppFactory::CreateMpp(int, int, int, int)(6)
+D/libexynosgscaler( 3612): LibMpp::LibMpp()
+I/Timeline(17211): Timeline: Activity_idle id: android.os.BinderProxy@324ef3ff time:28199226
+D/libexynosgscaler( 3612): virtual CGscaler::~CGscaler()
+D/libexynosgscaler( 3612): virtual LibMpp::~LibMpp()
+D/        ( 3612): virtual MppFactory::~MppFactory()
+I/SurfaceFlinger( 3612): id=1446 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.QuizActivity (7/9)
+I/SurfaceFlinger( 3612): id=1446 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.QuizActivity (-2/9)
+I/Timeline( 4313): Timeline: Activity_windows_visible id: ActivityRecord{1e4fcdef u0 com.a1.quiz.asvab.free/.MainActivity t4763} time:28199514
+D/CustomFrequencyManagerService( 4313): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  tag : ACTIVITY_RESUME_BOOSTER@6
+W/ActivityManager( 4313): mDVFSHelper.release()
+I/SurfaceFlinger( 3612): id=1445 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.QuizActivity (6/8)
+D/CustomFrequencyManagerService( 4313): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  pkgName : ACTIVITY_RESUME_BOOSTER@10
+I/SurfaceFlinger( 3612): id=1445 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.QuizActivity (-2/8)
+D/CustomFrequencyManagerService( 4313): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  tag : ACTIVITY_RESUME_BOOSTER@10
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/InputReader( 4313): Input event: value=1
+I/InputReader( 4313): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.1831 ] when=28201166920000
+I/InputDispatcher( 4313): Delivering touch to (4474): action: 0x4, toolType: 1
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x0, toolType: 1
+D/ViewRootImpl(17211): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4313): Input event: value=0
+I/InputReader( 4313): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=28201282633000
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x1, toolType: 1
+I/Timeline(17211): Timeline: Activity_launch_request id:com.a1.quiz.asvab.free time:28201287
+E/PersonaManagerService( 4313): inState():  stateMachine is null !!
+I/PersonaManagerService( 4313): Failed to execute isKioskModeEnabled. java.lang.SecurityException: You need MANAGE_USERS permission to: query user
+I/ActivityManager( 4313): do not start freezing screen for locked container getKeyguardshowstate = false
+I/ActivityManager( 4313): START u0 {cmp=com.a1.quiz.asvab.free/.ChooseActivity} from uid 10301 on display 0
+D/CustomFrequencyManagerService( 4313): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  pkgName : ACTIVITY_RESUME_BOOSTER@6
+I/SQLiteSecureOpenHelper( 7413): getWritableDatabase(pwd)
+I/SQLiteSecureOpenHelper( 7413): getDatabaseLocked(b,b,pwd)...
+W/ActivityManager( 4313): mDVFSHelper.acquire()
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, mbResultFaceDectection: false
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, Rotation: -1
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, mbResultFaceDectection: false
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, Rotation: -1
+W/ActivityManager( 4313): getTasks: caller 10301 does not hold GET_TASKS; limiting output
+V/WindowManager( 4313): rotationForOrientationLw(orient=-1, last=0); user=0  sensorRotation=-1 mLidState=-1 mDockMode=0 mHdmiPlugged=false
+I/SQLiteSecureOpenHelper( 7413): getWritableDatabase(pwd)
+I/SQLiteSecureOpenHelper( 7413): getDatabaseLocked(b,b,pwd)...
+D/AbsListView(17211): Get MotionRecognitionManager
+D/MotionRecognitionService( 4313):  ssp status : true
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/AirplayMraid(17211): Initializing AdView from xml
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/AirplayMraid(17211): Banner Typeinappad
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+I/BugSenseHandler(17211): Registering default exceptions handler
+I/BugSenseHandler(17211): Flushing...
+I/BugSenseHandler(17211): Registering default exceptions handler
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+I/System.out(17211): CONNECTED VIA WIFI
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/System.out( 5241): (HTTPLog)-Static: isSBSettingEnabled false
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+D/Activity(17211): performCreate Call secproduct feature valuefalse
+D/Activity(17211): performCreate Call debug elastic valuetrue
+D/ActivityManager( 4313): post active user change for 0
+D/KnoxTimeoutHandler( 4313): postActiveUserChange for user 0
+D/KnoxTimeoutHandler( 4313): handleActiveUserChange for user 0
+I/SurfaceFlinger( 3612): id=1448 createSurf (1x1),2 flag=404, com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.ChooseActivity
+D/StatusBarManagerService( 4313): manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams
+V/PhoneStatusBar( 4474): setLightsOn(true)
+D/InputMethodManagerService( 4313): windowGainedFocus mCurrentFocusedUserId - 0 and mSecureKeypadEnabled-false
+I/ActivityManager( 4313): Displayed com.a1.quiz.asvab.free/.ChooseActivity: +143ms
+W/ContextImpl( 4313): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1687 com.android.server.InputMethodManagerService$6.run:2724 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> 
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+I/Timeline(17211): Timeline: Activity_idle id: android.os.BinderProxy@245c3e6d time:28201505
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+W/BindingManager(17211): Cannot call determinedVisibility() - never saw a connection for the pid: 17211
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+I/SurfaceFlinger( 3612): id=1447 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.MainActivity (2/8)
+I/SurfaceFlinger( 3612): id=1447 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.MainActivity (-2/8)
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+I/Timeline( 4313): Timeline: Activity_windows_visible id: ActivityRecord{2df9db7b u0 com.a1.quiz.asvab.free/.ChooseActivity t4763} time:28201829
+D/CustomFrequencyManagerService( 4313): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  tag : ACTIVITY_RESUME_BOOSTER@6
+W/ActivityManager( 4313): mDVFSHelper.release()
+D/CustomFrequencyManagerService( 4313): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  pkgName : ACTIVITY_RESUME_BOOSTER@10
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/AirplayMraid(17211): Lost foucus. Removing thread>>>
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+D/CustomFrequencyManagerService( 4313): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  tag : ACTIVITY_RESUME_BOOSTER@10
+I/AirplaySDK(17211): Status Code: 200
+I/System.out(17211): AdView calls detatch()
+I/AirplayMraid(17211): Ad json:{"status":200,"message":"Success","adtype":"BAU","banner_type":"image","error":false,"refreshtime":45,"cdd":5,"data":{"guid":"3ecc5d952ed9fa12c9d3c9bee5b7444d","adimage":"http:\/\/creativeadtypeimages.s3.amazonaws.com\/3683761-320.png","url":"http:\/\/alphamobileapp.com\/CallRecorder\/ENTEST\/?utm_source=Inneractive_Inapp&utm_medium=1821770","api_url":"http:\/\/api.airpush.com\/bannerads\/handle_events.php?apcd=eyJ3aWZpIjoiMSIsImFwcHVpZCI6IjE2MDgzNSIsInNka3ZlcnNpb24iOiI2LjEiLCJscCI6Ijc2NDM3OCJ9&guid=3ecc5d952ed9fa12c9d3c9bee5b7444d&event=%event%&uber=&ncs=1&adtype=BANNER&sd=G1z1N8vkaZFUDDOxsxFQ3lW+dCHOn0sd5IHlXMuXRe5C8TVEfS\/LOcVL0+DybGE8sGBzZNx76EhcxqrGiXvysrwlNG\/glZzBcVrGIR5hi+LY68nfjyd+J4uV3\/WQ5AhhfHY\/G7fnJC1PaDb35\/OVyKXPz0SfasuhDxJ0sfYAn+0jQVZg60ie51ljLdLc44azE2AZvfBbUY16CZ1agz1GDexrnwSEAsb34q6bXS7dzVveMStnGn3G8h21P0H0hHryp7P0\/POfrU+n13Or4E305SMf99W3a9MHtUclQt70UyYKz1LmPKDWR+OiTHbCgQeUZoWNHWUkYbkrY0ct131I31N6nCat0Qco3ZXqG4cExQ8fiBw\/+EZEKgbj8zVYCqgRVexHrlydfPwRCKE8h6oKMls6ZDbKhFqPVgKtA6mlS2XK628v45XEr9ewYlLNN7w2ihAfgkTkMceGf+ya\/PnDnasTrE2WY2dkFbg4SaMknbAYoyM\/vmg0UFoyevAs6GoWfcpdNi3CmRnY8GsoLp0NWA==&hmac=e9db2df482b4663add7605843720ffe0beffc8f106fa864131e3ded14f31f195","title":"Click here for more details!","text":"Click here for details!","campaignid":"1821770","creativeid":"3683761","text_color":"#000000","banner_bg":"#FFFFFF","error_url":"http:\/\/api.airpush.com\/bannerads\/handle_error.php","istag":3,"tag":"<html><body>                                <div id=\"iawrapper\">                            <script>                            <\/script>                            <!--AL BANNER_GRAPHIC 2.0--> <!doctype html> <html class=\"no-js\" lang=\"en\">     <head>         <meta charset=\"utf-8\">         <meta name=\"viewport\" content=\"width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no\"> <script src=\"http:\/\/assets.applovin.com\/zepto-1.1.3.min.js\"><\/script>         <style type=\"text\/css\">             body{margin:0;}             a{display:block;}             img{border:0;vertical-align:middle;margin:0 auto;display:block;}         <\/style>     <\/head>          <body>     <a  href=\"http:\/\/dca-rtbprod.applovin.com\/redirect?clcode=3!7284.1454026227!vsCyjjwpQJGhEYUXiycuB27atb75qagnkyeklFUhJRgApJ-ePLk94bE2AAM3lowj6edGh8SfHb8vc4eLB7DXO_xyF-kNtKyYTUgbPhdIV-QQ941pUqYr3_1694FcfjXl-ziNVwQLhrp4wNJLyesoiIVD4_pMx2RwauCblRGiWVYrbI-9cr4_FmC9-Jyfl7arDTzbIL6S99Nng2oFsdPmZli56-qY9OzKfzvpUze-oj7poHL9ct1wYM-F5m7Oucf4TBOOlPAjvbJH_rL_AuPuX16kcjEtJTHmu95TqFvotinzl786Rll57CbAAxWZHJvsZ5U3tD56XV3X4NOEHO9R-EyYJpIVGv2JR4U4mlTfze8JYuhrDNqMEDs4RGVdC8XYudUEe2M9mW5ezmW8bZuHFsZLVRfQ3YADrdzG0-2YIwfnI_HkHr6_W1iKcC2Asa1xz6D0X5ltH-OT-due-ti9JvyqOqtoLa_bbhFgvWh_TP5vjyTZwOgwpEgU_yrBALkPT5TebGELB-Bn-pogwDqizsDpApwKIZC3FJFUP8I30h8*&did=10badd1de5375e1431&eventid=cf7905e60f4e10bd659bb0bbc7afa61c9c290f8d\"  >     <img class=\"IMAGE_URL_BANNER\" src='http:\/\/img.applovin.com\/1452211648_320x50.png' width='320' height='50'>     <\/a>     <script type=\"text\/javascript\">     var network = \"inneractive\".toUpperCase();     if (network == \"GOOGLE\"){     document.body.style.width = \"320px\";     document.body.style.height = \"50px\";     document.getElementsByClassName(\"IMAGE_URL_BANNER\")[0].style.margin = \"0\";     }     <\/script>               <\/body> <\/html>                                    <img id='iaIImpressionTrackingPixel' alt=\"\" src=\"http:\/\/event.inner-active.mobi\/simpleM2M\/reportEvent?eventArchetype=impression&requestType=17&eventType=0&shouldRedirect=false&s=1117602699275801394&aid=529627&cid=99999&cuid=0&cip=68.181.97.180&ua=Mozilla%2F5.0+%28Linux%3B+Android+5.0%3B+SM-G900H+Build%2FLRX21T%3B+wv%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Version%2F4.0+Chrome%2F43.0.2357.121+Mobile+Safari%2F537.36&po=559&cc=US&v=Sm2m-2_0_1&lt=3&network=Applovin&acp=&pcp=\" style='width:0px;height:0px;border:0px;margin:0px;float:left;'\/>                            <script>                                function iaAddTrackingPixel(trackingPixelSrc, shouldSendArgu
+I/AirplayMraid(17211): Refresh time changed.
+I/AirplayMraid(17211): Loading banner ad
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/AirplayMraid(17211): Ad loaded successfully
+W/BindingManager(17211): Cannot call determinedVisibility() - never saw a connection for the pid: 17211
+W/BindingManager(17211): Cannot call determinedVisibility() - never saw a connection for the pid: 17211
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+I/AirplayMraid(17211): Sending banner impression event: 
+I/AirplayMraid(17211): Status code: 200
+I/System.out(17211): banner_event calls detatch()
+I/AirplayMraid(17211): Banner Data: 
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/InputReader( 4313): Input event: value=1
+I/InputReader( 4313): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.1832 ] when=28206022219000
+I/InputDispatcher( 4313): Delivering touch to (4474): action: 0x4, toolType: 1
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x0, toolType: 1
+D/ViewRootImpl(17211): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4313): Input event: value=0
+I/InputReader( 4313): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=28206206648000
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x1, toolType: 1
+I/System.out(17211): StartAction1454026234604
+I/QUIZ    (17211): getQuestions query 1: SELECT QuestionID,QuestionName,description,quizid,media,mark FROM Questions WHERE   CategoryID=1   ORDER BY  RANDOM() LIMIT 10
+I/QUIZ    (17211): getQuestions query 2 : SELECT ChoiceID,ChoiceName,Description,IsCorrect,QuestionId FROM Choices WHERE QuestionId IN ( 1030,1018,1004,1085,1090,1007,1053,1050,1028,1012 )
+I/System.out(17211): StartLoop1454026234649
+I/System.out(17211): EndLoop1454026234792
+I/Timeline(17211): Timeline: Activity_launch_request id:com.a1.quiz.asvab.free time:28206410
+E/PersonaManagerService( 4313): inState():  stateMachine is null !!
+I/PersonaManagerService( 4313): Failed to execute isKioskModeEnabled. java.lang.SecurityException: You need MANAGE_USERS permission to: query user
+I/ActivityManager( 4313): do not start freezing screen for locked container getKeyguardshowstate = false
+I/ActivityManager( 4313): START u0 {cmp=com.a1.quiz.asvab.free/.QuizActivity} from uid 10301 on display 0
+D/CustomFrequencyManagerService( 4313): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  pkgName : ACTIVITY_RESUME_BOOSTER@6
+W/ActivityManager( 4313): mDVFSHelper.acquire()
+I/SQLiteSecureOpenHelper( 7413): getWritableDatabase(pwd)
+I/SQLiteSecureOpenHelper( 7413): getDatabaseLocked(b,b,pwd)...
+I/System.out(17211): EndAction1454026234804
+D/AbsListView(17211): Get MotionRecognitionManager
+D/MotionRecognitionService( 4313):  ssp status : true
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+I/Height >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> :(17211): height total : 640 listviewElementsheight : 640
+I/height of listItem:(17211): 640
+E/QuizActivity(17211): IMG LOAD ERR:
+I/        (17211): getTopic  : SELECT  Description FROM Quizzes WHERE Description!='Single Question' AND  QuizID in (SELECT QuizID FROM Questions   WHERE QuestionID=1030  )
+D/Activity(17211): performCreate Call secproduct feature valuefalse
+D/Activity(17211): performCreate Call debug elastic valuetrue
+D/ActivityManager( 4313): post active user change for 0
+D/KnoxTimeoutHandler( 4313): postActiveUserChange for user 0
+D/KnoxTimeoutHandler( 4313): handleActiveUserChange for user 0
+I/SurfaceFlinger( 3612): id=1449 createSurf (1x1),2 flag=404, com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.QuizActivity
+V/PhoneStatusBar( 4474): setLightsOn(true)
+D/StatusBarManagerService( 4313): manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+D/InputMethodManagerService( 4313): windowGainedFocus mCurrentFocusedUserId - 0 and mSecureKeypadEnabled-false
+I/ActivityManager( 4313): Displayed com.a1.quiz.asvab.free/.QuizActivity: +175ms
+W/ContextImpl( 4313): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1687 com.android.server.InputMethodManagerService$6.run:2724 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> 
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+I/Timeline(17211): Timeline: Activity_idle id: android.os.BinderProxy@1ffd5114 time:28206661
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+W/BindingManager(17211): Cannot call determinedVisibility() - never saw a connection for the pid: 17211
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+I/SurfaceFlinger( 3612): id=1448 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.ChooseActivity (2/8)
+I/SurfaceFlinger( 3612): id=1448 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.ChooseActivity (-2/8)
+I/Timeline( 4313): Timeline: Activity_windows_visible id: ActivityRecord{109c1629 u0 com.a1.quiz.asvab.free/.QuizActivity t4763} time:28206975
+D/CustomFrequencyManagerService( 4313): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  tag : ACTIVITY_RESUME_BOOSTER@6
+W/ActivityManager( 4313): mDVFSHelper.release()
+D/CustomFrequencyManagerService( 4313): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  pkgName : ACTIVITY_RESUME_BOOSTER@10
+D/SSRM:m  ( 4313): SIOP:: AP = 390, PST = 386, CUR = 500
+W/BindingManager(17211): Cannot call determinedVisibility() - never saw a connection for the pid: 17211
+D/CustomFrequencyManagerService( 4313): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  tag : ACTIVITY_RESUME_BOOSTER@10
+V/AlarmManager( 4313): waitForAlarm result :4
+I/art     ( 4313): Explicit concurrent mark sweep GC freed 48386(2MB) AllocSpace objects, 26(414KB) LOS objects, 26% free, 45MB/61MB, paused 1.881ms total 213.858ms
+V/GLSActivity( 5000): AuthDelegateWrapperCreated with selected intent: Intent { cmp=com.google.android.gms/.auth.DefaultAuthDelegateService }
+I/GLSUser ( 5000): [GLSUser] getTokenFromCache: [account: <ELLIDED:-20293>, callingPkg: com.android.vending, service: androidsecure]
+I/GLSUser ( 5000): [GLSUser] getTokenFromGoogle [account: <ELLIDED:-20293>, callingPkg: com.android.vending, service: androidsecure
+I/GLSUser ( 5000): [GLSUser] No secrets, returning BAD_AUTH for <ELLIDED:-20293> androidsecure without consulting the cloud. [mastertoken: <EMPTY>, password: <NULL>]
+I/GLSUser ( 5000): [GLSUser] Extracting token using key: Auth
+W/GLSActivity( 5000): gms.StatusHelper Status from wire: BadAuthentication status: BAD_AUTHENTICATION
+V/GLSActivity( 5000): AuthDelegateWrapperCreated with selected intent: Intent { cmp=com.google.android.gms/.auth.DefaultAuthDelegateService }
+D/Finsky  (26051): [1] AppStatesReplicator.handleContentSyncResponse: Completed 1 account content syncs with 0 successful.
+D/Finsky  (26051): [1] ContentSyncService$5.onFinished: Installation state replication failed.
+D/Finsky  (26051): [1] ContentSyncService$5.onFinished: Scheduling replication attempt 5.
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/InputReader( 4313): Input event: value=1
+I/InputReader( 4313): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.1833 ] when=28209290990000
+I/InputDispatcher( 4313): Delivering touch to (4474): action: 0x4, toolType: 1
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x0, toolType: 1
+D/ViewRootImpl(17211): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4313): Input event: value=0
+I/InputReader( 4313): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=28209383404000
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x1, toolType: 1
+I/SurfaceFlinger( 3612): id=1450 createSurf (1x1),1 flag=4, com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.QuizActivity
+D/hwcutils( 3612): MppFactory::MppFactory()
+D/        ( 3612): virtual LibMpp* MppFactory::CreateMpp(int, int, int, int)(6)
+D/libexynosgscaler( 3612): LibMpp::LibMpp()
+D/libexynosgscaler( 3612): virtual CGscaler::~CGscaler()
+D/libexynosgscaler( 3612): virtual LibMpp::~LibMpp()
+D/        ( 3612): virtual MppFactory::~MppFactory()
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/InputReader( 4313): Input event: value=1
+I/InputReader( 4313): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.1834 ] when=28210433035000
+I/InputDispatcher( 4313): Delivering touch to (4474): action: 0x4, toolType: 1
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x0, toolType: 1
+D/ViewRootImpl(17211): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4313): Input event: value=0
+I/InputReader( 4313): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=28210593880000
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x1, toolType: 1
+D/InputMethodManagerService( 4313): windowGainedFocus mCurrentFocusedUserId - 0 and mSecureKeypadEnabled-false
+E/ViewRootImpl(17211): sendUserActionEvent() mView == null
+W/InputMethodManagerService( 4313): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@30ee1e10 attribute=android.view.inputmethod.EditorInfo@32ebdd09, token = android.os.BinderProxy@17aaeedc
+I/SQLiteSecureOpenHelper( 7413): getWritableDatabase(pwd)
+I/SQLiteSecureOpenHelper( 7413): getDatabaseLocked(b,b,pwd)...
+D/CustomFrequencyManagerService( 4313): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  pkgName : ACTIVITY_RESUME_BOOSTER@6
+W/ActivityManager( 4313): mDVFSHelper.acquire()
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, mbResultFaceDectection: false
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, Rotation: -1
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, mbResultFaceDectection: false
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, Rotation: -1
+V/WindowManager( 4313): rotationForOrientationLw(orient=1, last=0); user=0  sensorRotation=-1 mLidState=-1 mDockMode=0 mHdmiPlugged=false
+D/ActivityManager( 4313): post active user change for 0
+D/KnoxTimeoutHandler( 4313): postActiveUserChange for user 0
+D/KnoxTimeoutHandler( 4313): handleActiveUserChange for user 0
+D/hwcutils( 3612): MppFactory::MppFactory()
+D/        ( 3612): virtual LibMpp* MppFactory::CreateMpp(int, int, int, int)(6)
+D/libexynosgscaler( 3612): LibMpp::LibMpp()
+I/SurfaceFlinger( 3612): id=1451 createSurf (1080x1920),2 flag=404, com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.MainActivity
+D/StatusBarManagerService( 4313): manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams
+V/PhoneStatusBar( 4474): setLightsOn(true)
+D/InputMethodManagerService( 4313): windowGainedFocus mCurrentFocusedUserId - 0 and mSecureKeypadEnabled-false
+W/ContextImpl( 4313): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1687 com.android.server.InputMethodManagerService$6.run:2724 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> 
+I/Timeline(17211): Timeline: Activity_idle id: android.os.BinderProxy@324ef3ff time:28210719
+D/libexynosgscaler( 3612): virtual CGscaler::~CGscaler()
+D/libexynosgscaler( 3612): virtual LibMpp::~LibMpp()
+D/        ( 3612): virtual MppFactory::~MppFactory()
+I/SurfaceFlinger( 3612): id=1450 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.QuizActivity (7/9)
+I/SurfaceFlinger( 3612): id=1450 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.QuizActivity (-2/9)
+I/Timeline( 4313): Timeline: Activity_windows_visible id: ActivityRecord{1e4fcdef u0 com.a1.quiz.asvab.free/.MainActivity t4763} time:28211014
+I/SurfaceFlinger( 3612): id=1449 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.QuizActivity (6/8)
+D/CustomFrequencyManagerService( 4313): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  tag : ACTIVITY_RESUME_BOOSTER@6
+W/ActivityManager( 4313): mDVFSHelper.release()
+D/CustomFrequencyManagerService( 4313): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  pkgName : ACTIVITY_RESUME_BOOSTER@10
+I/SurfaceFlinger( 3612): id=1449 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.QuizActivity (-2/8)
+D/CustomFrequencyManagerService( 4313): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  tag : ACTIVITY_RESUME_BOOSTER@10
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/InputReader( 4313): Input event: value=1
+I/InputReader( 4313): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.1831 ] when=28212521191000
+I/InputDispatcher( 4313): Delivering touch to (4474): action: 0x4, toolType: 1
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x0, toolType: 1
+D/ViewRootImpl(17211): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4313): Input event: value=0
+I/InputReader( 4313): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=28212636149000
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x1, toolType: 1
+I/Timeline(17211): Timeline: Activity_launch_request id:com.a1.quiz.asvab.free time:28212641
+E/PersonaManagerService( 4313): inState():  stateMachine is null !!
+I/PersonaManagerService( 4313): Failed to execute isKioskModeEnabled. java.lang.SecurityException: You need MANAGE_USERS permission to: query user
+I/ActivityManager( 4313): do not start freezing screen for locked container getKeyguardshowstate = false
+I/ActivityManager( 4313): START u0 {cmp=com.a1.quiz.asvab.free/.ChooseActivity} from uid 10301 on display 0
+D/CustomFrequencyManagerService( 4313): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  pkgName : ACTIVITY_RESUME_BOOSTER@6
+I/SQLiteSecureOpenHelper( 7413): getWritableDatabase(pwd)
+I/SQLiteSecureOpenHelper( 7413): getDatabaseLocked(b,b,pwd)...
+W/ActivityManager( 4313): mDVFSHelper.acquire()
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, mbResultFaceDectection: false
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, Rotation: -1
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, mbResultFaceDectection: false
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, Rotation: -1
+W/ActivityManager( 4313): getTasks: caller 10301 does not hold GET_TASKS; limiting output
+V/WindowManager( 4313): rotationForOrientationLw(orient=-1, last=0); user=0  sensorRotation=-1 mLidState=-1 mDockMode=0 mHdmiPlugged=false
+I/SQLiteSecureOpenHelper( 7413): getWritableDatabase(pwd)
+I/SQLiteSecureOpenHelper( 7413): getDatabaseLocked(b,b,pwd)...
+D/AbsListView(17211): Get MotionRecognitionManager
+D/MotionRecognitionService( 4313):  ssp status : true
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/AirplayMraid(17211): Initializing AdView from xml
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/AirplayMraid(17211): Banner Typeinappad
+I/BugSenseHandler(17211): Registering default exceptions handler
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+I/BugSenseHandler(17211): Flushing...
+I/BugSenseHandler(17211): Registering default exceptions handler
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+I/System.out(17211): CONNECTED VIA WIFI
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/System.out( 5241): (HTTPLog)-Static: isSBSettingEnabled false
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+D/Activity(17211): performCreate Call secproduct feature valuefalse
+D/Activity(17211): performCreate Call debug elastic valuetrue
+D/ActivityManager( 4313): post active user change for 0
+D/KnoxTimeoutHandler( 4313): postActiveUserChange for user 0
+D/KnoxTimeoutHandler( 4313): handleActiveUserChange for user 0
+I/SurfaceFlinger( 3612): id=1452 createSurf (1x1),2 flag=404, com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.ChooseActivity
+D/StatusBarManagerService( 4313): manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams
+V/PhoneStatusBar( 4474): setLightsOn(true)
+D/InputMethodManagerService( 4313): windowGainedFocus mCurrentFocusedUserId - 0 and mSecureKeypadEnabled-false
+I/ActivityManager( 4313): Displayed com.a1.quiz.asvab.free/.ChooseActivity: +141ms
+W/ContextImpl( 4313): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1687 com.android.server.InputMethodManagerService$6.run:2724 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> 
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+I/Timeline(17211): Timeline: Activity_idle id: android.os.BinderProxy@3abee974 time:28212864
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/AirplayMraid(17211): Lost foucus. Removing thread>>>
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+W/BindingManager(17211): Cannot call determinedVisibility() - never saw a connection for the pid: 17211
+I/SurfaceFlinger( 3612): id=1451 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.MainActivity (2/8)
+I/SurfaceFlinger( 3612): id=1451 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.MainActivity (-2/8)
+I/Timeline( 4313): Timeline: Activity_windows_visible id: ActivityRecord{1063294b u0 com.a1.quiz.asvab.free/.ChooseActivity t4763} time:28213181
+D/CustomFrequencyManagerService( 4313): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  tag : ACTIVITY_RESUME_BOOSTER@6
+W/ActivityManager( 4313): mDVFSHelper.release()
+D/CustomFrequencyManagerService( 4313): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  pkgName : ACTIVITY_RESUME_BOOSTER@10
+D/CustomFrequencyManagerService( 4313): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  tag : ACTIVITY_RESUME_BOOSTER@10
+W/BindingManager(17211): Cannot call determinedVisibility() - never saw a connection for the pid: 17211
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/BatteryService( 4313): !@BatteryListener : batteryPropertiesChanged!
+D/BatteryService( 4313): level:18, scale:100, status:3, health:6, present:false, voltage: 3742, temperature: 309, technology: Li-ion, AC powered:false, USB powered:false, Wireless powered:false, icon:17303729, invalid charger:0
+D/BatteryService( 4313): online:1, current avg:500, charge type:0, power sharing:false, high voltage charger:false, capacity:280000
+D/BatteryService( 4313): Sending ACTION_BATTERY_CHANGED.
+D/MotionRecognitionService( 4313):   mReceiver.onReceive : ACTION_BATTERY_CHANGED
+I/MotionRecognitionService( 4313): Unplugged
+D/KeyguardUpdateMonitor( 4474): received broadcast android.intent.action.BATTERY_CHANGED
+D/KeyguardUpdateMonitor( 4474): handleBatteryUpdate
+D/STATUSBAR-PhoneStatusBar( 4474):  mBrightnessEnablebySettings = true mBrightnessEnablebyBattery = true mBrightnessEnablebyDisableFlag = true mPmsBrightnessEnablebySettings = true
+D/BatteryMeterView( 4474): ACTION_BATTERY_CHANGED : level:18 status:3 health:6
+D/BatteryMeterView( 4474): ACTION_BATTERY_CHANGED : level:18 status:3 health:6
+D/BatteryMeterView( 4474): ACTION_BATTERY_CHANGED : level:18 status:3 health:6
+D/SSRM:m  ( 4313): SIOP:: AP = 380, PST = 384, CUR = 500
+D/InputReader( 4313): Input event: value=1
+I/InputReader( 4313): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.1832 ] when=28217376343000
+I/InputDispatcher( 4313): Delivering touch to (4474): action: 0x4, toolType: 1
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x0, toolType: 1
+D/ViewRootImpl(17211): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4313): Input event: value=0
+I/InputReader( 4313): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=28217570839000
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x1, toolType: 1
+I/System.out(17211): StartAction1454026245955
+I/QUIZ    (17211): getQuestions query 1: SELECT QuestionID,QuestionName,description,quizid,media,mark FROM Questions WHERE   CategoryID=1   ORDER BY  RANDOM() LIMIT 10
+I/QUIZ    (17211): getQuestions query 2 : SELECT ChoiceID,ChoiceName,Description,IsCorrect,QuestionId FROM Choices WHERE QuestionId IN ( 1044,1055,1016,1003,1062,1049,1068,1017,1085,1023 )
+I/System.out(17211): StartLoop1454026246009
+I/System.out(17211): EndLoop1454026246130
+I/Timeline(17211): Timeline: Activity_launch_request id:com.a1.quiz.asvab.free time:28217749
+E/PersonaManagerService( 4313): inState():  stateMachine is null !!
+I/PersonaManagerService( 4313): Failed to execute isKioskModeEnabled. java.lang.SecurityException: You need MANAGE_USERS permission to: query user
+I/ActivityManager( 4313): do not start freezing screen for locked container getKeyguardshowstate = false
+I/ActivityManager( 4313): START u0 {cmp=com.a1.quiz.asvab.free/.QuizActivity} from uid 10301 on display 0
+D/CustomFrequencyManagerService( 4313): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  pkgName : ACTIVITY_RESUME_BOOSTER@6
+I/SQLiteSecureOpenHelper( 7413): getWritableDatabase(pwd)
+I/SQLiteSecureOpenHelper( 7413): getDatabaseLocked(b,b,pwd)...
+W/ActivityManager( 4313): mDVFSHelper.acquire()
+I/System.out(17211): EndAction1454026246146
+D/AbsListView(17211): Get MotionRecognitionManager
+D/MotionRecognitionService( 4313):  ssp status : true
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+I/Height >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> :(17211): height total : 640 listviewElementsheight : 640
+I/height of listItem:(17211): 640
+E/QuizActivity(17211): IMG LOAD ERR:
+I/        (17211): getTopic  : SELECT  Description FROM Quizzes WHERE Description!='Single Question' AND  QuizID in (SELECT QuizID FROM Questions   WHERE QuestionID=1044  )
+D/Activity(17211): performCreate Call secproduct feature valuefalse
+D/Activity(17211): performCreate Call debug elastic valuetrue
+D/ActivityManager( 4313): post active user change for 0
+D/KnoxTimeoutHandler( 4313): postActiveUserChange for user 0
+D/KnoxTimeoutHandler( 4313): handleActiveUserChange for user 0
+I/SurfaceFlinger( 3612): id=1453 createSurf (1x1),2 flag=404, com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.QuizActivity
+V/PhoneStatusBar( 4474): setLightsOn(true)
+D/StatusBarManagerService( 4313): manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+D/InputMethodManagerService( 4313): windowGainedFocus mCurrentFocusedUserId - 0 and mSecureKeypadEnabled-false
+W/ContextImpl( 4313): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1687 com.android.server.InputMethodManagerService$6.run:2724 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> 
+I/ActivityManager( 4313): Displayed com.a1.quiz.asvab.free/.QuizActivity: +180ms
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+I/Timeline(17211): Timeline: Activity_idle id: android.os.BinderProxy@434a135 time:28218004
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+W/BindingManager(17211): Cannot call determinedVisibility() - never saw a connection for the pid: 17211
+I/SurfaceFlinger( 3612): id=1452 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.ChooseActivity (2/8)
+I/SurfaceFlinger( 3612): id=1452 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.ChooseActivity (-2/8)
+I/Timeline( 4313): Timeline: Activity_windows_visible id: ActivityRecord{18491a79 u0 com.a1.quiz.asvab.free/.QuizActivity t4763} time:28218330
+D/CustomFrequencyManagerService( 4313): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  tag : ACTIVITY_RESUME_BOOSTER@6
+W/ActivityManager( 4313): mDVFSHelper.release()
+D/CustomFrequencyManagerService( 4313): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  pkgName : ACTIVITY_RESUME_BOOSTER@10
+W/BindingManager(17211): Cannot call determinedVisibility() - never saw a connection for the pid: 17211
+D/CustomFrequencyManagerService( 4313): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  tag : ACTIVITY_RESUME_BOOSTER@10
+I/System.out(17211): AdView calls detatch()
+D/SSL Exception: (17211): No peer certificate
+I/AirplayMraid(17211): Ad json:null
+D/InputReader( 4313): Input event: value=1
+I/InputReader( 4313): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.1833 ] when=28220655904000
+I/InputDispatcher( 4313): Delivering touch to (4474): action: 0x4, toolType: 1
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x0, toolType: 1
+D/ViewRootImpl(17211): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4313): Input event: value=0
+I/InputReader( 4313): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=28220754868000
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x1, toolType: 1
+I/SurfaceFlinger( 3612): id=1454 createSurf (1x1),1 flag=4, com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.QuizActivity
+D/hwcutils( 3612): MppFactory::MppFactory()
+D/        ( 3612): virtual LibMpp* MppFactory::CreateMpp(int, int, int, int)(6)
+D/libexynosgscaler( 3612): LibMpp::LibMpp()
+D/libexynosgscaler( 3612): virtual CGscaler::~CGscaler()
+D/libexynosgscaler( 3612): virtual LibMpp::~LibMpp()
+D/        ( 3612): virtual MppFactory::~MppFactory()
+D/InputReader( 4313): Input event: value=1
+I/InputReader( 4313): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.1834 ] when=28221804060000
+I/InputDispatcher( 4313): Delivering touch to (4474): action: 0x4, toolType: 1
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x0, toolType: 1
+D/ViewRootImpl(17211): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4313): Input event: value=0
+I/InputReader( 4313): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=28221955647000
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x1, toolType: 1
+D/InputMethodManagerService( 4313): windowGainedFocus mCurrentFocusedUserId - 0 and mSecureKeypadEnabled-false
+I/SQLiteSecureOpenHelper( 7413): getWritableDatabase(pwd)
+I/SQLiteSecureOpenHelper( 7413): getDatabaseLocked(b,b,pwd)...
+E/ViewRootImpl(17211): sendUserActionEvent() mView == null
+W/InputMethodManagerService( 4313): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@14e893e9 attribute=android.view.inputmethod.EditorInfo@134e286e, token = android.os.BinderProxy@2f39bb6c
+D/CustomFrequencyManagerService( 4313): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  pkgName : ACTIVITY_RESUME_BOOSTER@6
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, mbResultFaceDectection: false
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, Rotation: -1
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, mbResultFaceDectection: false
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, Rotation: -1
+W/ActivityManager( 4313): mDVFSHelper.acquire()
+V/WindowManager( 4313): rotationForOrientationLw(orient=1, last=0); user=0  sensorRotation=-1 mLidState=-1 mDockMode=0 mHdmiPlugged=false
+D/ActivityManager( 4313): post active user change for 0
+D/KnoxTimeoutHandler( 4313): postActiveUserChange for user 0
+D/KnoxTimeoutHandler( 4313): handleActiveUserChange for user 0
+D/hwcutils( 3612): MppFactory::MppFactory()
+D/        ( 3612): virtual LibMpp* MppFactory::CreateMpp(int, int, int, int)(6)
+D/libexynosgscaler( 3612): LibMpp::LibMpp()
+I/SurfaceFlinger( 3612): id=1455 createSurf (1080x1920),2 flag=404, com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.MainActivity
+D/StatusBarManagerService( 4313): manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams
+V/PhoneStatusBar( 4474): setLightsOn(true)
+D/InputMethodManagerService( 4313): windowGainedFocus mCurrentFocusedUserId - 0 and mSecureKeypadEnabled-false
+W/ContextImpl( 4313): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1687 com.android.server.InputMethodManagerService$6.run:2724 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> 
+I/Timeline(17211): Timeline: Activity_idle id: android.os.BinderProxy@324ef3ff time:28222072
+D/libexynosgscaler( 3612): virtual CGscaler::~CGscaler()
+D/libexynosgscaler( 3612): virtual LibMpp::~LibMpp()
+D/        ( 3612): virtual MppFactory::~MppFactory()
+I/SurfaceFlinger( 3612): id=1454 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.QuizActivity (7/9)
+I/SurfaceFlinger( 3612): id=1454 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.QuizActivity (-2/9)
+I/Timeline( 4313): Timeline: Activity_windows_visible id: ActivityRecord{1e4fcdef u0 com.a1.quiz.asvab.free/.MainActivity t4763} time:28222369
+D/CustomFrequencyManagerService( 4313): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  tag : ACTIVITY_RESUME_BOOSTER@6
+W/ActivityManager( 4313): mDVFSHelper.release()
+I/SurfaceFlinger( 3612): id=1453 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.QuizActivity (6/8)
+I/SurfaceFlinger( 3612): id=1453 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.QuizActivity (-2/8)
+D/CustomFrequencyManagerService( 4313): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  pkgName : ACTIVITY_RESUME_BOOSTER@10
+D/CustomFrequencyManagerService( 4313): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  tag : ACTIVITY_RESUME_BOOSTER@10
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+E/Watchdog( 4313): !@Sync 940
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/SSRM:m  ( 4313): SIOP:: AP = 370, PST = 378, CUR = 500
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/InputReader( 4313): Input event: value=1
+I/InputReader( 4313): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.1831 ] when=28228276705000
+I/InputDispatcher( 4313): Delivering touch to (4474): action: 0x4, toolType: 1
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x0, toolType: 1
+D/ViewRootImpl(17211): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4313): Input event: value=0
+I/InputReader( 4313): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=28228392725000
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x1, toolType: 1
+I/Timeline(17211): Timeline: Activity_launch_request id:com.a1.quiz.asvab.free time:28228403
+E/PersonaManagerService( 4313): inState():  stateMachine is null !!
+I/PersonaManagerService( 4313): Failed to execute isKioskModeEnabled. java.lang.SecurityException: You need MANAGE_USERS permission to: query user
+I/ActivityManager( 4313): do not start freezing screen for locked container getKeyguardshowstate = false
+I/ActivityManager( 4313): START u0 {cmp=com.a1.quiz.asvab.free/.ChooseActivity} from uid 10301 on display 0
+D/CustomFrequencyManagerService( 4313): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  pkgName : ACTIVITY_RESUME_BOOSTER@6
+I/SQLiteSecureOpenHelper( 7413): getWritableDatabase(pwd)
+I/SQLiteSecureOpenHelper( 7413): getDatabaseLocked(b,b,pwd)...
+W/ActivityManager( 4313): mDVFSHelper.acquire()
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, mbResultFaceDectection: false
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, Rotation: -1
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, mbResultFaceDectection: false
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, Rotation: -1
+W/ActivityManager( 4313): getTasks: caller 10301 does not hold GET_TASKS; limiting output
+V/WindowManager( 4313): rotationForOrientationLw(orient=-1, last=0); user=0  sensorRotation=-1 mLidState=-1 mDockMode=0 mHdmiPlugged=false
+I/SQLiteSecureOpenHelper( 7413): getWritableDatabase(pwd)
+I/SQLiteSecureOpenHelper( 7413): getDatabaseLocked(b,b,pwd)...
+V/BitmapFactory(17211): DecodeImagePath(decodeResourceStream3) : res/drawable-xxhdpi-v4/sym_def_app_icon.png
+D/AbsListView(17211): Get MotionRecognitionManager
+D/MotionRecognitionService( 4313):  ssp status : true
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/AirplayMraid(17211): Initializing AdView from xml
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/AirplayMraid(17211): Banner Typeinappad
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+I/BugSenseHandler(17211): Registering default exceptions handler
+I/BugSenseHandler(17211): Flushing...
+I/BugSenseHandler(17211): Registering default exceptions handler
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+I/System.out(17211): CONNECTED VIA WIFI
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/System.out( 5241): (HTTPLog)-Static: isSBSettingEnabled false
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+D/Activity(17211): performCreate Call secproduct feature valuefalse
+D/Activity(17211): performCreate Call debug elastic valuetrue
+D/ActivityManager( 4313): post active user change for 0
+D/KnoxTimeoutHandler( 4313): postActiveUserChange for user 0
+D/KnoxTimeoutHandler( 4313): handleActiveUserChange for user 0
+I/SurfaceFlinger( 3612): id=1456 createSurf (1x1),2 flag=404, com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.ChooseActivity
+V/PhoneStatusBar( 4474): setLightsOn(true)
+D/StatusBarManagerService( 4313): manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams
+D/InputMethodManagerService( 4313): windowGainedFocus mCurrentFocusedUserId - 0 and mSecureKeypadEnabled-false
+I/ActivityManager( 4313): Displayed com.a1.quiz.asvab.free/.ChooseActivity: +136ms
+W/ContextImpl( 4313): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1687 com.android.server.InputMethodManagerService$6.run:2724 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> 
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/Timeline(17211): Timeline: Activity_idle id: android.os.BinderProxy@11fd252a time:28228618
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+V/AlarmManager( 4313): waitForAlarm result :4
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/AirplayMraid(17211): Lost foucus. Removing thread>>>
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+W/BindingManager(17211): Cannot call determinedVisibility() - never saw a connection for the pid: 17211
+I/SurfaceFlinger( 3612): id=1455 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.MainActivity (2/8)
+I/SurfaceFlinger( 3612): id=1455 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.MainActivity (-2/8)
+I/art     ( 4313): Explicit concurrent mark sweep GC freed 23786(1332KB) AllocSpace objects, 13(208KB) LOS objects, 26% free, 45MB/61MB, paused 1.821ms total 109.946ms
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+D/StatusBar.NetworkController( 4474): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4474): applyOpen
+I/Timeline( 4313): Timeline: Activity_windows_visible id: ActivityRecord{169d188 u0 com.a1.quiz.asvab.free/.ChooseActivity t4763} time:28228942
+D/CustomFrequencyManagerService( 4313): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  tag : ACTIVITY_RESUME_BOOSTER@6
+W/ActivityManager( 4313): mDVFSHelper.release()
+D/CustomFrequencyManagerService( 4313): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  pkgName : ACTIVITY_RESUME_BOOSTER@10
+V/GLSActivity( 5000): AuthDelegateWrapperCreated with selected intent: Intent { cmp=com.google.android.gms/.auth.DefaultAuthDelegateService }
+I/GLSUser ( 5000): [GLSUser] getTokenFromCache: [account: <ELLIDED:-20293>, callingPkg: com.android.vending, service: androidsecure]
+I/GLSUser ( 5000): [GLSUser] getTokenFromGoogle [account: <ELLIDED:-20293>, callingPkg: com.android.vending, service: androidsecure
+I/GLSUser ( 5000): [GLSUser] No secrets, returning BAD_AUTH for <ELLIDED:-20293> androidsecure without consulting the cloud. [mastertoken: <EMPTY>, password: <NULL>]
+I/GLSUser ( 5000): [GLSUser] Extracting token using key: Auth
+W/GLSActivity( 5000): gms.StatusHelper Status from wire: BadAuthentication status: BAD_AUTHENTICATION
+V/GLSActivity( 5000): AuthDelegateWrapperCreated with selected intent: Intent { cmp=com.google.android.gms/.auth.DefaultAuthDelegateService }
+D/Finsky  (26051): [1] AppStatesReplicator.handleContentSyncResponse: Completed 1 account content syncs with 0 successful.
+D/Finsky  (26051): [1] ContentSyncService$5.onFinished: Installation state replication failed.
+D/Finsky  (26051): [1] ContentSyncService$5.onFinished: Giving up after 6 failures.
+D/CustomFrequencyManagerService( 4313): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  tag : ACTIVITY_RESUME_BOOSTER@10
+W/BindingManager(17211): Cannot call determinedVisibility() - never saw a connection for the pid: 17211
+I/AirplaySDK(17211): Status Code: 200
+I/System.out(17211): AdView calls detatch()
+I/AirplayMraid(17211): Ad json:{"status":200,"message":"Success","adtype":"BAU","banner_type":"image","error":false,"refreshtime":45,"cdd":5,"data":{"guid":"c962efd0c2ee5f02302a7ae4ed6634d4","adimage":"http:\/\/creativeadtypeimages.s3.amazonaws.com\/3758166-320.png","url":"http:\/\/alphamobileapp.com\/CallRecorder\/ENTEST\/?utm_source=Feed_backfill&utm_medium=1861865","api_url":"http:\/\/api.airpush.com\/bannerads\/handle_events.php?apcd=eyJ3aWZpIjoiMSIsImFwcHVpZCI6IjE2MDgzNSIsInNka3ZlcnNpb24iOiI2LjEiLCJscCI6IjgzNjM4OSJ9&guid=c962efd0c2ee5f02302a7ae4ed6634d4&event=%event%&uber=&ncs=1&adtype=BANNER&sd=rUGKTEr7YXkZvOFdWo9OlT5iFLKGFBU8UOUlk1Aap9M1uUqVy74og\/Uw0bLAYXeaErAOegAqQkkUzyJ1FPO+t5yanCDNl8sB+NopxHUYWozGtxV6LFQz2wqZxDnhPe5I15EStTzonZfchUmkvUi4xzn3GMCf5QXJtveRco+ODegw71SmflOmuJKywNHcIBWucx5sqvybC2sUiaDcCvRznuHBuepocM8u4eGUoo14c0BfdTlAYrZd+PJMcWSKw2J1m4vluUwqBRI6SC7ydmw3gdJDgSxz0OddD2OIBjT2lJOhDtjQhbeJ2qqB2I5UkGdpjiTakXxzIng2k0HEYeicaqsfWYnfObxP+c+NaYT4FxMuwJebgDBkIH1adYJ+TeK3eaoGBrxVX7R2XO4M7WUEvHhkKOdF7Nr4\/3Q2QWx8s1vIz\/lXUa8e7G2dzW8xW+I7S823hRWMSjVumoLnztcCwRtEYMBJXVvx3OYmJGHfVmRX0r\/P934UhyJ9Alf3uN0mJm0UhAL3VEuyAZMvCCZXGg==&hmac=fc95b941b55f63927559100947009bbaeeab55f8bd5f6643baded21b49adb9c4","title":"Click here for more details!","text":"Click here for details!","campaignid":"1861865","creativeid":"3758166","text_color":"#000000","banner_bg":"#FFFFFF","error_url":"http:\/\/api.airpush.com\/bannerads\/handle_error.php","istag":3,"tag":"<html><body><iframe src='http:\/\/us-nj-e9.traffictradinghub.com\/?t=s&winbid=0.43568&k=9ffa35370e23bfe27757cb125a9e006c' width='320' height='50' scrolling='no' marginwidth='0' marginheight='0' frameborder='0' style='border: 0;' ><\/iframe><img src='http:\/\/us-nj-e9.traffictradinghub.com\/?t=nurl&k=9ffa35370e23bfe27757cb125a9e006c' width=1 height=1 alt='' border=0><img src='http:\/\/s2s-17.mobadsrv.com\/s2s\/beacon.php?hash=7wn1ay&sul=&wbp=c3199250ddb3bb94&ice=93a0202eefd3fedf&si=179424&pi=1951&li=1&ci=smartyads_8fec649110b7&sct=cable%2Fdsl&ri=4540262582560733276&ts=1454026258&dwri=4540262582575799982&ai=625&rdc=US&rsc=US&rdi=162.219.250.194&rsi=162.219.250.194&rtr=e6742abf8f771f11&tti=1&td=17&dd=26&rd=118&s=320x50&prv=6c8b8==AO2UzM0ADMw4CMc1bf3&rv=6e016==AO2UzM0ADMw4CM759a1&pec=dMC4wMDAzMDQ5NzY=a' border='0' width='1' height='1' style='display:none'><script>(function(_window,_document,scriptTag,url,globalName,a,m){_window['AdScoreObject']=globalName;if(_window[globalName])return;_window[globalName]=_window[globalName]||function(){_window[globalName].q=_window[globalName].q||[];_window[globalName].q.push(arguments);};_window[globalName].l=1*new Date();a=_document.createElement(scriptTag);m=_document.getElementsByTagName(scriptTag)[0];a.async=1;a.src=url;m.parentNode.insertBefore(a,m)})(window, document, 'script', '\/\/js.ad-score.com\/score.min.js ', 'adScore')<\/script><script>adScore('create', '1000053','',{tid:'17', l1:'118', l2: '26', uip : '162.219.250.194' , ref : 'eferrer'  , l3 : '' , l4 : 'S2S' ,p1 : 4540262582560733276\n ,l5 : 4540262582560733276\n , l6 : 'e9fb5e9b12b79168e48bc3a90b40cea2'});<\/script><noscript><img src=\"\/\/data.ad-score.com\/img?ns=1&pid=1000053&tid=17&uip=162.219.250.194&ref=&l1=118&l2=26&l3=&l4=S2S&l6=e9fb5e9b12b79168e48bc3a90b40cea2&l5=4540262582560733276\n&p1=4540262582560733276\n\"><\/noscript>\r\n<img style='height:1px;width:1px;display:none;' src='' \/><\/body><\/html><img src='http:\/\/api.airpush.com\/bannerads\/handle_events.php?apcd=eyJ3aWZpIjoiMSIsImFwcHVpZCI6IjE2MDgzNSIsInNka3ZlcnNpb24iOiI2LjEiLCJscCI6IjgzNjM4OSJ9&guid=c962efd0c2ee5f02302a7ae4ed6634d4&event=14&uber=&ncs=1&adtype=BANNER&sd=rUGKTEr7YXkZvOFdWo9OlT5iFLKGFBU8UOUlk1Aap9M1uUqVy74og\/Uw0bLAYXeaErAOegAqQkkUzyJ1FPO+t5yanCDNl8sB+NopxHUYWozGtxV6LFQz2wqZxDnhPe5I15EStTzonZfchUmkvUi4xzn3GMCf5QXJtveRco+ODegw71SmflOmuJKywNHcIBWucx5sqvybC2sUiaDcCvRznuHBuepocM8u4eGUoo14c0BfdTlAYrZd+PJMcWSKw2J1m4vluUwqBRI6SC7ydmw3gdJDgSxz0OddD2OIBjT2lJOhDtjQhbeJ2qqB2I5UkGdpjiTakXxzIng2k0HEYeicaqsfWYnfObxP+c+NaYT4FxMuwJebgDBkIH1adYJ+TeK3eaoGBrxVX7R2XO4M7WUEvHhkKOdF7Nr4\/3Q2QWx8s1vIz\/lXUa8e7G2dzW8
+I/AirplayMraid(17211): Refresh time changed.
+I/AirplayMraid(17211): Loading banner ad
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/AirplayMraid(17211): Ad loaded successfully
+W/BindingManager(17211): Cannot call determinedVisibility() - never saw a connection for the pid: 17211
+V/AlarmManager( 4313): waitForAlarm result :8
+D/KeyguardUpdateMonitor( 4474): received broadcast android.intent.action.TIME_TICK
+D/KeyguardUpdateMonitor( 4474): handleTimeUpdate
+D/KeyguardEffectViewController( 4474): onReceive action : android.intent.action.TIME_TICK
+I/KeyguardEffectViewController( 4474): *** don't update sliding image ***
+D/DateView( 4474): regionalDateFormat = 11/22/3333 isRTLlanguage = false returnDateFormat = E, MMMM d
+D/DateView( 4474): regionalDateFormat = 11/22/3333 isRTLlanguage = false returnDateFormat = E, MMMM d
+D/CustomFrequencyManagerService( 4313): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1900000  uid : 1000  pid : 4313  pkgName : LAUNCHER_APP_BOOSTER_CPU@7658
+D/accuweather( 5989): [KK AccuPhone]>>> WCS:144 [0:0] action : androidintentactionTIME_TICK
+D/accuweather( 5989): [KK AccuPhone]>>> UIM:40 [0:0] getInstance
+D/accuweather( 5989): [KK AccuPhone]>>> UIM:85 [0:0] direct update clock
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+I/AirplayMraid(17211): Sending banner impression event: 
+I/AirplayMraid(17211): Status code: 200
+I/System.out(17211): banner_event calls detatch()
+I/AirplayMraid(17211): Banner Data: 
+D/CustomFrequencyManagerService( 4313): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1900000  uid : 1000  pid : 4313  tag : LAUNCHER_APP_BOOSTER_CPU@7658
+D/InputReader( 4313): Input event: value=1
+I/InputReader( 4313): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.1832 ] when=28233132637000
+I/InputDispatcher( 4313): Delivering touch to (4474): action: 0x4, toolType: 1
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x0, toolType: 1
+D/ViewRootImpl(17211): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4313): Input event: value=0
+I/InputReader( 4313): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=28233318731000
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x1, toolType: 1
+I/System.out(17211): StartAction1454026261719
+I/QUIZ    (17211): getQuestions query 1: SELECT QuestionID,QuestionName,description,quizid,media,mark FROM Questions WHERE   CategoryID=1   ORDER BY  RANDOM() LIMIT 10
+I/QUIZ    (17211): getQuestions query 2 : SELECT ChoiceID,ChoiceName,Description,IsCorrect,QuestionId FROM Choices WHERE QuestionId IN ( 1047,1070,1002,1057,1056,1001,1061,1005,1049,1071 )
+I/System.out(17211): StartLoop1454026261765
+I/System.out(17211): EndLoop1454026261905
+I/Timeline(17211): Timeline: Activity_launch_request id:com.a1.quiz.asvab.free time:28233524
+E/PersonaManagerService( 4313): inState():  stateMachine is null !!
+I/PersonaManagerService( 4313): Failed to execute isKioskModeEnabled. java.lang.SecurityException: You need MANAGE_USERS permission to: query user
+I/ActivityManager( 4313): do not start freezing screen for locked container getKeyguardshowstate = false
+I/ActivityManager( 4313): START u0 {cmp=com.a1.quiz.asvab.free/.QuizActivity} from uid 10301 on display 0
+D/CustomFrequencyManagerService( 4313): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  pkgName : ACTIVITY_RESUME_BOOSTER@6
+I/SQLiteSecureOpenHelper( 7413): getWritableDatabase(pwd)
+I/SQLiteSecureOpenHelper( 7413): getDatabaseLocked(b,b,pwd)...
+W/ActivityManager( 4313): mDVFSHelper.acquire()
+I/System.out(17211): EndAction1454026261921
+D/AbsListView(17211): Get MotionRecognitionManager
+D/MotionRecognitionService( 4313):  ssp status : true
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+I/Height >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> :(17211): height total : 640 listviewElementsheight : 640
+I/height of listItem:(17211): 640
+E/QuizActivity(17211): IMG LOAD ERR:
+I/        (17211): getTopic  : SELECT  Description FROM Quizzes WHERE Description!='Single Question' AND  QuizID in (SELECT QuizID FROM Questions   WHERE QuestionID=1047  )
+D/Activity(17211): performCreate Call secproduct feature valuefalse
+D/Activity(17211): performCreate Call debug elastic valuetrue
+D/ActivityManager( 4313): post active user change for 0
+D/KnoxTimeoutHandler( 4313): postActiveUserChange for user 0
+D/KnoxTimeoutHandler( 4313): handleActiveUserChange for user 0
+I/SurfaceFlinger( 3612): id=1457 createSurf (1x1),2 flag=404, com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.QuizActivity
+V/PhoneStatusBar( 4474): setLightsOn(true)
+D/StatusBarManagerService( 4313): manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+I/ActivityManager( 4313): Displayed com.a1.quiz.asvab.free/.QuizActivity: +195ms
+D/InputMethodManagerService( 4313): windowGainedFocus mCurrentFocusedUserId - 0 and mSecureKeypadEnabled-false
+W/ContextImpl( 4313): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1687 com.android.server.InputMethodManagerService$6.run:2724 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> 
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+I/System.out(17211): (HTTPLog)-Static: isSBSettingEnabled false
+W/art     (17211): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents(17211): onDetachedFromWindow called when already detached. Ignoring
+D/ConnectivityService( 4313): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+I/Timeline(17211): Timeline: Activity_idle id: android.os.BinderProxy@114bfcb6 time:28233842
+I/SurfaceFlinger( 3612): id=1456 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.ChooseActivity (2/8)
+I/SurfaceFlinger( 3612): id=1456 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.ChooseActivity (-2/8)
+D/CustomFrequencyManagerService( 4313): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  tag : ACTIVITY_RESUME_BOOSTER@6
+W/ActivityManager( 4313): mDVFSHelper.release()
+I/Timeline( 4313): Timeline: Activity_windows_visible id: ActivityRecord{377a75ce u0 com.a1.quiz.asvab.free/.QuizActivity t4763} time:28234125
+D/CustomFrequencyManagerService( 4313): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  pkgName : ACTIVITY_RESUME_BOOSTER@10
+W/BindingManager(17211): Cannot call determinedVisibility() - never saw a connection for the pid: 17211
+D/CustomFrequencyManagerService( 4313): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  tag : ACTIVITY_RESUME_BOOSTER@10
+D/InputReader( 4313): Input event: value=1
+I/InputReader( 4313): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.1833 ] when=28236403696000
+I/InputDispatcher( 4313): Delivering touch to (4474): action: 0x4, toolType: 1
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x0, toolType: 1
+D/ViewRootImpl(17211): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4313): Input event: value=0
+I/InputReader( 4313): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=28236499648000
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x1, toolType: 1
+I/SurfaceFlinger( 3612): id=1458 createSurf (1x1),1 flag=4, com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.QuizActivity
+D/hwcutils( 3612): MppFactory::MppFactory()
+D/        ( 3612): virtual LibMpp* MppFactory::CreateMpp(int, int, int, int)(6)
+D/libexynosgscaler( 3612): LibMpp::LibMpp()
+D/libexynosgscaler( 3612): virtual CGscaler::~CGscaler()
+D/libexynosgscaler( 3612): virtual LibMpp::~LibMpp()
+D/        ( 3612): virtual MppFactory::~MppFactory()
+D/SSRM:m  ( 4313): SIOP:: AP = 390, PST = 378, CUR = 500
+D/InputReader( 4313): Input event: value=1
+I/InputReader( 4313): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.1834 ] when=28237551871000
+I/InputDispatcher( 4313): Delivering touch to (4474): action: 0x4, toolType: 1
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x0, toolType: 1
+D/ViewRootImpl(17211): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4313): Input event: value=0
+I/InputReader( 4313): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=28237705604000
+I/InputDispatcher( 4313): Delivering touch to (17211): action: 0x1, toolType: 1
+D/InputMethodManagerService( 4313): windowGainedFocus mCurrentFocusedUserId - 0 and mSecureKeypadEnabled-false
+I/SQLiteSecureOpenHelper( 7413): getWritableDatabase(pwd)
+I/SQLiteSecureOpenHelper( 7413): getDatabaseLocked(b,b,pwd)...
+E/ViewRootImpl(17211): sendUserActionEvent() mView == null
+W/InputMethodManagerService( 4313): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@3e55ee7e attribute=android.view.inputmethod.EditorInfo@2cb51fdf, token = android.os.BinderProxy@14b2ba85
+D/CustomFrequencyManagerService( 4313): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  pkgName : ACTIVITY_RESUME_BOOSTER@6
+W/ActivityManager( 4313): mDVFSHelper.acquire()
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, mbResultFaceDectection: false
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, Rotation: -1
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, mbResultFaceDectection: false
+V/WindowOrientationListener( 4313): mSContextAutoRotationListener.getProposedRotation, Rotation: -1
+V/WindowManager( 4313): rotationForOrientationLw(orient=1, last=0); user=0  sensorRotation=-1 mLidState=-1 mDockMode=0 mHdmiPlugged=false
+D/ActivityManager( 4313): post active user change for 0
+D/KnoxTimeoutHandler( 4313): postActiveUserChange for user 0
+D/KnoxTimeoutHandler( 4313): handleActiveUserChange for user 0
+I/SurfaceFlinger( 3612): id=1459 createSurf (1080x1920),2 flag=404, com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.MainActivity
+V/PhoneStatusBar( 4474): setLightsOn(true)
+D/StatusBarManagerService( 4313): manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams
+D/hwcutils( 3612): MppFactory::MppFactory()
+D/        ( 3612): virtual LibMpp* MppFactory::CreateMpp(int, int, int, int)(6)
+D/libexynosgscaler( 3612): LibMpp::LibMpp()
+D/InputMethodManagerService( 4313): windowGainedFocus mCurrentFocusedUserId - 0 and mSecureKeypadEnabled-false
+W/ContextImpl( 4313): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1687 com.android.server.InputMethodManagerService$6.run:2724 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> 
+I/Timeline(17211): Timeline: Activity_idle id: android.os.BinderProxy@324ef3ff time:28237829
+D/libexynosgscaler( 3612): virtual CGscaler::~CGscaler()
+D/libexynosgscaler( 3612): virtual LibMpp::~LibMpp()
+D/        ( 3612): virtual MppFactory::~MppFactory()
+I/SurfaceFlinger( 3612): id=1458 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.QuizActivity (7/9)
+I/SurfaceFlinger( 3612): id=1458 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.QuizActivity (-2/9)
+I/Timeline( 4313): Timeline: Activity_windows_visible id: ActivityRecord{1e4fcdef u0 com.a1.quiz.asvab.free/.MainActivity t4763} time:28238092
+D/CustomFrequencyManagerService( 4313): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  tag : ACTIVITY_RESUME_BOOSTER@6
+W/ActivityManager( 4313): mDVFSHelper.release()
+I/SurfaceFlinger( 3612): id=1457 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.QuizActivity (6/8)
+I/SurfaceFlinger( 3612): id=1457 Removed com.a1.quiz.asvab.free/com.a1.quiz.asvab.free.QuizActivity (-2/8)
+D/CustomFrequencyManagerService( 4313): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  pkgName : ACTIVITY_RESUME_BOOSTER@10
+D/CustomFrequencyManagerService( 4313): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4313  tag : ACTIVITY_RESUME_BOOSTER@10

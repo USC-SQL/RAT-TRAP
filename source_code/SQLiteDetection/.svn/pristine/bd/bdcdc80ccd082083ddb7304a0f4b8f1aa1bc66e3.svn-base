@@ -1,0 +1,82 @@
+package usc.sql.string;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.bcel.classfile.ClassFormatException;
+import org.apache.bcel.classfile.ClassParser;
+import org.apache.bcel.classfile.JavaClass;
+import org.apache.bcel.classfile.Method;
+import org.apache.bcel.generic.ClassGen;
+import org.apache.bcel.generic.MethodGen;
+
+import edu.usc.sql.graphs.NodeInterface;
+import edu.usc.sql.graphs.cfg.BcelCFG;
+
+public class BcelAnalysis {
+	
+	
+	   public static void main(String args[]) throws ClassFormatException, IOException  {
+	        /*
+	        if (!(args.length == 2 || args.length == 1)) {
+	            System.err.println("Usage: java -jar BCELInstrumenter.jar input_dir1 timeprof");
+	            System.exit(-1);
+	        }
+	        List<String> all_cls = get_all_classes(args[0]);
+	        boolean timeprof = false;
+	        if (args.length == 2) {
+	            timeprof = Boolean.parseBoolean(args[1]);
+
+	        }
+	        */
+
+	        List<String> all_cls = get_all_classes("/home/yingjun/Documents/epp/WorkStation0/tempfolder/classes");
+	        for (String myclasses : all_cls) {
+	            JavaClass jcls = new ClassParser(myclasses).parse();
+	            ClassGen cgen = new ClassGen(jcls);
+	            for (Method mthd : jcls.getMethods()) {
+	                MethodGen method = new MethodGen(mthd, cgen.getClassName(), cgen.getConstantPool());
+	                
+	                if(method.getName().equals("test2")/*||method.getName().equals("deleteFromDatabase")*/)
+                    {
+                        if(method.getClassName().equals("edu.usc.SQLTesting.CommentsDataSource"))
+                        {
+                            System.out.println(mthd.getCode());
+                            BcelCFG cfg = new BcelCFG(method.getInstructionList());
+        	                System.out.println(cfg.toDotDot());
+                        }
+	                
+	                
+                    }
+	        		/*
+	                LayerRegion lll = new LayerRegion(null);
+	        		ReachingDefinition rd = new ReachingDefinition(cfg.getAllNodes(), cfg.getAllEdges(),lll.identifyBackEdges(cfg.getAllNodes(),cfg.getAllEdges(), cfg.getEntryNode()));	   		
+	        
+	        		
+	        		LayerRegion lr = new LayerRegion(cfg);
+	        		*/
+	            }
+	        }
+
+	    }
+    private static List<String> get_all_classes(String cls_dir) {
+        List<String> all_cls = new ArrayList<String>();
+
+        try {
+            Process proc = Runtime.getRuntime().exec("find " + cls_dir + " -name *.class");
+            BufferedReader br = new BufferedReader(new InputStreamReader(proc.getInputStream()), 16);
+            String line;
+            while ((line = br.readLine()) != null) {
+                all_cls.add(line.trim());
+            }
+            proc.waitFor();
+        } catch (Throwable t) {
+            t.printStackTrace();
+        }
+
+        return all_cls;
+    }
+}

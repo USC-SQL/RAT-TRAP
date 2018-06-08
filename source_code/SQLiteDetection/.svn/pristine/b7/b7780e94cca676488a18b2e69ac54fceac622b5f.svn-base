@@ -1,0 +1,728 @@
+--------- beginning of main
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+--------- beginning of system
+D/BatteryService( 4312): !@BatteryListener : batteryPropertiesChanged!
+D/BatteryService( 4312): level:55, scale:100, status:3, health:6, present:false, voltage: 3761, temperature: 244, technology: Li-ion, AC powered:false, USB powered:false, Wireless powered:false, icon:17303729, invalid charger:0
+D/BatteryService( 4312): online:1, current avg:500, charge type:0, power sharing:false, high voltage charger:false, capacity:280000
+D/BatteryService( 4312): Sending ACTION_BATTERY_CHANGED.
+D/KeyguardUpdateMonitor( 4481): received broadcast android.intent.action.BATTERY_CHANGED
+D/KeyguardUpdateMonitor( 4481): handleBatteryUpdate
+D/MotionRecognitionService( 4312):   mReceiver.onReceive : ACTION_BATTERY_CHANGED
+I/MotionRecognitionService( 4312): Unplugged
+D/STATUSBAR-PhoneStatusBar( 4481):  mBrightnessEnablebySettings = true mBrightnessEnablebyBattery = true mBrightnessEnablebyDisableFlag = true mPmsBrightnessEnablebySettings = true
+D/BatteryMeterView( 4481): ACTION_BATTERY_CHANGED : level:55 status:3 health:6
+D/BatteryMeterView( 4481): ACTION_BATTERY_CHANGED : level:55 status:3 health:6
+D/BatteryMeterView( 4481): ACTION_BATTERY_CHANGED : level:55 status:3 health:6
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/SSRM:m  ( 4312): SIOP:: AP = 290, PST = 301, CUR = 500
+D/AndroidRuntime(32002): 
+D/AndroidRuntime(32002): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime(32002): CheckJNI is OFF
+D/AndroidRuntime(32002): setted country_code = UAE
+D/AndroidRuntime(32002): setted countryiso_code = AE
+D/AndroidRuntime(32002): setted sales_code = THR
+D/AndroidRuntime(32002): readGMSProperty: start
+D/AndroidRuntime(32002): readGMSProperty: already setted!!
+D/AndroidRuntime(32002): readGMSProperty: end
+D/AndroidRuntime(32002): addProductProperty: start
+E/memtrack(32002): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(32002): failed to load memtrack module: -2
+E/AffinityControl(32002): AffinityControl: registerfunction enter
+D/AndroidRuntime(32002): Calling main entry com.android.commands.am.Am
+V/ApplicationPolicy( 4312): isApplicationStateBlocked userId 0 pkgname edu.usc.SQLTesting
+I/ActivityManager( 4312): Force stopping edu.usc.SQLTesting appid=10321 user=0: from pid 32002
+I/ActivityManager( 4312): Killing 31074:edu.usc.SQLTesting/u0a321 (adj 0): stop edu.usc.SQLTesting
+W/ActivityManager( 4312): Force removing ActivityRecord{4120722 u0 edu.usc.SQLTesting/.MyActivity t195}: app died, no saved state
+I/SQLiteSecureOpenHelper( 7664): getWritableDatabase(pwd)
+I/SQLiteSecureOpenHelper( 7664): getDatabaseLocked(b,b,pwd)...
+I/SurfaceFlinger( 3613): id=25 Removed edu.usc.SQLTesting/edu.usc.SQLTesting.MyActivity (5/7)
+I/SurfaceFlinger( 3613): id=25 Removed edu.usc.SQLTesting/edu.usc.SQLTesting.MyActivity (-2/7)
+D/CustomFrequencyManagerService( 4312): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4312  pkgName : ACTIVITY_RESUME_BOOSTER@6
+I/SQLiteSecureOpenHelper( 7664): getWritableDatabase(pwd)
+I/SQLiteSecureOpenHelper( 7664): getDatabaseLocked(b,b,pwd)...
+V/WindowOrientationListener( 4312): mSContextAutoRotationListener.getProposedRotation, mbResultFaceDectection: false
+V/WindowOrientationListener( 4312): mSContextAutoRotationListener.getProposedRotation, Rotation: -1
+V/WindowOrientationListener( 4312): mSContextAutoRotationListener.getProposedRotation, mbResultFaceDectection: false
+V/WindowOrientationListener( 4312): mSContextAutoRotationListener.getProposedRotation, Rotation: -1
+W/ActivityManager( 4312): mDVFSHelper.acquire()
+V/WindowManager( 4312): rotationForOrientationLw(orient=1, last=0); user=0  sensorRotation=-1 mLidState=-1 mDockMode=0 mHdmiPlugged=false
+D/FocusedStackFrame( 4312): Set to : 0
+D/AndroidRuntime(32002): Shutting down VM
+I/art     (32002): Debugger is no longer active
+D/ConnectivityService( 4312): returning getNetworkInfo(networkType - 1) :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+E/ActivityManager( 4312): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 4312): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 4312): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 4312): checkUser: useridlist=null, currentuser=0
+E/Zygote  (32013): MountEmulatedStorage()
+E/Zygote  (32013): v2
+I/SELinux (32013): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-G900H_5.0 ver=27
+I/libpersona(32013): KNOX_SDCARD checking this for 10006
+I/libpersona(32013): KNOX_SDCARD not a persona
+I/ActivityManager( 4312): Start proc com.samsung.dcm:DCMService for broadcast com.samsung.dcm/.framework.broadcastreceivers.ClearDataReceiver: pid=32013 uid=10006 gids={50006, 9997, 3003, 1028, 1015} abi=armeabi-v7a
+I/SELinux (32013): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-G900H_5.0_0027
+E/SELinux (32013): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+D/ActivityManager( 4312): handle home activity for 0
+I/WallpaperManagerService( 4312): switchPersonaWallpaper is called for personaId-0
+D/KnoxTimeoutHandler( 4312): post home show event for user 0
+D/ActivityManager( 4312): post active user change for 0
+D/WallpaperManagerService( 4312):  force update = false; persona id = 0; current user =0; current persona = 0
+D/KnoxTimeoutHandler( 4312): postActiveUserChange for user 0
+D/KnoxTimeoutHandler( 4312): handleHomeShow for 0 and current 0
+D/KnoxTimeoutHandler( 4312): handleActiveUserChange for user 0
+D/InputMethodManagerService( 4312): [HARDWARE_KEYBOARD] (refreshImeWindowVis) mImeWindowVis= 0 inputVisible = falsehaveHardKeyboard = false hardKeyShown = false
+W/ActivityManager( 4312): Permission Denial: Accessing service ComponentInfo{com.google.android.music/com.google.android.music.dial.DialMediaRouteProviderService} from pid=6219, uid=10069 that is not exported from uid 10134
+D/RegisteredServicesCache( 4750): empty dynamic service
+I/SurfaceFlinger( 3613): id=26 createSurf (1080x1920),1 flag=404, com.sec.android.app.easylauncher/com.sec.android.app.easylauncher.AlphabeticalSearchListViewActivity
+W/ActivityManager( 4312): Unable to start service Intent { act=com.sec.settings.action.NFC_PAYMENT_REFRESH pkg=com.sec.android.widgetapp.tapandpay } U=0: not found
+D/StatusBarManagerService( 4312): manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams
+D/TimaKeyStoreProvider(32013): TimaSignature is unavailable
+D/ActivityThread(32013): Added TimaKeyStore provider
+D/InputMethodManagerService( 4312): windowGainedFocus mCurrentFocusedUserId - 0 and mSecureKeypadEnabled-false
+D/StatusBarManagerService( 4312): manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams
+D/ResourcesManager(32013): creating new AssetManager and set to /system/priv-app/DCMProvider/DCMProvider.apk
+W/ContextImpl( 4312): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1687 com.android.server.InputMethodManagerService$6.run:2724 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> 
+W/InputMethodManagerService( 4312): Got RemoteException sending setActive(false) notification to pid 31074 uid 10321
+I/Timeline( 4790): Timeline: Activity_idle id: android.os.BinderProxy@24b4d6 time:43993193
+I/DCMProvider(32013): [#DCM#] onCreate this Instance = com.sec.dcm.provider.DCMProvider@17e0afcf Provider Ref Count:1
+I/DCMConfig(32013): [#DCM#] initializeTransport.SystemBroadcastReceiver  6 ms
+I/StorageController(32013): [#DCM#]  state through storage volume =  mounted
+I/StorageController(32013): [#DCM#]  storageId =  65537 removable = false path = /storage/emulated/0 state = mounted subsystem = fuse
+I/StorageController(32013): [#DCM#]  state through storage volume =  removed
+I/StorageController(32013): [#DCM#]  storageId =  131073 removable = true path = /storage/extSdCard state = removed subsystem = sd
+I/StorageController(32013): [#DCM#]  state through storage volume =  unmounted
+I/StorageController(32013): [#DCM#]  storageId =  196609 removable = false path = /storage/Private state = unmounted subsystem = private
+I/StorageController(32013): [#DCM#]  state through storage volume =  removed
+I/StorageController(32013): [#DCM#]  storageId =  262145 removable = true path = /storage/UsbDriveA state = removed subsystem = usb
+I/StorageController(32013): [#DCM#]  state through storage volume =  removed
+I/StorageController(32013): [#DCM#]  storageId =  327681 removable = true path = /storage/UsbDriveB state = removed subsystem = usb
+I/StorageController(32013): [#DCM#]  state through storage volume =  removed
+I/StorageController(32013): [#DCM#]  storageId =  393217 removable = true path = /storage/UsbDriveC state = removed subsystem = usb
+I/StorageController(32013): [#DCM#]  state through storage volume =  removed
+I/StorageController(32013): [#DCM#]  storageId =  458753 removable = true path = /storage/UsbDriveD state = removed subsystem = usb
+I/StorageController(32013): [#DCM#]  state through storage volume =  removed
+I/StorageController(32013): [#DCM#]  storageId =  524289 removable = true path = /storage/UsbDriveE state = removed subsystem = usb
+I/StorageController(32013): [#DCM#]  state through storage volume =  removed
+I/StorageController(32013): [#DCM#]  storageId =  589825 removable = true path = /storage/UsbDriveF state = removed subsystem = usb
+I/DCMPolicyManager(32013): [#DCM#] setCriticalStateFromSystem screenOn =  true high siop = false camera running = false
+I/DCMPolicyManager(32013): [#DCM#] opening file DCMRules.txt 
+I/DCMConfig(32013): [#DCM#] initializeTransport.DCMPolicyManager  39 ms
+I/DCMConfig(32013): [#DCM#] initializeTransport.MediaManager  45 ms
+I/DCMConfig(32013): [#DCM#] initializeTransport.DCMNRTManager  89 ms
+I/DCMConfig(32013): [#DCM#] No of CPU Core 8
+I/DCMConfig(32013): [#DCM#] initializeTransport took  89 ms
+I/DCMProvider(32013): [#DCM#] onCreate end 
+I/DCMNRTManager(32013): [#DCM#] intialize 
+I/ClearDataReceiver(32013): [#DCM#] Intent Name: android.intent.action.PACKAGE_RESTARTED
+I/ClearDataReceiver(32013): [#DCM#] Intent Data: package:edu.usc.SQLTesting
+I/SystemBroadcastReceiver(32013): [#DCM#] [DCM_Performance] onReceive completed in time  394 microsec. 
+I/SystemBroadcastReceiver(32013): [#DCM#] [DCM_Performance] onReceive completed in time  20 microsec. 
+I/SystemBroadcastReceiver(32013): [#DCM#] Calling notifyListeners. 
+I/DCMPolicyManager(32013): [#DCM#] onReceive action = EVENT_SIOP
+I/SystemBroadcastReceiver(32013): [#DCM#] Calling notifyListeners. 
+I/SystemBroadcastReceiver(32013): [#DCM#] No one is registered with Event Id EVENT_NETWORK_CHANGED
+I/ActivityManager( 4312): Killing 31022:com.sec.android.gallery3d/u0a47 (adj 15): bgCount ##41
+D/daemonapp( 4607): [MSC_Daemon]>>> AWDCDS:28 [0:0] AWD CD Act : androidintentactionPACKAGE_RESTARTED
+I/Timeline( 4312): Timeline: Activity_windows_visible id: ActivityRecord{101b1e34 u0 com.sec.android.app.easylauncher/.AlphabeticalSearchListViewActivity t190} time:43993414
+D/CustomFrequencyManagerService( 4312): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4312  tag : ACTIVITY_RESUME_BOOSTER@6
+W/ActivityManager( 4312): mDVFSHelper.release()
+D/CustomFrequencyManagerService( 4312): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4312  pkgName : ACTIVITY_RESUME_BOOSTER@10
+I/WriterFactory(32013): [#DCM#] verifyLuceneDB ++ 
+I/WriterFactory(32013): [#DCM#] verifyLuceneDB OK breaking 
+I/WriterFactory(32013): [#DCM#] verifyLuceneDB OK -- 
+I/WriterFactory(32013): [#DCM#] TAXO in mode CREATE_OR_APPEND
+I/WriterFactory(32013): [#DCM#] Before facet 
+I/WriterFactory(32013): [#DCM#] After facet=!null ? true
+D/AndroidRuntime(32034): 
+D/AndroidRuntime(32034): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime(32034): CheckJNI is OFF
+D/AndroidRuntime(32034): setted country_code = UAE
+D/AndroidRuntime(32034): setted countryiso_code = AE
+D/AndroidRuntime(32034): setted sales_code = THR
+D/AndroidRuntime(32034): readGMSProperty: start
+D/AndroidRuntime(32034): readGMSProperty: already setted!!
+D/AndroidRuntime(32034): readGMSProperty: end
+D/AndroidRuntime(32034): addProductProperty: start
+I/DCMUtilities(32013): [#DCM#] isCommitOk; kKeyOnCommit = true
+I/DCMController(32013): [#DCM#] isCommitOk:  true, isIntentFinished: trueisRebuildDone = true
+I/DCMConfig(32013): [#DCM#] setSuccessState =  true
+E/memtrack(32034): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(32034): failed to load memtrack module: -2
+E/AffinityControl(32034): AffinityControl: registerfunction enter
+D/AndroidRuntime(32034): Calling main entry com.android.commands.am.Am
+E/PersonaManagerService( 4312): inState():  stateMachine is null !!
+I/PersonaManagerService( 4312): PersonaId don't exist
+I/ActivityManager( 4312): do not start freezing screen for locked container getKeyguardshowstate = false
+V/ApplicationPolicy( 4312): isApplicationStateBlocked userId 0 pkgname edu.usc.SQLTesting
+I/ActivityManager( 4312): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=edu.usc.SQLTesting/.MyActivity} from uid 2000 on display 0
+D/CustomFrequencyManagerService( 4312): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4312  pkgName : ACTIVITY_RESUME_BOOSTER@6
+W/ActivityManager( 4312): mDVFSHelper.acquire()
+D/FocusedStackFrame( 4312): Set to : 0
+I/SQLiteSecureOpenHelper( 7664): getWritableDatabase(pwd)
+I/SQLiteSecureOpenHelper( 7664): getDatabaseLocked(b,b,pwd)...
+D/AndroidRuntime(32034): Shutting down VM
+I/art     (32034): Debugger is no longer active
+E/ActivityManager( 4312): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 4312): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 4312): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 4312): checkUser: useridlist=null, currentuser=0
+V/BitmapFactory( 4312): DecodeImagePath(decodeResourceStream3) : res/drawable-xhdpi-v4/ic_launcher.png
+E/Zygote  (32048): MountEmulatedStorage()
+E/Zygote  (32048): v2
+I/SELinux (32048): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-G900H_5.0 ver=27
+I/SurfaceFlinger( 3613): id=27 createSurf (1x1),1 flag=404, Starting edu.usc.SQLTesting
+I/SELinux (32048): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-G900H_5.0_0027
+I/libpersona(32048): KNOX_SDCARD checking this for 10321
+I/libpersona(32048): KNOX_SDCARD not a persona
+E/SELinux (32048): [DEBUG] get_category: variable seinfo: default sensitivity: NULL, cateogry: NULL
+I/art     (32048): Late-enabling -Xcheck:jni
+I/ActivityManager( 4312): Start proc edu.usc.SQLTesting for activity edu.usc.SQLTesting/.MyActivity: pid=32048 uid=10321 gids={50321, 9997, 1028, 1015, 3003} abi=armeabi-v7a
+V/BitmapFactory( 4312): DecodeImagePath(decodeResourceStream3) : res/drawable-xxhdpi-v4/tw_ic_menu_moreoverflow_mtrl.png
+D/CustomFrequencyManagerService( 4312): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4312  tag : ACTIVITY_RESUME_BOOSTER@10
+D/TimaKeyStoreProvider(32048): TimaSignature is unavailable
+D/ActivityThread(32048): Added TimaKeyStore provider
+V/WindowOrientationListener( 4312): mSContextAutoRotationListener.getProposedRotation, mbResultFaceDectection: false
+V/WindowOrientationListener( 4312): mSContextAutoRotationListener.getProposedRotation, Rotation: -1
+V/WindowOrientationListener( 4312): mSContextAutoRotationListener.getProposedRotation, mbResultFaceDectection: false
+V/WindowOrientationListener( 4312): mSContextAutoRotationListener.getProposedRotation, Rotation: -1
+V/WindowManager( 4312): rotationForOrientationLw(orient=-1, last=0); user=0  sensorRotation=-1 mLidState=-1 mDockMode=0 mHdmiPlugged=false
+D/ConnectivityService( 4312): returning getNetworkInfo(networkType - 1) :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+D/ResourcesManager(32048): creating new AssetManager and set to /data/app/edu.usc.SQLTesting-2/base.apk
+D/StatusBarManagerService( 4312): manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams
+V/BitmapFactory(32048): DecodeImagePath(decodeResourceStream3) : res/drawable-xxhdpi-v4/sym_def_app_icon.png
+D/hwcutils( 3613): MppFactory::MppFactory()
+D/        ( 3613): virtual LibMpp* MppFactory::CreateMpp(int, int, int, int)(6)
+D/libexynosgscaler( 3613): LibMpp::LibMpp()
+D/AbsListView(32048): Get MotionRecognitionManager
+D/MotionRecognitionService( 4312):  ssp status : true
+V/BitmapFactory(32048): DecodeImagePath(decodeResourceStream3) : res/drawable-xhdpi-v4/ic_launcher.png
+I/SurfaceFlinger( 3613): id=26 Removed com.sec.android.app.easylauncher/com.sec.android.app.easylauncher.AlphabeticalSearchListViewActivity (4/8)
+I/SurfaceFlinger( 3613): id=26 Removed com.sec.android.app.easylauncher/com.sec.android.app.easylauncher.AlphabeticalSearchListViewActivity (-2/8)
+D/libexynosgscaler( 3613): virtual CGscaler::~CGscaler()
+D/libexynosgscaler( 3613): virtual LibMpp::~LibMpp()
+D/        ( 3613): virtual MppFactory::~MppFactory()
+W/SurfaceFlinger( 3613): couldn't log to binary event log: overflow.
+I/System.out(32048): Fac:5000
+I/System.out(32048): Start1487122669319
+I/System.out(32048): End1487122669327
+I/System.out(32048): Time Total:8 Average:0.0016
+I/System.out(32048): Fac:5000
+I/System.out(32048): Start1487122669327
+I/System.out(32048): End1487122669336
+I/System.out(32048): Time Total:9 Average:0.0018
+I/System.out(32048): Fac:5000
+I/System.out(32048): Start1487122669336
+I/System.out(32048): End1487122669344
+I/System.out(32048): Time Total:8 Average:0.0016
+I/System.out(32048): Fac:5000
+I/System.out(32048): Start1487122669344
+I/System.out(32048): End1487122669352
+I/System.out(32048): Time Total:8 Average:0.0016
+I/System.out(32048): Fac:5000
+I/System.out(32048): Start1487122669352
+I/System.out(32048): End1487122669360
+I/System.out(32048): Time Total:8 Average:0.0016
+D/Activity(32048): performCreate Call secproduct feature valuefalse
+D/Activity(32048): performCreate Call debug elastic valuetrue
+D/OpenGLRenderer(32048): Render dirty regions requested: true
+D/ActivityManager( 4312): post active user change for 0
+D/KnoxTimeoutHandler( 4312): postActiveUserChange for user 0
+D/KnoxTimeoutHandler( 4312): handleActiveUserChange for user 0
+I/SurfaceFlinger( 3613): id=28 createSurf (1x1),1 flag=404, edu.usc.SQLTesting/edu.usc.SQLTesting.MyActivity
+I/        (32048): PLATFORM VERSION : JB-MR-2
+I/OpenGLRenderer(32048): Initialized EGL, version 1.4
+I/OpenGLRenderer(32048): HWUI protection enabled for context ,  &this =0xafb22088 ,&mEglDisplay = 1 , &mEglConfig = -1347152972 
+D/OpenGLRenderer(32048): Enabling debug mode 0
+V/BitmapFactory(32048): DecodeImagePath(decodeResourceStream3) : res/drawable-xxhdpi-v4/tw_ic_menu_moreoverflow_mtrl.png
+D/InputMethodManagerService( 4312): windowGainedFocus mCurrentFocusedUserId - 0 and mSecureKeypadEnabled-false
+W/ContextImpl( 4312): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1687 com.android.server.InputMethodManagerService$6.run:2724 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> 
+I/Timeline(32048): Timeline: Activity_idle id: android.os.BinderProxy@5da4d45 time:43994214
+I/ActivityManager( 4312): Displayed edu.usc.SQLTesting/.MyActivity: +553ms
+I/Timeline( 4312): Timeline: Activity_windows_visible id: ActivityRecord{d3376da u0 edu.usc.SQLTesting/.MyActivity t196} time:43994222
+D/CustomFrequencyManagerService( 4312): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4312  tag : ACTIVITY_RESUME_BOOSTER@6
+W/ActivityManager( 4312): mDVFSHelper.release()
+D/CustomFrequencyManagerService( 4312): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4312  pkgName : ACTIVITY_RESUME_BOOSTER@10
+I/SurfaceFlinger( 3613): id=27 Removed Starting edu.usc.SQLTesting (6/8)
+I/SurfaceFlinger( 3613): id=27 Removed Starting edu.usc.SQLTesting (-2/8)
+D/CustomFrequencyManagerService( 4312): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1800000  uid : 1000  pid : 4312  tag : ACTIVITY_RESUME_BOOSTER@10
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/TaskPersister( 4312): removeObsoleteFile: deleting file=195_task.xml
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+V/AlarmManager( 4312): waitForAlarm result :4
+I/Finsky  (29425): [1877] com.google.android.finsky.c.e.run(1154): Replicating app states via AMAS.
+E/Auth    ( 5280): [GoogleAccountDataServiceImpl] getToken() -> BAD_AUTHENTICATION. Account: <ELLIDED:-277312928>, App: com.android.vending, Service: androidsecure
+E/Auth    ( 5280): dgz: Long live credential not available.
+E/Auth    ( 5280): 	at dha.a(:com.google.android.gms:3101)
+E/Auth    ( 5280): 	at dfo.a(:com.google.android.gms:399)
+E/Auth    ( 5280): 	at dfn.a(:com.google.android.gms:31371)
+E/Auth    ( 5280): 	at dfn.a(:com.google.android.gms:313)
+E/Auth    ( 5280): 	at ehc.a(:com.google.android.gms:1201)
+E/Auth    ( 5280): 	at eha.a(:com.google.android.gms:3554)
+E/Auth    ( 5280): 	at eha.a(:com.google.android.gms:3196)
+E/Auth    ( 5280): 	at dcb.a(:com.google.android.gms:349)
+E/Auth    ( 5280): 	at dcb.a(:com.google.android.gms:213)
+E/Auth    ( 5280): 	at dck.a(:com.google.android.gms:1501)
+E/Auth    ( 5280): 	at dcj.a(:com.google.android.gms:914)
+E/Auth    ( 5280): 	at dcj.e(:com.google.android.gms:526)
+E/Auth    ( 5280): 	at dci.a(:com.google.android.gms:37)
+E/Auth    ( 5280): 	at ddv.getAuthToken(:com.google.android.gms:181)
+E/Auth    ( 5280): 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:196)
+E/Auth    ( 5280): 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:113)
+E/Auth    ( 5280): 	at android.os.Binder.execTransact(Binder.java:446)
+W/Auth    ( 5280): [GoogleAuthUtil] GoogleAuthUtil
+W/GLSActivity( 5280): dcz: BadAuthentication
+W/GLSActivity( 5280): 	at dck.a(:com.google.android.gms:1518)
+W/GLSActivity( 5280): 	at dcj.a(:com.google.android.gms:914)
+W/GLSActivity( 5280): 	at dcj.e(:com.google.android.gms:526)
+W/GLSActivity( 5280): 	at dci.a(:com.google.android.gms:37)
+W/GLSActivity( 5280): 	at ddv.getAuthToken(:com.google.android.gms:181)
+W/GLSActivity( 5280): 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:196)
+W/GLSActivity( 5280): 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:113)
+W/GLSActivity( 5280): 	at android.os.Binder.execTransact(Binder.java:446)
+I/Finsky  (29425): [1] com.google.android.finsky.c.c.a(316): Completed 1 account content syncs with 0 successful.
+I/Finsky  (29425): [1] com.google.android.finsky.services.j.a(156): Installation state replication failed.
+I/Finsky  (29425): [1] com.google.android.finsky.services.j.a(162): Scheduling replication attempt 2.
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/SSRM:m  ( 4312): SIOP:: AP = 300, PST = 303, CUR = 500
+D/PackageManager( 4312): [MSG] WRITE_PACKAGE_RESTRICTIONS
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+V/AlarmManager( 4312): waitForAlarm result :8
+D/KeyguardUpdateMonitor( 4481): received broadcast android.intent.action.TIME_TICK
+D/KeyguardUpdateMonitor( 4481): handleTimeUpdate
+D/KeyguardEffectViewController( 4481): onReceive action : android.intent.action.TIME_TICK
+I/KeyguardEffectViewController( 4481): *** don't update sliding image ***
+D/DateView( 4481): regionalDateFormat = 11/22/3333 isRTLlanguage = false returnDateFormat = E, MMMM d
+D/DateView( 4481): regionalDateFormat = 11/22/3333 isRTLlanguage = false returnDateFormat = E, MMMM d
+D/CustomFrequencyManagerService( 4312): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1900000  uid : 1000  pid : 4312  pkgName : LAUNCHER_APP_BOOSTER_CPU@11078
+V/BitmapFactory( 4790): DecodeImagePath(decodeResourceStream3) : res/drawable-xxhdpi-v4/easy_clock_8.png
+D/accuweather( 5654): [KK AccuPhone]>>> WCS:144 [0:0] action : androidintentactionTIME_TICK
+D/accuweather( 5654): [KK AccuPhone]>>> UIM:40 [0:0] getInstance
+D/accuweather( 5654): [KK AccuPhone]>>> UIM:85 [0:0] direct update clock
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/CustomFrequencyManagerService( 4312): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1900000  uid : 1000  pid : 4312  tag : LAUNCHER_APP_BOOSTER_CPU@11078
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/SSRM:m  ( 4312): SIOP:: AP = 290, PST = 303, CUR = 500
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+E/Watchdog( 4312): !@Sync 1466
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+V/AlarmManager( 4312): waitForAlarm result :4
+I/Finsky  (29425): [1877] com.google.android.finsky.c.e.run(1154): Replicating app states via AMAS.
+D/BatteryService( 4312): !@BatteryListener : batteryPropertiesChanged!
+D/BatteryService( 4312): level:55, scale:100, status:3, health:6, present:false, voltage: 3750, temperature: 245, technology: Li-ion, AC powered:false, USB powered:false, Wireless powered:false, icon:17303729, invalid charger:0
+D/BatteryService( 4312): online:1, current avg:500, charge type:0, power sharing:false, high voltage charger:false, capacity:280000
+D/BatteryService( 4312): Sending ACTION_BATTERY_CHANGED.
+D/MotionRecognitionService( 4312):   mReceiver.onReceive : ACTION_BATTERY_CHANGED
+I/MotionRecognitionService( 4312): Unplugged
+D/KeyguardUpdateMonitor( 4481): received broadcast android.intent.action.BATTERY_CHANGED
+D/KeyguardUpdateMonitor( 4481): handleBatteryUpdate
+D/STATUSBAR-PhoneStatusBar( 4481):  mBrightnessEnablebySettings = true mBrightnessEnablebyBattery = true mBrightnessEnablebyDisableFlag = true mPmsBrightnessEnablebySettings = true
+D/BatteryMeterView( 4481): ACTION_BATTERY_CHANGED : level:55 status:3 health:6
+D/BatteryMeterView( 4481): ACTION_BATTERY_CHANGED : level:55 status:3 health:6
+D/BatteryMeterView( 4481): ACTION_BATTERY_CHANGED : level:55 status:3 health:6
+E/Auth    ( 5280): [GoogleAccountDataServiceImpl] getToken() -> BAD_AUTHENTICATION. Account: <ELLIDED:-277312928>, App: com.android.vending, Service: androidsecure
+E/Auth    ( 5280): dgz: Long live credential not available.
+E/Auth    ( 5280): 	at dha.a(:com.google.android.gms:3101)
+E/Auth    ( 5280): 	at dfo.a(:com.google.android.gms:399)
+E/Auth    ( 5280): 	at dfn.a(:com.google.android.gms:31371)
+E/Auth    ( 5280): 	at dfn.a(:com.google.android.gms:313)
+E/Auth    ( 5280): 	at ehc.a(:com.google.android.gms:1201)
+E/Auth    ( 5280): 	at eha.a(:com.google.android.gms:3554)
+E/Auth    ( 5280): 	at eha.a(:com.google.android.gms:3196)
+E/Auth    ( 5280): 	at dcb.a(:com.google.android.gms:349)
+E/Auth    ( 5280): 	at dcb.a(:com.google.android.gms:213)
+E/Auth    ( 5280): 	at dck.a(:com.google.android.gms:1501)
+E/Auth    ( 5280): 	at dcj.a(:com.google.android.gms:914)
+E/Auth    ( 5280): 	at dcj.e(:com.google.android.gms:526)
+E/Auth    ( 5280): 	at dci.a(:com.google.android.gms:37)
+E/Auth    ( 5280): 	at ddv.getAuthToken(:com.google.android.gms:181)
+E/Auth    ( 5280): 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:196)
+E/Auth    ( 5280): 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:113)
+E/Auth    ( 5280): 	at android.os.Binder.execTransact(Binder.java:446)
+W/Auth    ( 5280): [GoogleAuthUtil] GoogleAuthUtil
+W/GLSActivity( 5280): dcz: BadAuthentication
+W/GLSActivity( 5280): 	at dck.a(:com.google.android.gms:1518)
+W/GLSActivity( 5280): 	at dcj.a(:com.google.android.gms:914)
+W/GLSActivity( 5280): 	at dcj.e(:com.google.android.gms:526)
+W/GLSActivity( 5280): 	at dci.a(:com.google.android.gms:37)
+W/GLSActivity( 5280): 	at ddv.getAuthToken(:com.google.android.gms:181)
+W/GLSActivity( 5280): 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:196)
+W/GLSActivity( 5280): 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:113)
+W/GLSActivity( 5280): 	at android.os.Binder.execTransact(Binder.java:446)
+I/Finsky  (29425): [1] com.google.android.finsky.c.c.a(316): Completed 1 account content syncs with 0 successful.
+I/Finsky  (29425): [1] com.google.android.finsky.services.j.a(156): Installation state replication failed.
+I/Finsky  (29425): [1] com.google.android.finsky.services.j.a(162): Scheduling replication attempt 3.
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/SSRM:m  ( 4312): SIOP:: AP = 280, PST = 301, CUR = 500
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/SSRM:m  ( 4312): SIOP:: AP = 280, PST = 300, CUR = 500
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+V/AlarmManager( 4312): waitForAlarm result :4
+I/Finsky  (29425): [1877] com.google.android.finsky.c.e.run(1154): Replicating app states via AMAS.
+E/Auth    ( 5280): [GoogleAccountDataServiceImpl] getToken() -> BAD_AUTHENTICATION. Account: <ELLIDED:-277312928>, App: com.android.vending, Service: androidsecure
+E/Auth    ( 5280): dgz: Long live credential not available.
+E/Auth    ( 5280): 	at dha.a(:com.google.android.gms:3101)
+E/Auth    ( 5280): 	at dfo.a(:com.google.android.gms:399)
+E/Auth    ( 5280): 	at dfn.a(:com.google.android.gms:31371)
+E/Auth    ( 5280): 	at dfn.a(:com.google.android.gms:313)
+E/Auth    ( 5280): 	at ehc.a(:com.google.android.gms:1201)
+E/Auth    ( 5280): 	at eha.a(:com.google.android.gms:3554)
+E/Auth    ( 5280): 	at eha.a(:com.google.android.gms:3196)
+E/Auth    ( 5280): 	at dcb.a(:com.google.android.gms:349)
+E/Auth    ( 5280): 	at dcb.a(:com.google.android.gms:213)
+E/Auth    ( 5280): 	at dck.a(:com.google.android.gms:1501)
+E/Auth    ( 5280): 	at dcj.a(:com.google.android.gms:914)
+E/Auth    ( 5280): 	at dcj.e(:com.google.android.gms:526)
+E/Auth    ( 5280): 	at dci.a(:com.google.android.gms:37)
+E/Auth    ( 5280): 	at ddv.getAuthToken(:com.google.android.gms:181)
+E/Auth    ( 5280): 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:196)
+E/Auth    ( 5280): 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:113)
+E/Auth    ( 5280): 	at android.os.Binder.execTransact(Binder.java:446)
+W/Auth    ( 5280): [GoogleAuthUtil] GoogleAuthUtil
+W/GLSActivity( 5280): dcz: BadAuthentication
+W/GLSActivity( 5280): 	at dck.a(:com.google.android.gms:1518)
+W/GLSActivity( 5280): 	at dcj.a(:com.google.android.gms:914)
+W/GLSActivity( 5280): 	at dcj.e(:com.google.android.gms:526)
+W/GLSActivity( 5280): 	at dci.a(:com.google.android.gms:37)
+W/GLSActivity( 5280): 	at ddv.getAuthToken(:com.google.android.gms:181)
+W/GLSActivity( 5280): 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:196)
+W/GLSActivity( 5280): 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:113)
+W/GLSActivity( 5280): 	at android.os.Binder.execTransact(Binder.java:446)
+I/Finsky  (29425): [1] com.google.android.finsky.c.c.a(316): Completed 1 account content syncs with 0 successful.
+I/Finsky  (29425): [1] com.google.android.finsky.services.j.a(156): Installation state replication failed.
+I/Finsky  (29425): [1] com.google.android.finsky.services.j.a(162): Scheduling replication attempt 4.
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/SSRM:m  ( 4312): SIOP:: AP = 280, PST = 300, CUR = 500
+I/PlayCommon(29425): [1874] com.google.android.play.a.l.e(787): Preparing logs for uploading
+D/ConnectivityService( 4312): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+E/Auth    ( 5280): [GoogleAccountDataServiceImpl] getToken() -> BAD_AUTHENTICATION. Account: <ELLIDED:-277312928>, App: com.android.vending, Service: androidmarket
+E/Auth    ( 5280): dgz: Long live credential not available.
+E/Auth    ( 5280): 	at dha.a(:com.google.android.gms:3101)
+E/Auth    ( 5280): 	at dfo.a(:com.google.android.gms:399)
+E/Auth    ( 5280): 	at dfn.a(:com.google.android.gms:31371)
+E/Auth    ( 5280): 	at dfn.a(:com.google.android.gms:313)
+E/Auth    ( 5280): 	at ehc.a(:com.google.android.gms:1201)
+E/Auth    ( 5280): 	at eha.a(:com.google.android.gms:3554)
+E/Auth    ( 5280): 	at eha.a(:com.google.android.gms:3196)
+E/Auth    ( 5280): 	at dcb.a(:com.google.android.gms:349)
+E/Auth    ( 5280): 	at dcb.a(:com.google.android.gms:213)
+E/Auth    ( 5280): 	at dck.a(:com.google.android.gms:1501)
+E/Auth    ( 5280): 	at dcj.a(:com.google.android.gms:914)
+E/Auth    ( 5280): 	at dcj.e(:com.google.android.gms:526)
+E/Auth    ( 5280): 	at dci.a(:com.google.android.gms:37)
+E/Auth    ( 5280): 	at ddv.getAuthToken(:com.google.android.gms:181)
+E/Auth    ( 5280): 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:196)
+E/Auth    ( 5280): 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:113)
+E/Auth    ( 5280): 	at android.os.Binder.execTransact(Binder.java:446)
+W/Auth    ( 5280): [GoogleAuthUtil] GoogleAuthUtil
+W/GLSActivity( 5280): dcz: BadAuthentication
+W/GLSActivity( 5280): 	at dck.a(:com.google.android.gms:1518)
+W/GLSActivity( 5280): 	at dcj.a(:com.google.android.gms:914)
+W/GLSActivity( 5280): 	at dcj.e(:com.google.android.gms:526)
+W/GLSActivity( 5280): 	at dci.a(:com.google.android.gms:37)
+W/GLSActivity( 5280): 	at ddv.getAuthToken(:com.google.android.gms:181)
+W/GLSActivity( 5280): 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:196)
+W/GLSActivity( 5280): 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:113)
+W/GLSActivity( 5280): 	at android.os.Binder.execTransact(Binder.java:446)
+W/PlayCommon(29425): [1874] com.google.android.play.a.l.a(910): Deferring log upload because couldn't retrieve auth token
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+I/PlayCommon(29425): [1889] com.google.android.play.a.l.e(787): Preparing logs for uploading
+I/PlayCommon(29425): [1889] com.google.android.play.a.l.e(789): No file ready to send
+E/Watchdog( 4312): !@Sync 1467
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/BatteryService( 4312): !@BatteryListener : batteryPropertiesChanged!
+D/BatteryService( 4312): level:54, scale:100, status:3, health:6, present:false, voltage: 3766, temperature: 246, technology: Li-ion, AC powered:false, USB powered:false, Wireless powered:false, icon:17303729, invalid charger:0
+D/BatteryService( 4312): online:1, current avg:500, charge type:0, power sharing:false, high voltage charger:false, capacity:280000
+D/BatteryService( 4312): Sending ACTION_BATTERY_CHANGED.
+D/KeyguardUpdateMonitor( 4481): received broadcast android.intent.action.BATTERY_CHANGED
+D/KeyguardUpdateMonitor( 4481): handleBatteryUpdate
+D/MotionRecognitionService( 4312):   mReceiver.onReceive : ACTION_BATTERY_CHANGED
+I/MotionRecognitionService( 4312): Unplugged
+D/STATUSBAR-PhoneStatusBar( 4481):  mBrightnessEnablebySettings = true mBrightnessEnablebyBattery = true mBrightnessEnablebyDisableFlag = true mPmsBrightnessEnablebySettings = true
+D/ConnectivityService( 4312): returning getNetworkInfo(networkType - 1) :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+D/BatteryMeterView( 4481): ACTION_BATTERY_CHANGED : level:54 status:3 health:6
+D/BatteryMeterView( 4481): ACTION_BATTERY_CHANGED : level:54 status:3 health:6
+D/BatteryMeterView( 4481): ACTION_BATTERY_CHANGED : level:54 status:3 health:6
+D/BatteryMeterView( 4481): onDraw batteryColor : -1
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/ConnectivityService( 4312): returning getNetworkInfo(networkType - 1) :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+D/ConnectivityService( 4312): returning getNetworkInfo(networkType - 1) :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+D/SSRM:m  ( 4312): SIOP:: AP = 270, PST = 299, CUR = 500
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen
+D/StatusBar.NetworkController( 4481): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4481): applyOpen

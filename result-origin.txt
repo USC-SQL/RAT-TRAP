@@ -1,0 +1,68 @@
+-----------Relevant bytecode in section 4.2 and section 6.5-----------
+CCG prune out in average:97.67298279535343%
+Relevant Bytecode larger than App69:1.7488076311605723%
+
+-----------Results in section 6.2-----------
+Distribution of bytecode in program 0-10000,10000-100000, 100000-inf:14%,54%,31%
+
+-----------Results in section 6.3-----------
+Total num of apps:1887
+Total num of apps with db operations:1015
+Total num of apps with ARAT:206
+Percentage of apps with ARAT over all apps:10.91679915209327%
+Percentage of apps with ARAT over apps with db operations:20.295566502463053%
+Num of ARAT:5353   after excluding outlier:1133
+Average number of ARAT:5.5268292682926825
+Median number of ARAT:2
+ARAT with loop related to locks:120 Percentage:10.59135039717564%
+Percentage of in-scope RATs that may cause deadlock:10.505529225908374%
+Call path length between db operation and loop header:{0=635, 1=401, 2=70, 3=25, 4=2}
+AHP with call path length >=1:43.95410414827891%
+Average call path length between db operation and call graph entry:3.293909973521624
+Max call path length between db operation and call graph entry:12
+
+-----------Results in section 6.4-----------
+See the PeformanceEvaluation.ods
+
+-----------Results in section 6.5-----------
+/App69/ban.card.payanywhere.apk
+Soot:45.78373333333333s
+Analysis:50.99273333333333s
+Rewrite:0.06286666666666667s
+Total:96.83933333333333s
+
+/App180/com.a1.quiz.asvab.free.apk
+Soot:22.543066666666665s
+Analysis:0.5354s
+Rewrite:0.05493333333333333s
+Total:23.1334s
+
+/App219/com.abto.manicure.apk
+Soot:28.403066666666664s
+Analysis:0.4570666666666667s
+Rewrite:0.03906666666666667s
+Total:28.8992s
+
+/App1447/com.dattanlabs.ridechicago.apk
+Soot:15.828466666666667s
+Analysis:2.164733333333333s
+Rewrite:0.0348s
+Total:18.028s
+
+/App802/com.barisefe.technews.apk
+Soot:23.233733333333333s
+Analysis:1.2632s
+Rewrite:0.03813333333333333s
+Total:24.535066666666665s
+
+/App567/com.appekapps.cata.apk
+Soot:25.576400000000003s
+Analysis:0.7011333333333333s
+Rewrite:0.04746666666666667s
+Total:26.325s
+
+Min Total:18s
+Max Total:96s
+Median Total:25s
+Average Total:36s
+Average Percentage of time spent on Soot:87%

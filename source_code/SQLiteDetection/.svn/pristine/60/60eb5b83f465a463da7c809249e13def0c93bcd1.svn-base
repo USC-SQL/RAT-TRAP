@@ -1,0 +1,23 @@
+Need to verify:true begin method@[<de.greenrobot.dao.query.DeleteQuery: void executeDeleteWithoutDetachingEntities()>] lock method@[]
+
+  public void executeDeleteWithoutDetachingEntities()
+  {
+    checkThread();
+    SQLiteDatabase localSQLiteDatabase = this.dao.getDatabase();
+    if (localSQLiteDatabase.isDbLockedByCurrentThread())
+    {
+      executeDeleteWithoutDetachingEntitiesInsideTx();
+      return;
+    }
+    localSQLiteDatabase.beginTransaction();
+    try
+    {
+      executeDeleteWithoutDetachingEntitiesInsideTx();
+      localSQLiteDatabase.setTransactionSuccessful();
+      return;
+    }
+    finally
+    {
+      localSQLiteDatabase.endTransaction();
+    }
+  }

@@ -1,0 +1,440 @@
+--------- beginning of main
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+--------- beginning of system
+E/Watchdog( 4314): !@Sync 456
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/BatteryService( 4314): !@BatteryListener : batteryPropertiesChanged!
+D/BatteryService( 4314): level:13, scale:100, status:3, health:6, present:false, voltage: 3732, temperature: 306, technology: Li-ion, AC powered:false, USB powered:false, Wireless powered:false, icon:17303729, invalid charger:0
+D/BatteryService( 4314): online:1, current avg:500, charge type:0, power sharing:false, high voltage charger:false, capacity:280000
+D/BatteryService( 4314): Sending ACTION_BATTERY_CHANGED.
+D/MotionRecognitionService( 4314):   mReceiver.onReceive : ACTION_BATTERY_CHANGED
+I/MotionRecognitionService( 4314): Unplugged
+D/KeyguardUpdateMonitor( 4530): received broadcast android.intent.action.BATTERY_CHANGED
+D/KeyguardUpdateMonitor( 4530): handleBatteryUpdate
+D/STATUSBAR-PhoneStatusBar( 4530):  mBrightnessEnablebySettings = true mBrightnessEnablebyBattery = true mBrightnessEnablebyDisableFlag = true mPmsBrightnessEnablebySettings = true
+D/BatteryMeterView( 4530): ACTION_BATTERY_CHANGED : level:13 status:3 health:6
+D/BatteryMeterView( 4530): ACTION_BATTERY_CHANGED : level:13 status:3 health:6
+D/BatteryMeterView( 4530): ACTION_BATTERY_CHANGED : level:13 status:3 health:6
+D/InputReader( 4314): Input event: value=1
+I/InputReader( 4314): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.951 ] when=13704104411000
+I/InputDispatcher( 4314): Delivering touch to (4530): action: 0x4, toolType: 1
+I/InputDispatcher( 4314): Delivering touch to (29275): action: 0x0, toolType: 1
+D/ViewRootImpl(29275): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4314): Input event: value=0
+I/InputReader( 4314): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=13704226527000
+I/InputDispatcher( 4314): Delivering touch to (29275): action: 0x1, toolType: 1
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/SSRM:m  ( 4314): SIOP:: AP = 340, PST = 339, CUR = 500
+D/InputReader( 4314): Input event: value=1
+I/InputReader( 4314): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.952 ] when=13707260659000
+I/InputDispatcher( 4314): Delivering touch to (4530): action: 0x4, toolType: 1
+I/InputDispatcher( 4314): Delivering touch to (29275): action: 0x0, toolType: 1
+D/ViewRootImpl(29275): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4314): Input event: value=0
+I/InputReader( 4314): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=13707338609000
+I/InputDispatcher( 4314): Delivering touch to (29275): action: 0x1, toolType: 1
+I/System.out(29275): StartAction1456101282159
+I/System.out(29275): StartLoop1456101282188
+I/System.out(29275): EndLoop1456101282228
+I/System.out(29275): EndAction1456101282249
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/SSRM:m  ( 4314): SIOP:: AP = 340, PST = 339, CUR = 500
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/InputReader( 4314): Input event: value=1
+I/InputReader( 4314): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.951 ] when=13717720008000
+I/InputDispatcher( 4314): Delivering touch to (4530): action: 0x4, toolType: 1
+I/InputDispatcher( 4314): Delivering touch to (29275): action: 0x0, toolType: 1
+D/ViewRootImpl(29275): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4314): Input event: value=0
+I/InputReader( 4314): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=13717842210000
+I/InputDispatcher( 4314): Delivering touch to (29275): action: 0x1, toolType: 1
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/InputReader( 4314): Input event: value=1
+I/InputReader( 4314): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.952 ] when=13720876198000
+I/InputDispatcher( 4314): Delivering touch to (4530): action: 0x4, toolType: 1
+I/InputDispatcher( 4314): Delivering touch to (29275): action: 0x0, toolType: 1
+D/ViewRootImpl(29275): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4314): Input event: value=0
+I/InputReader( 4314): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=13720949031000
+I/InputDispatcher( 4314): Delivering touch to (29275): action: 0x1, toolType: 1
+I/System.out(29275): StartAction1456101295768
+I/System.out(29275): StartLoop1456101295800
+I/System.out(29275): EndLoop1456101295843
+I/System.out(29275): EndAction1456101295876
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+V/AlarmManager( 4314): waitForAlarm result :8
+D/KeyguardUpdateMonitor( 4530): received broadcast android.intent.action.TIME_TICK
+D/KeyguardUpdateMonitor( 4530): handleTimeUpdate
+D/KeyguardEffectViewController( 4530): onReceive action : android.intent.action.TIME_TICK
+I/KeyguardEffectViewController( 4530): *** don't update sliding image ***
+D/DateView( 4530): regionalDateFormat = 11/22/3333 isRTLlanguage = false returnDateFormat = E, MMMM d
+D/DateView( 4530): regionalDateFormat = 11/22/3333 isRTLlanguage = false returnDateFormat = E, MMMM d
+D/CustomFrequencyManagerService( 4314): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1900000  uid : 1000  pid : 4314  pkgName : LAUNCHER_APP_BOOSTER_CPU@1700
+D/accuweather( 5773): [KK AccuPhone]>>> WCS:144 [0:0] action : androidintentactionTIME_TICK
+D/accuweather( 5773): [KK AccuPhone]>>> UIM:40 [0:0] getInstance
+D/accuweather( 5773): [KK AccuPhone]>>> UIM:85 [0:0] direct update clock
+D/CustomFrequencyManagerService( 4314): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1900000  uid : 1000  pid : 4314  tag : LAUNCHER_APP_BOOSTER_CPU@1700
+D/SSRM:m  ( 4314): SIOP:: AP = 340, PST = 339, CUR = 500
+E/Watchdog( 4314): !@Sync 457
+D/InputReader( 4314): Input event: value=1
+I/InputReader( 4314): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.951 ] when=13731439300000
+I/InputDispatcher( 4314): Delivering touch to (4530): action: 0x4, toolType: 1
+I/InputDispatcher( 4314): Delivering touch to (29275): action: 0x0, toolType: 1
+D/ViewRootImpl(29275): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4314): Input event: value=0
+I/InputReader( 4314): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=13731560771000
+I/InputDispatcher( 4314): Delivering touch to (29275): action: 0x1, toolType: 1
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/BatteryService( 4314): !@BatteryListener : batteryPropertiesChanged!
+D/BatteryService( 4314): level:13, scale:100, status:3, health:6, present:false, voltage: 3738, temperature: 306, technology: Li-ion, AC powered:false, USB powered:false, Wireless powered:false, icon:17303729, invalid charger:0
+D/BatteryService( 4314): online:1, current avg:500, charge type:0, power sharing:false, high voltage charger:false, capacity:280000
+D/BatteryService( 4314): Sending ACTION_BATTERY_CHANGED.
+D/KeyguardUpdateMonitor( 4530): received broadcast android.intent.action.BATTERY_CHANGED
+D/KeyguardUpdateMonitor( 4530): handleBatteryUpdate
+D/MotionRecognitionService( 4314):   mReceiver.onReceive : ACTION_BATTERY_CHANGED
+I/MotionRecognitionService( 4314): Unplugged
+D/STATUSBAR-PhoneStatusBar( 4530):  mBrightnessEnablebySettings = true mBrightnessEnablebyBattery = true mBrightnessEnablebyDisableFlag = true mPmsBrightnessEnablebySettings = true
+D/BatteryMeterView( 4530): ACTION_BATTERY_CHANGED : level:13 status:3 health:6
+D/BatteryMeterView( 4530): ACTION_BATTERY_CHANGED : level:13 status:3 health:6
+D/BatteryMeterView( 4530): ACTION_BATTERY_CHANGED : level:13 status:3 health:6
+D/InputReader( 4314): Input event: value=1
+I/InputReader( 4314): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.952 ] when=13734594792000
+I/InputDispatcher( 4314): Delivering touch to (4530): action: 0x4, toolType: 1
+I/InputDispatcher( 4314): Delivering touch to (29275): action: 0x0, toolType: 1
+D/ViewRootImpl(29275): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4314): Input event: value=0
+I/InputReader( 4314): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=13734669072000
+I/InputDispatcher( 4314): Delivering touch to (29275): action: 0x1, toolType: 1
+I/System.out(29275): StartAction1456101309489
+I/System.out(29275): StartLoop1456101309515
+I/System.out(29275): EndLoop1456101309551
+I/System.out(29275): EndAction1456101309568
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/SSRM:m  ( 4314): SIOP:: AP = 340, PST = 339, CUR = 500
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/InputReader( 4314): Input event: value=1
+I/InputReader( 4314): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.951 ] when=13744851544000
+I/InputDispatcher( 4314): Delivering touch to (4530): action: 0x4, toolType: 1
+I/InputDispatcher( 4314): Delivering touch to (29275): action: 0x0, toolType: 1
+D/ViewRootImpl(29275): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4314): Input event: value=0
+I/InputReader( 4314): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=13744972388000
+I/InputDispatcher( 4314): Delivering touch to (29275): action: 0x1, toolType: 1
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/SSRM:m  ( 4314): SIOP:: AP = 340, PST = 339, CUR = 500
+D/InputReader( 4314): Input event: value=1
+I/InputReader( 4314): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.952 ] when=13748006233000
+I/InputDispatcher( 4314): Delivering touch to (4530): action: 0x4, toolType: 1
+I/InputDispatcher( 4314): Delivering touch to (29275): action: 0x0, toolType: 1
+D/ViewRootImpl(29275): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4314): Input event: value=0
+I/InputReader( 4314): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=13748082342000
+I/InputDispatcher( 4314): Delivering touch to (29275): action: 0x1, toolType: 1
+I/System.out(29275): StartAction1456101322900
+I/System.out(29275): StartLoop1456101322918
+I/System.out(29275): EndLoop1456101322954
+I/System.out(29275): EndAction1456101322972
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/SSRM:m  ( 4314): SIOP:: AP = 340, PST = 339, CUR = 500
+D/InputReader( 4314): Input event: value=1
+I/InputReader( 4314): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.951 ] when=13758254847000
+I/InputDispatcher( 4314): Delivering touch to (4530): action: 0x4, toolType: 1
+I/InputDispatcher( 4314): Delivering touch to (29275): action: 0x0, toolType: 1
+D/ViewRootImpl(29275): ViewPostImeInputStage ACTION_DOWN
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/InputReader( 4314): Input event: value=0
+I/InputReader( 4314): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=13758379466000
+I/InputDispatcher( 4314): Delivering touch to (29275): action: 0x1, toolType: 1
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+E/Watchdog( 4314): !@Sync 458
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/InputReader( 4314): Input event: value=1
+I/InputReader( 4314): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.952 ] when=13761412980000
+I/InputDispatcher( 4314): Delivering touch to (4530): action: 0x4, toolType: 1
+I/InputDispatcher( 4314): Delivering touch to (29275): action: 0x0, toolType: 1
+D/ViewRootImpl(29275): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4314): Input event: value=0
+I/InputReader( 4314): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=13761485170000
+I/InputDispatcher( 4314): Delivering touch to (29275): action: 0x1, toolType: 1
+I/System.out(29275): StartAction1456101336308
+I/System.out(29275): StartLoop1456101336335
+I/System.out(29275): EndLoop1456101336393
+I/System.out(29275): EndAction1456101336423
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/BatteryService( 4314): !@BatteryListener : batteryPropertiesChanged!
+D/BatteryService( 4314): level:13, scale:100, status:3, health:6, present:false, voltage: 3701, temperature: 306, technology: Li-ion, AC powered:false, USB powered:false, Wireless powered:false, icon:17303729, invalid charger:0
+D/BatteryService( 4314): online:1, current avg:500, charge type:0, power sharing:false, high voltage charger:false, capacity:280000
+D/BatteryService( 4314): Sending ACTION_BATTERY_CHANGED.
+D/MotionRecognitionService( 4314):   mReceiver.onReceive : ACTION_BATTERY_CHANGED
+I/MotionRecognitionService( 4314): Unplugged
+D/KeyguardUpdateMonitor( 4530): received broadcast android.intent.action.BATTERY_CHANGED
+D/KeyguardUpdateMonitor( 4530): handleBatteryUpdate
+D/STATUSBAR-PhoneStatusBar( 4530):  mBrightnessEnablebySettings = true mBrightnessEnablebyBattery = true mBrightnessEnablebyDisableFlag = true mPmsBrightnessEnablebySettings = true
+D/BatteryMeterView( 4530): ACTION_BATTERY_CHANGED : level:13 status:3 health:6
+D/BatteryMeterView( 4530): ACTION_BATTERY_CHANGED : level:13 status:3 health:6
+D/BatteryMeterView( 4530): ACTION_BATTERY_CHANGED : level:13 status:3 health:6
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/SSRM:m  ( 4314): SIOP:: AP = 340, PST = 339, CUR = 500
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen

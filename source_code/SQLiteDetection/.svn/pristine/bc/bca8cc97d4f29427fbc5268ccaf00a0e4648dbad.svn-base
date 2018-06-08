@@ -1,0 +1,239 @@
+Need to verify:true begin method@[<com.eightd.android.spotcycle.sdn.db.SpotRoutesDAO: void finalizeRoute(com.eightd.android.spotcycle.sdn.model.SpotRoute)>, <com.eightd.android.spotcycle.sdn.db.SpotRoutesDAO: void updateRoutePointsAndMetrics(com.eightd.android.spotcycle.sdn.model.SpotRoute,int)>, <com.eightd.android.spotcycle.db.V14ToV15DBUpgrader: void convertGroupsAndFavoritesTable()>] lock method@[]
+
+<com.eightd.android.spotcycle.sdn.db.SpotRoutesDAO: void finalizeRoute(com.eightd.android.spotcycle.sdn.model.SpotRoute)>
+  public void finalizeRoute(SpotRoute paramSpotRoute)
+    throws SpotException
+  {
+    // Byte code:
+    //   0: aload_1
+    //   1: monitorenter
+    //   2: aload_0
+    //   3: getfield 23	com/eightd/android/spotcycle/sdn/db/SpotRoutesDAO:mDb	Landroid/database/sqlite/SQLiteDatabase;
+    //   6: invokevirtual 153	android/database/sqlite/SQLiteDatabase:beginTransaction	()V
+    //   9: aload_1
+    //   10: invokevirtual 268	com/eightd/android/spotcycle/sdn/model/SpotRoute:getId	()Ljava/lang/String;
+    //   13: ifnonnull +111 -> 124
+    //   16: getstatic 244	com/eightd/android/spotcycle/sdn/model/SyncState:AddPending	Lcom/eightd/android/spotcycle/sdn/model/SyncState;
+    //   19: astore 5
+    //   21: aload_1
+    //   22: invokevirtual 272	com/eightd/android/spotcycle/sdn/model/SpotRoute:getMetrics	()Lcom/eightd/android/spotcycle/sdn/model/SpotRoute$Metrics;
+    //   25: astore 6
+    //   27: aload_0
+    //   28: getfield 29	com/eightd/android/spotcycle/sdn/db/SpotRoutesDAO:mRoutesTable	Lcom/eightd/android/spotcycle/sdn/db/SpotRoutesTable;
+    //   31: aload_1
+    //   32: invokevirtual 218	com/eightd/android/spotcycle/sdn/model/SpotRoute:getLocalId	()J
+    //   35: aload 6
+    //   37: getfield 278	com/eightd/android/spotcycle/sdn/model/SpotRoute$Metrics:mAverageSpeed	F
+    //   40: aload 6
+    //   42: getfield 282	com/eightd/android/spotcycle/sdn/model/SpotRoute$Metrics:mElapsedTime	J
+    //   45: l2i
+    //   46: sipush 1000
+    //   49: idiv
+    //   50: aload 6
+    //   52: getfield 286	com/eightd/android/spotcycle/sdn/model/SpotRoute$Metrics:mTotalDistance	I
+    //   55: aload 5
+    //   57: iconst_1
+    //   58: invokevirtual 290	com/eightd/android/spotcycle/sdn/db/SpotRoutesTable:_updateMetrics	(JFIILcom/eightd/android/spotcycle/sdn/model/SyncState;Z)J
+    //   61: lstore 7
+    //   63: aload_0
+    //   64: getfield 34	com/eightd/android/spotcycle/sdn/db/SpotRoutesDAO:mRoutePointsTable	Lcom/eightd/android/spotcycle/sdn/db/SpotRoutePointsTable;
+    //   67: aload_1
+    //   68: invokevirtual 218	com/eightd/android/spotcycle/sdn/model/SpotRoute:getLocalId	()J
+    //   71: aload_1
+    //   72: invokevirtual 168	com/eightd/android/spotcycle/sdn/model/SpotRoute:getSegments	()Ljava/util/List;
+    //   75: aload_1
+    //   76: invokevirtual 172	com/eightd/android/spotcycle/sdn/model/SpotRoute:getMinLatitude	()I
+    //   79: aload_1
+    //   80: invokevirtual 175	com/eightd/android/spotcycle/sdn/model/SpotRoute:getMaxLatitude	()I
+    //   83: aload_1
+    //   84: invokevirtual 178	com/eightd/android/spotcycle/sdn/model/SpotRoute:getMinLongitude	()I
+    //   87: aload_1
+    //   88: invokevirtual 181	com/eightd/android/spotcycle/sdn/model/SpotRoute:getMaxLongitude	()I
+    //   91: invokevirtual 221	com/eightd/android/spotcycle/sdn/db/SpotRoutePointsTable:_updateByLocalId	(JLjava/util/List;IIII)V
+    //   94: aload_0
+    //   95: getfield 49	com/eightd/android/spotcycle/sdn/db/SpotRoutesDAO:mRouteTmpPointsTable	Lcom/eightd/android/spotcycle/sdn/db/SpotRouteTmpPointsTable;
+    //   98: invokevirtual 247	com/eightd/android/spotcycle/sdn/db/SpotRouteTmpPointsTable:clear	()V
+    //   101: aload_0
+    //   102: getfield 23	com/eightd/android/spotcycle/sdn/db/SpotRoutesDAO:mDb	Landroid/database/sqlite/SQLiteDatabase;
+    //   105: invokevirtual 193	android/database/sqlite/SQLiteDatabase:setTransactionSuccessful	()V
+    //   108: aload_0
+    //   109: getfield 23	com/eightd/android/spotcycle/sdn/db/SpotRoutesDAO:mDb	Landroid/database/sqlite/SQLiteDatabase;
+    //   112: invokevirtual 196	android/database/sqlite/SQLiteDatabase:endTransaction	()V
+    //   115: aload_1
+    //   116: lload 7
+    //   118: invokevirtual 208	com/eightd/android/spotcycle/sdn/model/SpotRoute:setLastUpdateDate	(J)V
+    //   121: aload_1
+    //   122: monitorexit
+    //   123: return
+    //   124: getstatic 293	com/eightd/android/spotcycle/sdn/model/SyncState:UpdatePending	Lcom/eightd/android/spotcycle/sdn/model/SyncState;
+    //   127: astore 5
+    //   129: goto -108 -> 21
+    //   132: astore 4
+    //   134: ldc_w 295
+    //   137: aload 4
+    //   139: invokestatic 204	com/eightd/android/spotcycle/SpotLogger:e	(Ljava/lang/String;Ljava/lang/Throwable;)V
+    //   142: new 143	com/eightd/android/spotcycle/SpotException
+    //   145: dup
+    //   146: aload 4
+    //   148: ldc 230
+    //   150: invokespecial 212	com/eightd/android/spotcycle/SpotException:<init>	(Ljava/lang/Throwable;I)V
+    //   153: athrow
+    //   154: astore_2
+    //   155: aload_0
+    //   156: getfield 23	com/eightd/android/spotcycle/sdn/db/SpotRoutesDAO:mDb	Landroid/database/sqlite/SQLiteDatabase;
+    //   159: invokevirtual 196	android/database/sqlite/SQLiteDatabase:endTransaction	()V
+    //   162: aload_2
+    //   163: athrow
+    //   164: astore_3
+    //   165: aload_1
+    //   166: monitorexit
+    //   167: aload_3
+    //   168: athrow
+    //
+    // Exception table:
+    //   from	to	target	type
+    //   2	21	132	java/lang/Exception
+    //   21	108	132	java/lang/Exception
+    //   124	129	132	java/lang/Exception
+    //   2	21	154	finally
+    //   21	108	154	finally
+    //   124	129	154	finally
+    //   134	154	154	finally
+    //   108	123	164	finally
+    //   155	164	164	finally
+    //   165	167	164	finally
+  }
+
+
+<com.eightd.android.spotcycle.sdn.db.SpotRoutesDAO: void updateRoutePointsAndMetrics(com.eightd.android.spotcycle.sdn.model.SpotRoute,int)>
+  public void updateRoutePointsAndMetrics(SpotRoute paramSpotRoute, int paramInt)
+    throws SpotException
+  {
+    // Byte code:
+    //   0: aload_1
+    //   1: monitorenter
+    //   2: aload_0
+    //   3: getfield 23	com/eightd/android/spotcycle/sdn/db/SpotRoutesDAO:mDb	Landroid/database/sqlite/SQLiteDatabase;
+    //   6: invokevirtual 153	android/database/sqlite/SQLiteDatabase:beginTransaction	()V
+    //   9: aload_1
+    //   10: invokevirtual 268	com/eightd/android/spotcycle/sdn/model/SpotRoute:getId	()Ljava/lang/String;
+    //   13: ifnonnull +128 -> 141
+    //   16: getstatic 244	com/eightd/android/spotcycle/sdn/model/SyncState:AddPending	Lcom/eightd/android/spotcycle/sdn/model/SyncState;
+    //   19: astore 6
+    //   21: aload_1
+    //   22: invokevirtual 272	com/eightd/android/spotcycle/sdn/model/SpotRoute:getMetrics	()Lcom/eightd/android/spotcycle/sdn/model/SpotRoute$Metrics;
+    //   25: astore 7
+    //   27: aload_0
+    //   28: getfield 29	com/eightd/android/spotcycle/sdn/db/SpotRoutesDAO:mRoutesTable	Lcom/eightd/android/spotcycle/sdn/db/SpotRoutesTable;
+    //   31: aload_1
+    //   32: invokevirtual 218	com/eightd/android/spotcycle/sdn/model/SpotRoute:getLocalId	()J
+    //   35: aload 7
+    //   37: getfield 278	com/eightd/android/spotcycle/sdn/model/SpotRoute$Metrics:mAverageSpeed	F
+    //   40: aload 7
+    //   42: getfield 282	com/eightd/android/spotcycle/sdn/model/SpotRoute$Metrics:mElapsedTime	J
+    //   45: l2i
+    //   46: sipush 1000
+    //   49: idiv
+    //   50: aload 7
+    //   52: getfield 286	com/eightd/android/spotcycle/sdn/model/SpotRoute$Metrics:mTotalDistance	I
+    //   55: aload 6
+    //   57: iconst_0
+    //   58: invokevirtual 290	com/eightd/android/spotcycle/sdn/db/SpotRoutesTable:_updateMetrics	(JFIILcom/eightd/android/spotcycle/sdn/model/SyncState;Z)J
+    //   61: lstore 8
+    //   63: aload_1
+    //   64: invokevirtual 168	com/eightd/android/spotcycle/sdn/model/SpotRoute:getSegments	()Ljava/util/List;
+    //   67: invokeinterface 431 1 0
+    //   72: istore 10
+    //   74: aload_1
+    //   75: invokevirtual 435	com/eightd/android/spotcycle/sdn/model/SpotRoute:getLastSegment	()Lcom/eightd/android/spotcycle/sdn/model/SpotRouteSegment;
+    //   78: invokevirtual 438	com/eightd/android/spotcycle/sdn/model/SpotRouteSegment:getPoints	()Ljava/util/List;
+    //   81: astore 11
+    //   83: aload 11
+    //   85: invokeinterface 431 1 0
+    //   90: istore 12
+    //   92: aload 11
+    //   94: iload 12
+    //   96: iload_2
+    //   97: isub
+    //   98: iload 12
+    //   100: invokeinterface 442 3 0
+    //   105: astore 13
+    //   107: aload_0
+    //   108: getfield 49	com/eightd/android/spotcycle/sdn/db/SpotRoutesDAO:mRouteTmpPointsTable	Lcom/eightd/android/spotcycle/sdn/db/SpotRouteTmpPointsTable;
+    //   111: iload 10
+    //   113: aload 13
+    //   115: invokevirtual 445	com/eightd/android/spotcycle/sdn/db/SpotRouteTmpPointsTable:_insert	(ILjava/util/List;)V
+    //   118: aload_0
+    //   119: getfield 23	com/eightd/android/spotcycle/sdn/db/SpotRoutesDAO:mDb	Landroid/database/sqlite/SQLiteDatabase;
+    //   122: invokevirtual 193	android/database/sqlite/SQLiteDatabase:setTransactionSuccessful	()V
+    //   125: aload_0
+    //   126: getfield 23	com/eightd/android/spotcycle/sdn/db/SpotRoutesDAO:mDb	Landroid/database/sqlite/SQLiteDatabase;
+    //   129: invokevirtual 196	android/database/sqlite/SQLiteDatabase:endTransaction	()V
+    //   132: aload_1
+    //   133: lload 8
+    //   135: invokevirtual 208	com/eightd/android/spotcycle/sdn/model/SpotRoute:setLastUpdateDate	(J)V
+    //   138: aload_1
+    //   139: monitorexit
+    //   140: return
+    //   141: getstatic 293	com/eightd/android/spotcycle/sdn/model/SyncState:UpdatePending	Lcom/eightd/android/spotcycle/sdn/model/SyncState;
+    //   144: astore 6
+    //   146: goto -125 -> 21
+    //   149: astore 5
+    //   151: ldc_w 295
+    //   154: aload 5
+    //   156: invokestatic 204	com/eightd/android/spotcycle/SpotLogger:e	(Ljava/lang/String;Ljava/lang/Throwable;)V
+    //   159: new 143	com/eightd/android/spotcycle/SpotException
+    //   162: dup
+    //   163: aload 5
+    //   165: ldc 230
+    //   167: invokespecial 212	com/eightd/android/spotcycle/SpotException:<init>	(Ljava/lang/Throwable;I)V
+    //   170: athrow
+    //   171: astore_3
+    //   172: aload_0
+    //   173: getfield 23	com/eightd/android/spotcycle/sdn/db/SpotRoutesDAO:mDb	Landroid/database/sqlite/SQLiteDatabase;
+    //   176: invokevirtual 196	android/database/sqlite/SQLiteDatabase:endTransaction	()V
+    //   179: aload_3
+    //   180: athrow
+    //   181: astore 4
+    //   183: aload_1
+    //   184: monitorexit
+    //   185: aload 4
+    //   187: athrow
+    //
+    // Exception table:
+    //   from	to	target	type
+    //   2	21	149	java/lang/Exception
+    //   21	125	149	java/lang/Exception
+    //   141	146	149	java/lang/Exception
+    //   2	21	171	finally
+    //   21	125	171	finally
+    //   141	146	171	finally
+    //   151	171	171	finally
+    //   125	140	181	finally
+    //   172	181	181	finally
+    //   183	185	181	finally
+  }
+
+<com.eightd.android.spotcycle.db.V14ToV15DBUpgrader: void convertGroupsAndFavoritesTable()>
+  private void convertGroupsAndFavoritesTable()
+  {
+    try
+    {
+      this.mDb.beginTransaction();
+      this.mDb.execSQL("ALTER TABLE spotfavoritegroups RENAME TO TMP_spotfavoritegroups");
+      this.mDb.execSQL("ALTER TABLE spotfavorites RENAME TO TMP_spotfavorites");
+      this.mDb.execSQL("CREATE TABLE spotfavoritegroups (_id INTEGER PRIMARY KEY AUTOINCREMENT, createDate INTEGER,externalId TEXT,name TEXT,city TEXT,sortIndex INTEGER,lastUpdate INTEGER,syncState INTEGER DEFAULT 0);");
+      this.mDb.execSQL("CREATE TABLE spotfavorites (_id INTEGER PRIMARY KEY AUTOINCREMENT, favGroupId INTEGER, stationId TEXT, sortIndex INTEGER, UNIQUE (favGroupId,stationId), FOREIGN KEY(favGroupId) REFERENCES spotfavoritegroups(_id) ON DELETE CASCADE);");
+      copyGroups();
+      copyFavorites();
+      this.mDb.execSQL("DROP TABLE IF EXISTS TMP_spotfavoritegroups");
+      this.mDb.execSQL("DROP TABLE IF EXISTS TMP_spotfavorites");
+      this.mDb.setTransactionSuccessful();
+      return;
+    }
+    finally
+    {
+      this.mDb.endTransaction();
+    }
+  }
+

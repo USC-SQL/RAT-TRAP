@@ -1,0 +1,47 @@
+Need to verify:true begin method@[<com.bendolman.gc.CatalogDbAdapter$DbHelper: void onCreate(android.database.sqlite.SQLiteDatabase)>] lock method@[]
+
+
+  public void onCreate(SQLiteDatabase paramSQLiteDatabase)
+  {
+    int i = 0;
+    while (true)
+    {
+      BufferedReader localBufferedReader;
+      if (i >= CatalogDbAdapter.access$0().length)
+      {
+        localBufferedReader = new BufferedReader(new InputStreamReader(this.mCtx.getResources().openRawResource(2130968576)));
+        paramSQLiteDatabase.beginTransaction();
+      }
+      try
+      {
+        String str;
+        for (Object localObject2 = localBufferedReader.readLine(); ; localObject2 = str)
+        {
+          if (localObject2 == null)
+          {
+            paramSQLiteDatabase.setTransactionSuccessful();
+            return;
+            paramSQLiteDatabase.execSQL(CatalogDbAdapter.access$0()[i]);
+            i++;
+            break;
+          }
+          paramSQLiteDatabase.execSQL((String)localObject2);
+          str = localBufferedReader.readLine();
+        }
+      }
+      catch (IOException localIOException)
+      {
+        localIOException.printStackTrace();
+        return;
+      }
+      catch (Exception localException)
+      {
+        localException.printStackTrace();
+        return;
+      }
+      finally
+      {
+        paramSQLiteDatabase.endTransaction();
+      }
+    }
+  }

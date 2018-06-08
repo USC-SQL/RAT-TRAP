@@ -1,0 +1,1596 @@
+Need to verify:true begin method@[<com.earthflare.android.medhelper.db.DBAdapter$DatabaseHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>] lock method@[]
+
+  public void onUpgrade(SQLiteDatabase paramSQLiteDatabase, int paramInt1, int paramInt2)
+  {
+    // Byte code:
+    //   0: aload_1
+    //   1: invokevirtual 45	android/database/sqlite/SQLiteDatabase:beginTransaction	()V
+    //   4: iload_3
+    //   5: iconst_1
+    //   6: if_icmple +92 -> 98
+    //   9: iload_2
+    //   10: iconst_2
+    //   11: if_icmpge +87 -> 98
+    //   14: ldc 47
+    //   16: new 49	java/lang/StringBuilder
+    //   19: dup
+    //   20: ldc 51
+    //   22: invokespecial 54	java/lang/StringBuilder:<init>	(Ljava/lang/String;)V
+    //   25: iload_2
+    //   26: invokevirtual 58	java/lang/StringBuilder:append	(I)Ljava/lang/StringBuilder;
+    //   29: ldc 60
+    //   31: invokevirtual 63	java/lang/StringBuilder:append	(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    //   34: iload_3
+    //   35: invokevirtual 58	java/lang/StringBuilder:append	(I)Ljava/lang/StringBuilder;
+    //   38: ldc 65
+    //   40: invokevirtual 63	java/lang/StringBuilder:append	(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    //   43: invokevirtual 69	java/lang/StringBuilder:toString	()Ljava/lang/String;
+    //   46: invokestatic 75	android/util/Log:v	(Ljava/lang/String;Ljava/lang/String;)I
+    //   49: pop
+    //   50: aload_1
+    //   51: ldc 77
+    //   53: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   56: aload_1
+    //   57: ldc 82
+    //   59: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   62: aload_1
+    //   63: ldc 84
+    //   65: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   68: aload_1
+    //   69: ldc 86
+    //   71: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   74: aload_1
+    //   75: ldc 88
+    //   77: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   80: aload_1
+    //   81: ldc 90
+    //   83: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   86: aload_1
+    //   87: ldc 92
+    //   89: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   92: aload_1
+    //   93: ldc 94
+    //   95: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   98: iload_3
+    //   99: iconst_2
+    //   100: if_icmple +104 -> 204
+    //   103: iload_2
+    //   104: iconst_3
+    //   105: if_icmpge +99 -> 204
+    //   108: ldc 47
+    //   110: new 49	java/lang/StringBuilder
+    //   113: dup
+    //   114: ldc 51
+    //   116: invokespecial 54	java/lang/StringBuilder:<init>	(Ljava/lang/String;)V
+    //   119: iload_2
+    //   120: invokevirtual 58	java/lang/StringBuilder:append	(I)Ljava/lang/StringBuilder;
+    //   123: ldc 60
+    //   125: invokevirtual 63	java/lang/StringBuilder:append	(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    //   128: iload_3
+    //   129: invokevirtual 58	java/lang/StringBuilder:append	(I)Ljava/lang/StringBuilder;
+    //   132: ldc 65
+    //   134: invokevirtual 63	java/lang/StringBuilder:append	(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    //   137: invokevirtual 69	java/lang/StringBuilder:toString	()Ljava/lang/String;
+    //   140: invokestatic 75	android/util/Log:v	(Ljava/lang/String;Ljava/lang/String;)I
+    //   143: pop
+    //   144: aload_1
+    //   145: ldc 96
+    //   147: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   150: aload_1
+    //   151: ldc 98
+    //   153: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   156: aload_1
+    //   157: ldc 100
+    //   159: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   162: aload_1
+    //   163: ldc 102
+    //   165: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   168: aload_1
+    //   169: ldc 104
+    //   171: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   174: aload_1
+    //   175: ldc 106
+    //   177: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   180: aload_1
+    //   181: ldc 108
+    //   183: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   186: aload_1
+    //   187: ldc 110
+    //   189: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   192: aload_1
+    //   193: ldc 112
+    //   195: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   198: aload_1
+    //   199: ldc 114
+    //   201: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   204: iload_3
+    //   205: iconst_3
+    //   206: if_icmple +3260 -> 3466
+    //   209: iload_2
+    //   210: iconst_4
+    //   211: if_icmpge +3255 -> 3466
+    //   214: ldc 47
+    //   216: new 49	java/lang/StringBuilder
+    //   219: dup
+    //   220: ldc 51
+    //   222: invokespecial 54	java/lang/StringBuilder:<init>	(Ljava/lang/String;)V
+    //   225: iload_2
+    //   226: invokevirtual 58	java/lang/StringBuilder:append	(I)Ljava/lang/StringBuilder;
+    //   229: ldc 60
+    //   231: invokevirtual 63	java/lang/StringBuilder:append	(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    //   234: iload_3
+    //   235: invokevirtual 58	java/lang/StringBuilder:append	(I)Ljava/lang/StringBuilder;
+    //   238: ldc 65
+    //   240: invokevirtual 63	java/lang/StringBuilder:append	(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    //   243: invokevirtual 69	java/lang/StringBuilder:toString	()Ljava/lang/String;
+    //   246: invokestatic 75	android/util/Log:v	(Ljava/lang/String;Ljava/lang/String;)I
+    //   249: pop
+    //   250: aload_1
+    //   251: ldc 116
+    //   253: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   256: aload_1
+    //   257: ldc 118
+    //   259: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   262: goto +3204 -> 3466
+    //   265: iload_3
+    //   266: iconst_5
+    //   267: if_icmple +15 -> 282
+    //   270: iload_2
+    //   271: bipush 6
+    //   273: if_icmpge +9 -> 282
+    //   276: aload_1
+    //   277: ldc 120
+    //   279: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   282: iload_3
+    //   283: bipush 6
+    //   285: if_icmple +304 -> 589
+    //   288: iload_2
+    //   289: bipush 7
+    //   291: if_icmpge +298 -> 589
+    //   294: ldc 47
+    //   296: new 49	java/lang/StringBuilder
+    //   299: dup
+    //   300: ldc 51
+    //   302: invokespecial 54	java/lang/StringBuilder:<init>	(Ljava/lang/String;)V
+    //   305: iload_2
+    //   306: invokevirtual 58	java/lang/StringBuilder:append	(I)Ljava/lang/StringBuilder;
+    //   309: ldc 60
+    //   311: invokevirtual 63	java/lang/StringBuilder:append	(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    //   314: iload_3
+    //   315: invokevirtual 58	java/lang/StringBuilder:append	(I)Ljava/lang/StringBuilder;
+    //   318: ldc 65
+    //   320: invokevirtual 63	java/lang/StringBuilder:append	(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    //   323: invokevirtual 69	java/lang/StringBuilder:toString	()Ljava/lang/String;
+    //   326: invokestatic 123	android/util/Log:e	(Ljava/lang/String;Ljava/lang/String;)I
+    //   329: pop
+    //   330: invokestatic 129	com/earthflare/android/medhelper/util/Clock:getOffset	()I
+    //   333: istore 39
+    //   335: aload_1
+    //   336: ldc 131
+    //   338: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   341: aload_1
+    //   342: ldc 133
+    //   344: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   347: aload_1
+    //   348: new 49	java/lang/StringBuilder
+    //   351: dup
+    //   352: ldc 135
+    //   354: invokespecial 54	java/lang/StringBuilder:<init>	(Ljava/lang/String;)V
+    //   357: iload 39
+    //   359: invokevirtual 58	java/lang/StringBuilder:append	(I)Ljava/lang/StringBuilder;
+    //   362: ldc 137
+    //   364: invokevirtual 63	java/lang/StringBuilder:append	(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    //   367: invokevirtual 69	java/lang/StringBuilder:toString	()Ljava/lang/String;
+    //   370: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   373: aload_1
+    //   374: ldc 139
+    //   376: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   379: aload_1
+    //   380: ldc 141
+    //   382: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   385: aload_1
+    //   386: ldc 143
+    //   388: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   391: aload_1
+    //   392: ldc 145
+    //   394: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   397: aload_1
+    //   398: ldc 147
+    //   400: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   403: aload_1
+    //   404: ldc 149
+    //   406: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   409: aload_1
+    //   410: new 49	java/lang/StringBuilder
+    //   413: dup
+    //   414: ldc 151
+    //   416: invokespecial 54	java/lang/StringBuilder:<init>	(Ljava/lang/String;)V
+    //   419: iload 39
+    //   421: invokevirtual 58	java/lang/StringBuilder:append	(I)Ljava/lang/StringBuilder;
+    //   424: ldc 137
+    //   426: invokevirtual 63	java/lang/StringBuilder:append	(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    //   429: invokevirtual 69	java/lang/StringBuilder:toString	()Ljava/lang/String;
+    //   432: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   435: aload_1
+    //   436: new 49	java/lang/StringBuilder
+    //   439: dup
+    //   440: ldc 153
+    //   442: invokespecial 54	java/lang/StringBuilder:<init>	(Ljava/lang/String;)V
+    //   445: iload 39
+    //   447: invokevirtual 58	java/lang/StringBuilder:append	(I)Ljava/lang/StringBuilder;
+    //   450: ldc 137
+    //   452: invokevirtual 63	java/lang/StringBuilder:append	(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    //   455: invokevirtual 69	java/lang/StringBuilder:toString	()Ljava/lang/String;
+    //   458: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   461: aload_1
+    //   462: ldc 155
+    //   464: aconst_null
+    //   465: invokevirtual 159	android/database/sqlite/SQLiteDatabase:rawQuery	(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    //   468: astore 40
+    //   470: aload 40
+    //   472: invokeinterface 165 1 0
+    //   477: ifne +1694 -> 2171
+    //   480: aload 40
+    //   482: invokeinterface 168 1 0
+    //   487: aload_1
+    //   488: ldc 170
+    //   490: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   493: aload_1
+    //   494: ldc 172
+    //   496: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   499: aload_1
+    //   500: new 49	java/lang/StringBuilder
+    //   503: dup
+    //   504: ldc 174
+    //   506: invokespecial 54	java/lang/StringBuilder:<init>	(Ljava/lang/String;)V
+    //   509: iload 39
+    //   511: invokevirtual 58	java/lang/StringBuilder:append	(I)Ljava/lang/StringBuilder;
+    //   514: ldc 137
+    //   516: invokevirtual 63	java/lang/StringBuilder:append	(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    //   519: invokevirtual 69	java/lang/StringBuilder:toString	()Ljava/lang/String;
+    //   522: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   525: aload_1
+    //   526: ldc 176
+    //   528: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   531: aload_1
+    //   532: ldc 178
+    //   534: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   537: aload_1
+    //   538: new 49	java/lang/StringBuilder
+    //   541: dup
+    //   542: ldc 180
+    //   544: invokespecial 54	java/lang/StringBuilder:<init>	(Ljava/lang/String;)V
+    //   547: iload 39
+    //   549: invokevirtual 58	java/lang/StringBuilder:append	(I)Ljava/lang/StringBuilder;
+    //   552: ldc 137
+    //   554: invokevirtual 63	java/lang/StringBuilder:append	(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    //   557: invokevirtual 69	java/lang/StringBuilder:toString	()Ljava/lang/String;
+    //   560: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   563: aload_1
+    //   564: ldc 182
+    //   566: aconst_null
+    //   567: invokevirtual 159	android/database/sqlite/SQLiteDatabase:rawQuery	(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    //   570: astore 49
+    //   572: aload 49
+    //   574: invokeinterface 165 1 0
+    //   579: ifne +1698 -> 2277
+    //   582: aload 49
+    //   584: invokeinterface 168 1 0
+    //   589: iload_3
+    //   590: bipush 7
+    //   592: if_icmple +34 -> 626
+    //   595: iload_2
+    //   596: bipush 8
+    //   598: if_icmpge +28 -> 626
+    //   601: aload_1
+    //   602: ldc 184
+    //   604: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   607: aload_1
+    //   608: ldc 186
+    //   610: aconst_null
+    //   611: invokevirtual 159	android/database/sqlite/SQLiteDatabase:rawQuery	(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    //   614: astore 32
+    //   616: aload 32
+    //   618: invokeinterface 165 1 0
+    //   623: ifne +1801 -> 2424
+    //   626: iload_3
+    //   627: bipush 8
+    //   629: if_icmple +45 -> 674
+    //   632: iload_2
+    //   633: bipush 9
+    //   635: if_icmpge +39 -> 674
+    //   638: aload_1
+    //   639: ldc 188
+    //   641: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   644: aload_1
+    //   645: ldc 190
+    //   647: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   650: aload_1
+    //   651: ldc 192
+    //   653: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   656: aload_1
+    //   657: ldc 194
+    //   659: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   662: aload_1
+    //   663: ldc 196
+    //   665: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   668: aload_1
+    //   669: ldc 198
+    //   671: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   674: iload_3
+    //   675: bipush 9
+    //   677: if_icmple +27 -> 704
+    //   680: iload_2
+    //   681: bipush 10
+    //   683: if_icmpge +21 -> 704
+    //   686: aload_1
+    //   687: ldc 200
+    //   689: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   692: aload_1
+    //   693: ldc 202
+    //   695: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   698: aload_1
+    //   699: ldc 204
+    //   701: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   704: iload_3
+    //   705: bipush 10
+    //   707: if_icmple +15 -> 722
+    //   710: iload_2
+    //   711: bipush 11
+    //   713: if_icmpge +9 -> 722
+    //   716: aload_1
+    //   717: ldc 206
+    //   719: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   722: iload_3
+    //   723: bipush 11
+    //   725: if_icmple +15 -> 740
+    //   728: iload_2
+    //   729: bipush 12
+    //   731: if_icmpge +9 -> 740
+    //   734: aload_1
+    //   735: ldc 208
+    //   737: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   740: iload_3
+    //   741: bipush 12
+    //   743: if_icmple +15 -> 758
+    //   746: iload_2
+    //   747: bipush 13
+    //   749: if_icmpge +9 -> 758
+    //   752: aload_1
+    //   753: ldc 210
+    //   755: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   758: iload_3
+    //   759: bipush 13
+    //   761: if_icmple +132 -> 893
+    //   764: iload_2
+    //   765: bipush 14
+    //   767: if_icmpge +126 -> 893
+    //   770: aload_1
+    //   771: ldc 212
+    //   773: ldc 214
+    //   775: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   778: ifne +9 -> 787
+    //   781: aload_1
+    //   782: ldc 220
+    //   784: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   787: aload_1
+    //   788: ldc 212
+    //   790: ldc 222
+    //   792: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   795: ifne +9 -> 804
+    //   798: aload_1
+    //   799: ldc 224
+    //   801: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   804: aload_1
+    //   805: ldc 212
+    //   807: ldc 226
+    //   809: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   812: ifne +9 -> 821
+    //   815: aload_1
+    //   816: ldc 228
+    //   818: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   821: aload_1
+    //   822: ldc 212
+    //   824: ldc 230
+    //   826: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   829: ifne +9 -> 838
+    //   832: aload_1
+    //   833: ldc 232
+    //   835: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   838: aload_1
+    //   839: ldc 212
+    //   841: ldc 234
+    //   843: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   846: ifne +9 -> 855
+    //   849: aload_1
+    //   850: ldc 236
+    //   852: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   855: aload_1
+    //   856: ldc 238
+    //   858: invokestatic 242	com/earthflare/android/medhelper/db/DBAdapter:hasTable	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;)Z
+    //   861: ifeq +32 -> 893
+    //   864: aload_1
+    //   865: ldc 244
+    //   867: iconst_0
+    //   868: anewarray 246	java/lang/String
+    //   871: invokevirtual 159	android/database/sqlite/SQLiteDatabase:rawQuery	(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    //   874: astore 28
+    //   876: aload 28
+    //   878: invokeinterface 165 1 0
+    //   883: ifne +1826 -> 2709
+    //   886: aload 28
+    //   888: invokeinterface 168 1 0
+    //   893: iload_3
+    //   894: bipush 14
+    //   896: if_icmple +377 -> 1273
+    //   899: iload_2
+    //   900: bipush 15
+    //   902: if_icmpge +371 -> 1273
+    //   905: aload_1
+    //   906: ldc 248
+    //   908: ldc 250
+    //   910: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   913: ifne +9 -> 922
+    //   916: aload_1
+    //   917: ldc 252
+    //   919: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   922: aload_1
+    //   923: ldc 248
+    //   925: ldc 254
+    //   927: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   930: ifne +10 -> 940
+    //   933: aload_1
+    //   934: ldc_w 256
+    //   937: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   940: aload_1
+    //   941: ldc 248
+    //   943: ldc_w 258
+    //   946: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   949: ifne +10 -> 959
+    //   952: aload_1
+    //   953: ldc_w 260
+    //   956: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   959: aload_1
+    //   960: ldc 248
+    //   962: ldc_w 262
+    //   965: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   968: ifne +10 -> 978
+    //   971: aload_1
+    //   972: ldc_w 264
+    //   975: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   978: aload_1
+    //   979: ldc 248
+    //   981: ldc_w 266
+    //   984: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   987: ifne +10 -> 997
+    //   990: aload_1
+    //   991: ldc_w 268
+    //   994: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   997: aload_1
+    //   998: ldc 248
+    //   1000: ldc_w 270
+    //   1003: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   1006: ifne +10 -> 1016
+    //   1009: aload_1
+    //   1010: ldc_w 272
+    //   1013: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1016: aload_1
+    //   1017: ldc 248
+    //   1019: ldc_w 274
+    //   1022: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   1025: ifne +10 -> 1035
+    //   1028: aload_1
+    //   1029: ldc_w 276
+    //   1032: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1035: aload_1
+    //   1036: ldc 248
+    //   1038: ldc_w 278
+    //   1041: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   1044: ifne +10 -> 1054
+    //   1047: aload_1
+    //   1048: ldc_w 280
+    //   1051: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1054: aload_1
+    //   1055: ldc 248
+    //   1057: ldc_w 282
+    //   1060: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   1063: ifne +10 -> 1073
+    //   1066: aload_1
+    //   1067: ldc_w 284
+    //   1070: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1073: aload_1
+    //   1074: ldc_w 286
+    //   1077: ldc 234
+    //   1079: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   1082: ifne +10 -> 1092
+    //   1085: aload_1
+    //   1086: ldc_w 288
+    //   1089: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1092: aload_1
+    //   1093: ldc_w 290
+    //   1096: ldc 234
+    //   1098: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   1101: ifne +10 -> 1111
+    //   1104: aload_1
+    //   1105: ldc_w 292
+    //   1108: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1111: aload_1
+    //   1112: ldc_w 294
+    //   1115: invokestatic 242	com/earthflare/android/medhelper/db/DBAdapter:hasTable	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;)Z
+    //   1118: ifeq +134 -> 1252
+    //   1121: aload_1
+    //   1122: ldc_w 296
+    //   1125: aconst_null
+    //   1126: invokevirtual 159	android/database/sqlite/SQLiteDatabase:rawQuery	(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    //   1129: astore 21
+    //   1131: aload 21
+    //   1133: invokeinterface 299 1 0
+    //   1138: ifeq +107 -> 1245
+    //   1141: aload 21
+    //   1143: iconst_0
+    //   1144: invokeinterface 303 2 0
+    //   1149: astore 22
+    //   1151: aload 21
+    //   1153: iconst_1
+    //   1154: invokeinterface 303 2 0
+    //   1159: astore 23
+    //   1161: aload 21
+    //   1163: iconst_2
+    //   1164: invokeinterface 303 2 0
+    //   1169: astore 24
+    //   1171: aload 21
+    //   1173: iconst_3
+    //   1174: invokeinterface 307 2 0
+    //   1179: istore 25
+    //   1181: new 309	android/content/ContentValues
+    //   1184: dup
+    //   1185: invokespecial 311	android/content/ContentValues:<init>	()V
+    //   1188: astore 26
+    //   1190: aload 26
+    //   1192: ldc_w 262
+    //   1195: aload 22
+    //   1197: invokevirtual 315	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/String;)V
+    //   1200: aload 26
+    //   1202: ldc_w 266
+    //   1205: aload 23
+    //   1207: invokevirtual 315	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/String;)V
+    //   1210: aload 26
+    //   1212: ldc 250
+    //   1214: aload 24
+    //   1216: invokevirtual 315	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/String;)V
+    //   1219: aload 26
+    //   1221: ldc_w 270
+    //   1224: iload 25
+    //   1226: invokestatic 321	java/lang/Integer:valueOf	(I)Ljava/lang/Integer;
+    //   1229: invokevirtual 324	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/Integer;)V
+    //   1232: aload_1
+    //   1233: ldc 248
+    //   1235: aload 26
+    //   1237: ldc_w 326
+    //   1240: aconst_null
+    //   1241: invokevirtual 330	android/database/sqlite/SQLiteDatabase:update	(Ljava/lang/String;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
+    //   1244: pop
+    //   1245: aload 21
+    //   1247: invokeinterface 168 1 0
+    //   1252: aload_1
+    //   1253: ldc_w 332
+    //   1256: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1259: aload_1
+    //   1260: ldc_w 334
+    //   1263: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1266: aload_1
+    //   1267: ldc_w 336
+    //   1270: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1273: iload_3
+    //   1274: bipush 15
+    //   1276: if_icmple +165 -> 1441
+    //   1279: iload_2
+    //   1280: bipush 16
+    //   1282: if_icmpge +159 -> 1441
+    //   1285: aload_1
+    //   1286: ldc_w 338
+    //   1289: ldc 234
+    //   1291: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   1294: ifne +10 -> 1304
+    //   1297: aload_1
+    //   1298: ldc_w 340
+    //   1301: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1304: aload_1
+    //   1305: ldc_w 342
+    //   1308: ldc 234
+    //   1310: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   1313: ifne +10 -> 1323
+    //   1316: aload_1
+    //   1317: ldc_w 344
+    //   1320: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1323: aload_1
+    //   1324: ldc_w 346
+    //   1327: aconst_null
+    //   1328: invokevirtual 159	android/database/sqlite/SQLiteDatabase:rawQuery	(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    //   1331: astore 5
+    //   1333: new 348	java/util/ArrayList
+    //   1336: dup
+    //   1337: invokespecial 349	java/util/ArrayList:<init>	()V
+    //   1340: astore 6
+    //   1342: aload 5
+    //   1344: invokeinterface 165 1 0
+    //   1349: ifne +1478 -> 2827
+    //   1352: aload 5
+    //   1354: invokeinterface 168 1 0
+    //   1359: aload 6
+    //   1361: iconst_0
+    //   1362: invokeinterface 355 2 0
+    //   1367: checkcast 357	java/lang/Long
+    //   1370: invokevirtual 361	java/lang/Long:longValue	()J
+    //   1373: lstore 8
+    //   1375: aload_1
+    //   1376: new 49	java/lang/StringBuilder
+    //   1379: dup
+    //   1380: ldc_w 363
+    //   1383: invokespecial 54	java/lang/StringBuilder:<init>	(Ljava/lang/String;)V
+    //   1386: lload 8
+    //   1388: invokevirtual 366	java/lang/StringBuilder:append	(J)Ljava/lang/StringBuilder;
+    //   1391: invokevirtual 69	java/lang/StringBuilder:toString	()Ljava/lang/String;
+    //   1394: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1397: aload_1
+    //   1398: new 49	java/lang/StringBuilder
+    //   1401: dup
+    //   1402: ldc_w 368
+    //   1405: invokespecial 54	java/lang/StringBuilder:<init>	(Ljava/lang/String;)V
+    //   1408: lload 8
+    //   1410: invokevirtual 366	java/lang/StringBuilder:append	(J)Ljava/lang/StringBuilder;
+    //   1413: invokevirtual 69	java/lang/StringBuilder:toString	()Ljava/lang/String;
+    //   1416: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1419: iconst_1
+    //   1420: istore 10
+    //   1422: iload 10
+    //   1424: aload 6
+    //   1426: invokeinterface 371 1 0
+    //   1431: if_icmplt +1418 -> 2849
+    //   1434: aload_1
+    //   1435: ldc_w 373
+    //   1438: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1441: iload_3
+    //   1442: bipush 16
+    //   1444: if_icmple +79 -> 1523
+    //   1447: iload_2
+    //   1448: bipush 17
+    //   1450: if_icmpge +73 -> 1523
+    //   1453: aload_1
+    //   1454: ldc_w 375
+    //   1457: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1460: aload_1
+    //   1461: ldc_w 377
+    //   1464: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1467: aload_1
+    //   1468: ldc_w 379
+    //   1471: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1474: aload_1
+    //   1475: ldc_w 381
+    //   1478: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1481: aload_1
+    //   1482: ldc_w 383
+    //   1485: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1488: aload_1
+    //   1489: ldc_w 385
+    //   1492: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1495: aload_1
+    //   1496: ldc_w 387
+    //   1499: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1502: aload_1
+    //   1503: ldc_w 389
+    //   1506: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1509: aload_1
+    //   1510: ldc_w 391
+    //   1513: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1516: aload_1
+    //   1517: ldc_w 393
+    //   1520: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1523: iload_3
+    //   1524: bipush 17
+    //   1526: if_icmple +28 -> 1554
+    //   1529: iload_2
+    //   1530: bipush 18
+    //   1532: if_icmpge +22 -> 1554
+    //   1535: aload_1
+    //   1536: ldc 248
+    //   1538: ldc_w 395
+    //   1541: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   1544: ifne +10 -> 1554
+    //   1547: aload_1
+    //   1548: ldc_w 397
+    //   1551: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1554: iload_3
+    //   1555: bipush 18
+    //   1557: if_icmple +51 -> 1608
+    //   1560: iload_2
+    //   1561: bipush 19
+    //   1563: if_icmpge +45 -> 1608
+    //   1566: aload_1
+    //   1567: ldc_w 399
+    //   1570: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1573: aload_1
+    //   1574: ldc_w 401
+    //   1577: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1580: aload_1
+    //   1581: ldc_w 403
+    //   1584: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1587: aload_1
+    //   1588: ldc_w 405
+    //   1591: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1594: aload_1
+    //   1595: ldc_w 407
+    //   1598: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1601: aload_1
+    //   1602: ldc_w 409
+    //   1605: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1608: iload_3
+    //   1609: bipush 19
+    //   1611: if_icmple +79 -> 1690
+    //   1614: iload_2
+    //   1615: bipush 20
+    //   1617: if_icmpge +73 -> 1690
+    //   1620: aload_1
+    //   1621: ldc_w 399
+    //   1624: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1627: aload_1
+    //   1628: ldc_w 411
+    //   1631: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1634: aload_1
+    //   1635: ldc_w 413
+    //   1638: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1641: aload_1
+    //   1642: ldc_w 405
+    //   1645: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1648: aload_1
+    //   1649: ldc_w 415
+    //   1652: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1655: aload_1
+    //   1656: ldc_w 417
+    //   1659: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1662: aload_1
+    //   1663: ldc_w 419
+    //   1666: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1669: aload_1
+    //   1670: ldc_w 421
+    //   1673: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1676: aload_1
+    //   1677: ldc_w 423
+    //   1680: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1683: aload_1
+    //   1684: ldc_w 425
+    //   1687: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1690: iload_3
+    //   1691: bipush 20
+    //   1693: if_icmple +16 -> 1709
+    //   1696: iload_2
+    //   1697: bipush 21
+    //   1699: if_icmpge +10 -> 1709
+    //   1702: aload_1
+    //   1703: ldc_w 427
+    //   1706: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1709: iload_3
+    //   1710: bipush 21
+    //   1712: if_icmple +170 -> 1882
+    //   1715: iload_2
+    //   1716: bipush 22
+    //   1718: if_icmpge +164 -> 1882
+    //   1721: aload_1
+    //   1722: ldc 248
+    //   1724: ldc_w 429
+    //   1727: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   1730: ifne +10 -> 1740
+    //   1733: aload_1
+    //   1734: ldc_w 431
+    //   1737: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1740: aload_1
+    //   1741: ldc 212
+    //   1743: ldc_w 286
+    //   1746: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   1749: ifne +10 -> 1759
+    //   1752: aload_1
+    //   1753: ldc_w 433
+    //   1756: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1759: aload_1
+    //   1760: ldc 212
+    //   1762: ldc_w 435
+    //   1765: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   1768: ifne +10 -> 1778
+    //   1771: aload_1
+    //   1772: ldc_w 437
+    //   1775: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1778: aload_1
+    //   1779: ldc_w 342
+    //   1782: ldc_w 439
+    //   1785: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   1788: ifne +10 -> 1798
+    //   1791: aload_1
+    //   1792: ldc_w 441
+    //   1795: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1798: aload_1
+    //   1799: ldc_w 342
+    //   1802: ldc_w 443
+    //   1805: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   1808: ifne +10 -> 1818
+    //   1811: aload_1
+    //   1812: ldc_w 445
+    //   1815: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1818: aload_1
+    //   1819: ldc_w 338
+    //   1822: ldc_w 439
+    //   1825: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   1828: ifne +10 -> 1838
+    //   1831: aload_1
+    //   1832: ldc_w 447
+    //   1835: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1838: aload_1
+    //   1839: ldc_w 338
+    //   1842: ldc_w 443
+    //   1845: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   1848: ifne +10 -> 1858
+    //   1851: aload_1
+    //   1852: ldc_w 449
+    //   1855: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1858: aload_1
+    //   1859: ldc_w 338
+    //   1862: ldc_w 451
+    //   1865: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   1868: ifne +10 -> 1878
+    //   1871: aload_1
+    //   1872: ldc_w 453
+    //   1875: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1878: aload_1
+    //   1879: invokestatic 35	com/earthflare/android/medhelper/db/DBAdapter:initTimezone	(Landroid/database/sqlite/SQLiteDatabase;)V
+    //   1882: iload_3
+    //   1883: bipush 22
+    //   1885: if_icmple +263 -> 2148
+    //   1888: iload_2
+    //   1889: bipush 23
+    //   1891: if_icmpge +257 -> 2148
+    //   1894: aload_1
+    //   1895: ldc 248
+    //   1897: ldc_w 455
+    //   1900: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   1903: ifne +10 -> 1913
+    //   1906: aload_1
+    //   1907: ldc_w 457
+    //   1910: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1913: aload_1
+    //   1914: ldc 248
+    //   1916: ldc_w 459
+    //   1919: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   1922: ifne +10 -> 1932
+    //   1925: aload_1
+    //   1926: ldc_w 461
+    //   1929: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1932: aload_1
+    //   1933: ldc 248
+    //   1935: ldc_w 463
+    //   1938: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   1941: ifne +10 -> 1951
+    //   1944: aload_1
+    //   1945: ldc_w 465
+    //   1948: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1951: aload_1
+    //   1952: ldc 248
+    //   1954: ldc_w 467
+    //   1957: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   1960: ifne +10 -> 1970
+    //   1963: aload_1
+    //   1964: ldc_w 469
+    //   1967: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1970: aload_1
+    //   1971: ldc 248
+    //   1973: ldc_w 471
+    //   1976: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   1979: ifne +10 -> 1989
+    //   1982: aload_1
+    //   1983: ldc_w 473
+    //   1986: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   1989: aload_1
+    //   1990: ldc 248
+    //   1992: ldc_w 475
+    //   1995: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   1998: ifne +10 -> 2008
+    //   2001: aload_1
+    //   2002: ldc_w 477
+    //   2005: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   2008: aload_1
+    //   2009: ldc 248
+    //   2011: ldc_w 479
+    //   2014: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   2017: ifne +10 -> 2027
+    //   2020: aload_1
+    //   2021: ldc_w 481
+    //   2024: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   2027: aload_1
+    //   2028: ldc 248
+    //   2030: ldc_w 483
+    //   2033: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   2036: ifne +10 -> 2046
+    //   2039: aload_1
+    //   2040: ldc_w 485
+    //   2043: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   2046: aload_1
+    //   2047: ldc 248
+    //   2049: ldc_w 487
+    //   2052: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   2055: ifne +10 -> 2065
+    //   2058: aload_1
+    //   2059: ldc_w 489
+    //   2062: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   2065: aload_1
+    //   2066: ldc 248
+    //   2068: ldc_w 491
+    //   2071: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   2074: ifne +10 -> 2084
+    //   2077: aload_1
+    //   2078: ldc_w 493
+    //   2081: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   2084: aload_1
+    //   2085: ldc 248
+    //   2087: ldc_w 495
+    //   2090: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   2093: ifne +10 -> 2103
+    //   2096: aload_1
+    //   2097: ldc_w 497
+    //   2100: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   2103: aload_1
+    //   2104: ldc 248
+    //   2106: ldc_w 499
+    //   2109: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   2112: ifne +10 -> 2122
+    //   2115: aload_1
+    //   2116: ldc_w 501
+    //   2119: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   2122: aload_1
+    //   2123: ldc 248
+    //   2125: ldc_w 503
+    //   2128: invokestatic 218	com/earthflare/android/medhelper/db/DBAdapter:hasColumn	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Z
+    //   2131: ifne +10 -> 2141
+    //   2134: aload_1
+    //   2135: ldc_w 505
+    //   2138: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   2141: aload_1
+    //   2142: ldc_w 507
+    //   2145: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   2148: aload_1
+    //   2149: invokevirtual 510	android/database/sqlite/SQLiteDatabase:setTransactionSuccessful	()V
+    //   2152: aload_1
+    //   2153: invokevirtual 513	android/database/sqlite/SQLiteDatabase:endTransaction	()V
+    //   2156: aload_1
+    //   2157: ldc_w 515
+    //   2160: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   2163: aload_1
+    //   2164: ldc_w 517
+    //   2167: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   2170: return
+    //   2171: aload 40
+    //   2173: iconst_0
+    //   2174: invokeinterface 521 2 0
+    //   2179: lstore 41
+    //   2181: aload 40
+    //   2183: iconst_1
+    //   2184: invokeinterface 521 2 0
+    //   2189: lstore 43
+    //   2191: lload 43
+    //   2193: lload 43
+    //   2195: invokestatic 527	com/earthflare/android/medhelper/util/CalendarUtilDynamic:startOfDayInMillis	(J)J
+    //   2198: lcmp
+    //   2199: ifne +56 -> 2255
+    //   2202: lload 43
+    //   2204: iload 39
+    //   2206: i2l
+    //   2207: ladd
+    //   2208: lstore 45
+    //   2210: aload_1
+    //   2211: new 49	java/lang/StringBuilder
+    //   2214: dup
+    //   2215: ldc_w 529
+    //   2218: invokespecial 54	java/lang/StringBuilder:<init>	(Ljava/lang/String;)V
+    //   2221: lload 45
+    //   2223: invokevirtual 366	java/lang/StringBuilder:append	(J)Ljava/lang/StringBuilder;
+    //   2226: ldc_w 531
+    //   2229: invokevirtual 63	java/lang/StringBuilder:append	(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    //   2232: lload 41
+    //   2234: invokevirtual 366	java/lang/StringBuilder:append	(J)Ljava/lang/StringBuilder;
+    //   2237: invokevirtual 69	java/lang/StringBuilder:toString	()Ljava/lang/String;
+    //   2240: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   2243: goto -1773 -> 470
+    //   2246: astore 4
+    //   2248: aload_1
+    //   2249: invokevirtual 513	android/database/sqlite/SQLiteDatabase:endTransaction	()V
+    //   2252: aload 4
+    //   2254: athrow
+    //   2255: lload 43
+    //   2257: iload 39
+    //   2259: i2l
+    //   2260: ladd
+    //   2261: lstore 47
+    //   2263: lload 47
+    //   2265: iconst_1
+    //   2266: invokestatic 537	com/earthflare/android/medhelper/util/CalendarUtilStatic:addDays	(JI)J
+    //   2269: invokestatic 538	com/earthflare/android/medhelper/util/CalendarUtilStatic:startOfDayInMillis	(J)J
+    //   2272: lstore 45
+    //   2274: goto -64 -> 2210
+    //   2277: aload 49
+    //   2279: iconst_0
+    //   2280: invokeinterface 521 2 0
+    //   2285: lstore 50
+    //   2287: aload 49
+    //   2289: iconst_1
+    //   2290: invokeinterface 307 2 0
+    //   2295: istore 52
+    //   2297: aload 49
+    //   2299: iconst_2
+    //   2300: invokeinterface 521 2 0
+    //   2305: lstore 53
+    //   2307: aload 49
+    //   2309: iconst_3
+    //   2310: invokeinterface 307 2 0
+    //   2315: istore 55
+    //   2317: aload 49
+    //   2319: iconst_4
+    //   2320: invokeinterface 521 2 0
+    //   2325: lstore 56
+    //   2327: new 309	android/content/ContentValues
+    //   2330: dup
+    //   2331: invokespecial 311	android/content/ContentValues:<init>	()V
+    //   2334: astore 58
+    //   2336: iload 55
+    //   2338: ifne +54 -> 2392
+    //   2341: aload 58
+    //   2343: ldc_w 540
+    //   2346: iload 52
+    //   2348: i2l
+    //   2349: lload 53
+    //   2351: invokestatic 546	com/earthflare/android/medhelper/util/DateUtilStatic:timeofdayToMillis	(JJ)J
+    //   2354: invokestatic 549	java/lang/Long:valueOf	(J)Ljava/lang/Long;
+    //   2357: invokevirtual 552	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/Long;)V
+    //   2360: aload_1
+    //   2361: ldc_w 554
+    //   2364: aload 58
+    //   2366: new 49	java/lang/StringBuilder
+    //   2369: dup
+    //   2370: ldc_w 556
+    //   2373: invokespecial 54	java/lang/StringBuilder:<init>	(Ljava/lang/String;)V
+    //   2376: lload 50
+    //   2378: invokevirtual 366	java/lang/StringBuilder:append	(J)Ljava/lang/StringBuilder;
+    //   2381: invokevirtual 69	java/lang/StringBuilder:toString	()Ljava/lang/String;
+    //   2384: aconst_null
+    //   2385: invokevirtual 330	android/database/sqlite/SQLiteDatabase:update	(Ljava/lang/String;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
+    //   2388: pop
+    //   2389: goto -1817 -> 572
+    //   2392: aload 58
+    //   2394: ldc_w 558
+    //   2397: lload 56
+    //   2399: invokestatic 561	com/earthflare/android/medhelper/util/DateUtilStatic:timeofday	(J)I
+    //   2402: invokestatic 321	java/lang/Integer:valueOf	(I)Ljava/lang/Integer;
+    //   2405: invokevirtual 324	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/Integer;)V
+    //   2408: aload 58
+    //   2410: ldc_w 540
+    //   2413: lload 56
+    //   2415: invokestatic 549	java/lang/Long:valueOf	(J)Ljava/lang/Long;
+    //   2418: invokevirtual 552	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/Long;)V
+    //   2421: goto -61 -> 2360
+    //   2424: aload 32
+    //   2426: iconst_0
+    //   2427: invokeinterface 521 2 0
+    //   2432: lstore 33
+    //   2434: aload 32
+    //   2436: iconst_1
+    //   2437: invokeinterface 307 2 0
+    //   2442: istore 35
+    //   2444: new 309	android/content/ContentValues
+    //   2447: dup
+    //   2448: invokespecial 311	android/content/ContentValues:<init>	()V
+    //   2451: astore 36
+    //   2453: iload 35
+    //   2455: bipush 6
+    //   2457: if_icmpne +58 -> 2515
+    //   2460: aload 36
+    //   2462: ldc_w 563
+    //   2465: iconst_2
+    //   2466: invokestatic 321	java/lang/Integer:valueOf	(I)Ljava/lang/Integer;
+    //   2469: invokevirtual 324	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/Integer;)V
+    //   2472: aload 36
+    //   2474: ldc_w 565
+    //   2477: iconst_1
+    //   2478: invokestatic 321	java/lang/Integer:valueOf	(I)Ljava/lang/Integer;
+    //   2481: invokevirtual 324	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/Integer;)V
+    //   2484: aload_1
+    //   2485: ldc 212
+    //   2487: aload 36
+    //   2489: new 49	java/lang/StringBuilder
+    //   2492: dup
+    //   2493: ldc_w 556
+    //   2496: invokespecial 54	java/lang/StringBuilder:<init>	(Ljava/lang/String;)V
+    //   2499: lload 33
+    //   2501: invokevirtual 366	java/lang/StringBuilder:append	(J)Ljava/lang/StringBuilder;
+    //   2504: invokevirtual 69	java/lang/StringBuilder:toString	()Ljava/lang/String;
+    //   2507: aconst_null
+    //   2508: invokevirtual 330	android/database/sqlite/SQLiteDatabase:update	(Ljava/lang/String;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
+    //   2511: pop
+    //   2512: goto -1896 -> 616
+    //   2515: iload 35
+    //   2517: iconst_5
+    //   2518: if_icmpne +30 -> 2548
+    //   2521: aload 36
+    //   2523: ldc_w 563
+    //   2526: iconst_1
+    //   2527: invokestatic 321	java/lang/Integer:valueOf	(I)Ljava/lang/Integer;
+    //   2530: invokevirtual 324	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/Integer;)V
+    //   2533: aload 36
+    //   2535: ldc_w 565
+    //   2538: iconst_1
+    //   2539: invokestatic 321	java/lang/Integer:valueOf	(I)Ljava/lang/Integer;
+    //   2542: invokevirtual 324	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/Integer;)V
+    //   2545: goto -61 -> 2484
+    //   2548: iload 35
+    //   2550: iconst_4
+    //   2551: if_icmpne +31 -> 2582
+    //   2554: aload 36
+    //   2556: ldc_w 563
+    //   2559: iconst_0
+    //   2560: invokestatic 321	java/lang/Integer:valueOf	(I)Ljava/lang/Integer;
+    //   2563: invokevirtual 324	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/Integer;)V
+    //   2566: aload 36
+    //   2568: ldc_w 565
+    //   2571: bipush 14
+    //   2573: invokestatic 321	java/lang/Integer:valueOf	(I)Ljava/lang/Integer;
+    //   2576: invokevirtual 324	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/Integer;)V
+    //   2579: goto -95 -> 2484
+    //   2582: iload 35
+    //   2584: iconst_3
+    //   2585: if_icmpne +30 -> 2615
+    //   2588: aload 36
+    //   2590: ldc_w 563
+    //   2593: iconst_0
+    //   2594: invokestatic 321	java/lang/Integer:valueOf	(I)Ljava/lang/Integer;
+    //   2597: invokevirtual 324	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/Integer;)V
+    //   2600: aload 36
+    //   2602: ldc_w 565
+    //   2605: iconst_3
+    //   2606: invokestatic 321	java/lang/Integer:valueOf	(I)Ljava/lang/Integer;
+    //   2609: invokevirtual 324	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/Integer;)V
+    //   2612: goto -128 -> 2484
+    //   2615: iload 35
+    //   2617: iconst_2
+    //   2618: if_icmpne +31 -> 2649
+    //   2621: aload 36
+    //   2623: ldc_w 563
+    //   2626: iconst_0
+    //   2627: invokestatic 321	java/lang/Integer:valueOf	(I)Ljava/lang/Integer;
+    //   2630: invokevirtual 324	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/Integer;)V
+    //   2633: aload 36
+    //   2635: ldc_w 565
+    //   2638: bipush 7
+    //   2640: invokestatic 321	java/lang/Integer:valueOf	(I)Ljava/lang/Integer;
+    //   2643: invokevirtual 324	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/Integer;)V
+    //   2646: goto -162 -> 2484
+    //   2649: iload 35
+    //   2651: iconst_1
+    //   2652: if_icmpne +30 -> 2682
+    //   2655: aload 36
+    //   2657: ldc_w 563
+    //   2660: iconst_0
+    //   2661: invokestatic 321	java/lang/Integer:valueOf	(I)Ljava/lang/Integer;
+    //   2664: invokevirtual 324	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/Integer;)V
+    //   2667: aload 36
+    //   2669: ldc_w 565
+    //   2672: iconst_2
+    //   2673: invokestatic 321	java/lang/Integer:valueOf	(I)Ljava/lang/Integer;
+    //   2676: invokevirtual 324	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/Integer;)V
+    //   2679: goto -195 -> 2484
+    //   2682: aload 36
+    //   2684: ldc_w 563
+    //   2687: iconst_0
+    //   2688: invokestatic 321	java/lang/Integer:valueOf	(I)Ljava/lang/Integer;
+    //   2691: invokevirtual 324	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/Integer;)V
+    //   2694: aload 36
+    //   2696: ldc_w 565
+    //   2699: iconst_1
+    //   2700: invokestatic 321	java/lang/Integer:valueOf	(I)Ljava/lang/Integer;
+    //   2703: invokevirtual 324	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/Integer;)V
+    //   2706: goto -222 -> 2484
+    //   2709: new 309	android/content/ContentValues
+    //   2712: dup
+    //   2713: invokespecial 311	android/content/ContentValues:<init>	()V
+    //   2716: astore 29
+    //   2718: aload 29
+    //   2720: ldc 222
+    //   2722: aload 28
+    //   2724: iconst_1
+    //   2725: invokeinterface 303 2 0
+    //   2730: invokevirtual 315	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/String;)V
+    //   2733: aload 29
+    //   2735: ldc 226
+    //   2737: aload 28
+    //   2739: iconst_2
+    //   2740: invokeinterface 303 2 0
+    //   2745: invokevirtual 315	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/String;)V
+    //   2748: aload 29
+    //   2750: ldc 230
+    //   2752: aload 28
+    //   2754: iconst_3
+    //   2755: invokeinterface 303 2 0
+    //   2760: invokevirtual 315	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/String;)V
+    //   2763: aload 29
+    //   2765: ldc 214
+    //   2767: aload 28
+    //   2769: iconst_4
+    //   2770: invokeinterface 303 2 0
+    //   2775: invokevirtual 315	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/String;)V
+    //   2778: aload 29
+    //   2780: ldc 234
+    //   2782: iconst_m1
+    //   2783: invokestatic 321	java/lang/Integer:valueOf	(I)Ljava/lang/Integer;
+    //   2786: invokevirtual 324	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/Integer;)V
+    //   2789: iconst_1
+    //   2790: anewarray 246	java/lang/String
+    //   2793: astore 30
+    //   2795: aload 30
+    //   2797: iconst_0
+    //   2798: aload 28
+    //   2800: iconst_0
+    //   2801: invokeinterface 307 2 0
+    //   2806: invokestatic 567	java/lang/String:valueOf	(I)Ljava/lang/String;
+    //   2809: aastore
+    //   2810: aload_1
+    //   2811: ldc 212
+    //   2813: aload 29
+    //   2815: ldc_w 569
+    //   2818: aload 30
+    //   2820: invokevirtual 330	android/database/sqlite/SQLiteDatabase:update	(Ljava/lang/String;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
+    //   2823: pop
+    //   2824: goto -1948 -> 876
+    //   2827: aload 6
+    //   2829: aload 5
+    //   2831: iconst_0
+    //   2832: invokeinterface 521 2 0
+    //   2837: invokestatic 549	java/lang/Long:valueOf	(J)Ljava/lang/Long;
+    //   2840: invokeinterface 573 2 0
+    //   2845: pop
+    //   2846: goto -1504 -> 1342
+    //   2849: new 49	java/lang/StringBuilder
+    //   2852: dup
+    //   2853: ldc_w 575
+    //   2856: invokespecial 54	java/lang/StringBuilder:<init>	(Ljava/lang/String;)V
+    //   2859: aload 6
+    //   2861: iload 10
+    //   2863: invokeinterface 355 2 0
+    //   2868: invokevirtual 578	java/lang/StringBuilder:append	(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    //   2871: invokevirtual 69	java/lang/StringBuilder:toString	()Ljava/lang/String;
+    //   2874: invokestatic 583	com/earthflare/android/medhelper/D:D	(Ljava/lang/String;)V
+    //   2877: aload 6
+    //   2879: iload 10
+    //   2881: invokeinterface 355 2 0
+    //   2886: checkcast 357	java/lang/Long
+    //   2889: invokevirtual 361	java/lang/Long:longValue	()J
+    //   2892: lstore 11
+    //   2894: aload_1
+    //   2895: new 49	java/lang/StringBuilder
+    //   2898: dup
+    //   2899: ldc_w 585
+    //   2902: invokespecial 54	java/lang/StringBuilder:<init>	(Ljava/lang/String;)V
+    //   2905: lload 8
+    //   2907: invokevirtual 366	java/lang/StringBuilder:append	(J)Ljava/lang/StringBuilder;
+    //   2910: invokevirtual 69	java/lang/StringBuilder:toString	()Ljava/lang/String;
+    //   2913: aconst_null
+    //   2914: invokevirtual 159	android/database/sqlite/SQLiteDatabase:rawQuery	(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    //   2917: astore 13
+    //   2919: aload 13
+    //   2921: invokeinterface 165 1 0
+    //   2926: ifne +58 -> 2984
+    //   2929: aload 13
+    //   2931: invokeinterface 168 1 0
+    //   2936: aload_1
+    //   2937: new 49	java/lang/StringBuilder
+    //   2940: dup
+    //   2941: ldc_w 587
+    //   2944: invokespecial 54	java/lang/StringBuilder:<init>	(Ljava/lang/String;)V
+    //   2947: lload 8
+    //   2949: invokevirtual 366	java/lang/StringBuilder:append	(J)Ljava/lang/StringBuilder;
+    //   2952: invokevirtual 69	java/lang/StringBuilder:toString	()Ljava/lang/String;
+    //   2955: aconst_null
+    //   2956: invokevirtual 159	android/database/sqlite/SQLiteDatabase:rawQuery	(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    //   2959: astore 17
+    //   2961: aload 17
+    //   2963: invokeinterface 165 1 0
+    //   2968: ifne +268 -> 3236
+    //   2971: aload 17
+    //   2973: invokeinterface 168 1 0
+    //   2978: iinc 10 1
+    //   2981: goto -1559 -> 1422
+    //   2984: new 49	java/lang/StringBuilder
+    //   2987: dup
+    //   2988: ldc_w 589
+    //   2991: invokespecial 54	java/lang/StringBuilder:<init>	(Ljava/lang/String;)V
+    //   2994: aload 13
+    //   2996: iconst_0
+    //   2997: invokeinterface 521 2 0
+    //   3002: invokevirtual 366	java/lang/StringBuilder:append	(J)Ljava/lang/StringBuilder;
+    //   3005: invokevirtual 69	java/lang/StringBuilder:toString	()Ljava/lang/String;
+    //   3008: invokestatic 583	com/earthflare/android/medhelper/D:D	(Ljava/lang/String;)V
+    //   3011: new 309	android/content/ContentValues
+    //   3014: dup
+    //   3015: invokespecial 311	android/content/ContentValues:<init>	()V
+    //   3018: astore 14
+    //   3020: aload 14
+    //   3022: ldc 250
+    //   3024: aload 13
+    //   3026: iconst_1
+    //   3027: invokeinterface 303 2 0
+    //   3032: invokevirtual 315	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/String;)V
+    //   3035: aload 14
+    //   3037: ldc_w 591
+    //   3040: aload 13
+    //   3042: iconst_2
+    //   3043: invokeinterface 303 2 0
+    //   3048: invokevirtual 315	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/String;)V
+    //   3051: aload 14
+    //   3053: ldc_w 593
+    //   3056: aload 13
+    //   3058: iconst_3
+    //   3059: invokeinterface 303 2 0
+    //   3064: invokevirtual 315	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/String;)V
+    //   3067: aload 14
+    //   3069: ldc_w 286
+    //   3072: aload 13
+    //   3074: iconst_4
+    //   3075: invokeinterface 303 2 0
+    //   3080: invokevirtual 315	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/String;)V
+    //   3083: aload 14
+    //   3085: ldc_w 595
+    //   3088: aload 13
+    //   3090: iconst_5
+    //   3091: invokeinterface 303 2 0
+    //   3096: invokevirtual 315	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/String;)V
+    //   3099: aload 14
+    //   3101: ldc 234
+    //   3103: lload 11
+    //   3105: invokestatic 549	java/lang/Long:valueOf	(J)Ljava/lang/Long;
+    //   3108: invokevirtual 552	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/Long;)V
+    //   3111: aload_1
+    //   3112: ldc_w 338
+    //   3115: aconst_null
+    //   3116: aload 14
+    //   3118: invokevirtual 599	android/database/sqlite/SQLiteDatabase:insert	(Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J
+    //   3121: lstore 15
+    //   3123: aload_1
+    //   3124: new 49	java/lang/StringBuilder
+    //   3127: dup
+    //   3128: ldc_w 601
+    //   3131: invokespecial 54	java/lang/StringBuilder:<init>	(Ljava/lang/String;)V
+    //   3134: lload 15
+    //   3136: invokevirtual 366	java/lang/StringBuilder:append	(J)Ljava/lang/StringBuilder;
+    //   3139: ldc_w 603
+    //   3142: invokevirtual 63	java/lang/StringBuilder:append	(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    //   3145: lload 11
+    //   3147: invokevirtual 366	java/lang/StringBuilder:append	(J)Ljava/lang/StringBuilder;
+    //   3150: ldc_w 605
+    //   3153: invokevirtual 63	java/lang/StringBuilder:append	(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    //   3156: aload 13
+    //   3158: iconst_0
+    //   3159: invokeinterface 521 2 0
+    //   3164: invokevirtual 366	java/lang/StringBuilder:append	(J)Ljava/lang/StringBuilder;
+    //   3167: invokevirtual 69	java/lang/StringBuilder:toString	()Ljava/lang/String;
+    //   3170: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   3173: aload_1
+    //   3174: new 49	java/lang/StringBuilder
+    //   3177: dup
+    //   3178: ldc_w 607
+    //   3181: invokespecial 54	java/lang/StringBuilder:<init>	(Ljava/lang/String;)V
+    //   3184: lload 15
+    //   3186: invokevirtual 366	java/lang/StringBuilder:append	(J)Ljava/lang/StringBuilder;
+    //   3189: ldc_w 603
+    //   3192: invokevirtual 63	java/lang/StringBuilder:append	(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    //   3195: lload 11
+    //   3197: invokevirtual 366	java/lang/StringBuilder:append	(J)Ljava/lang/StringBuilder;
+    //   3200: ldc_w 609
+    //   3203: invokevirtual 63	java/lang/StringBuilder:append	(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    //   3206: aload 13
+    //   3208: iconst_0
+    //   3209: invokeinterface 521 2 0
+    //   3214: invokevirtual 366	java/lang/StringBuilder:append	(J)Ljava/lang/StringBuilder;
+    //   3217: ldc_w 611
+    //   3220: invokevirtual 63	java/lang/StringBuilder:append	(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    //   3223: iconst_0
+    //   3224: invokevirtual 58	java/lang/StringBuilder:append	(I)Ljava/lang/StringBuilder;
+    //   3227: invokevirtual 69	java/lang/StringBuilder:toString	()Ljava/lang/String;
+    //   3230: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   3233: goto -314 -> 2919
+    //   3236: new 309	android/content/ContentValues
+    //   3239: dup
+    //   3240: invokespecial 311	android/content/ContentValues:<init>	()V
+    //   3243: astore 18
+    //   3245: aload 18
+    //   3247: ldc 250
+    //   3249: aload 17
+    //   3251: iconst_1
+    //   3252: invokeinterface 303 2 0
+    //   3257: invokevirtual 315	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/String;)V
+    //   3260: aload 18
+    //   3262: ldc_w 591
+    //   3265: aload 17
+    //   3267: iconst_2
+    //   3268: invokeinterface 303 2 0
+    //   3273: invokevirtual 315	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/String;)V
+    //   3276: aload 18
+    //   3278: ldc_w 593
+    //   3281: aload 17
+    //   3283: iconst_3
+    //   3284: invokeinterface 303 2 0
+    //   3289: invokevirtual 315	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/String;)V
+    //   3292: aload 18
+    //   3294: ldc_w 286
+    //   3297: aload 17
+    //   3299: iconst_4
+    //   3300: invokeinterface 303 2 0
+    //   3305: invokevirtual 315	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/String;)V
+    //   3308: aload 18
+    //   3310: ldc_w 595
+    //   3313: aload 17
+    //   3315: iconst_5
+    //   3316: invokeinterface 303 2 0
+    //   3321: invokevirtual 315	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/String;)V
+    //   3324: aload 18
+    //   3326: ldc 234
+    //   3328: lload 11
+    //   3330: invokestatic 549	java/lang/Long:valueOf	(J)Ljava/lang/Long;
+    //   3333: invokevirtual 552	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/Long;)V
+    //   3336: aload_1
+    //   3337: ldc_w 342
+    //   3340: aconst_null
+    //   3341: aload 18
+    //   3343: invokevirtual 599	android/database/sqlite/SQLiteDatabase:insert	(Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J
+    //   3346: lstore 19
+    //   3348: aload_1
+    //   3349: new 49	java/lang/StringBuilder
+    //   3352: dup
+    //   3353: ldc_w 613
+    //   3356: invokespecial 54	java/lang/StringBuilder:<init>	(Ljava/lang/String;)V
+    //   3359: lload 19
+    //   3361: invokevirtual 366	java/lang/StringBuilder:append	(J)Ljava/lang/StringBuilder;
+    //   3364: ldc_w 603
+    //   3367: invokevirtual 63	java/lang/StringBuilder:append	(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    //   3370: lload 11
+    //   3372: invokevirtual 366	java/lang/StringBuilder:append	(J)Ljava/lang/StringBuilder;
+    //   3375: ldc_w 615
+    //   3378: invokevirtual 63	java/lang/StringBuilder:append	(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    //   3381: aload 17
+    //   3383: iconst_0
+    //   3384: invokeinterface 521 2 0
+    //   3389: invokevirtual 366	java/lang/StringBuilder:append	(J)Ljava/lang/StringBuilder;
+    //   3392: invokevirtual 69	java/lang/StringBuilder:toString	()Ljava/lang/String;
+    //   3395: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   3398: aload_1
+    //   3399: new 49	java/lang/StringBuilder
+    //   3402: dup
+    //   3403: ldc_w 607
+    //   3406: invokespecial 54	java/lang/StringBuilder:<init>	(Ljava/lang/String;)V
+    //   3409: lload 19
+    //   3411: invokevirtual 366	java/lang/StringBuilder:append	(J)Ljava/lang/StringBuilder;
+    //   3414: ldc_w 603
+    //   3417: invokevirtual 63	java/lang/StringBuilder:append	(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    //   3420: lload 11
+    //   3422: invokevirtual 366	java/lang/StringBuilder:append	(J)Ljava/lang/StringBuilder;
+    //   3425: ldc_w 609
+    //   3428: invokevirtual 63	java/lang/StringBuilder:append	(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    //   3431: aload 17
+    //   3433: iconst_0
+    //   3434: invokeinterface 521 2 0
+    //   3439: invokevirtual 366	java/lang/StringBuilder:append	(J)Ljava/lang/StringBuilder;
+    //   3442: ldc_w 611
+    //   3445: invokevirtual 63	java/lang/StringBuilder:append	(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    //   3448: iconst_1
+    //   3449: invokevirtual 58	java/lang/StringBuilder:append	(I)Ljava/lang/StringBuilder;
+    //   3452: invokevirtual 69	java/lang/StringBuilder:toString	()Ljava/lang/String;
+    //   3455: invokevirtual 80	android/database/sqlite/SQLiteDatabase:execSQL	(Ljava/lang/String;)V
+    //   3458: goto -497 -> 2961
+    //   3461: astore 61
+    //   3463: goto -3207 -> 256
+    //   3466: iload_3
+    //   3467: iconst_4
+    //   3468: if_icmple -3203 -> 265
+    //   3471: goto -3206 -> 265
+    //
+    // Exception table:
+    //   from	to	target	type
+    //   0	4	2246	finally
+    //   14	98	2246	finally
+    //   108	204	2246	finally
+    //   214	250	2246	finally
+    //   250	256	2246	finally
+    //   256	262	2246	finally
+    //   276	282	2246	finally
+    //   294	470	2246	finally
+    //   470	572	2246	finally
+    //   572	589	2246	finally
+    //   601	616	2246	finally
+    //   616	626	2246	finally
+    //   638	674	2246	finally
+    //   686	704	2246	finally
+    //   716	722	2246	finally
+    //   734	740	2246	finally
+    //   752	758	2246	finally
+    //   770	787	2246	finally
+    //   787	804	2246	finally
+    //   804	821	2246	finally
+    //   821	838	2246	finally
+    //   838	855	2246	finally
+    //   855	876	2246	finally
+    //   876	893	2246	finally
+    //   905	922	2246	finally
+    //   922	940	2246	finally
+    //   940	959	2246	finally
+    //   959	978	2246	finally
+    //   978	997	2246	finally
+    //   997	1016	2246	finally
+    //   1016	1035	2246	finally
+    //   1035	1054	2246	finally
+    //   1054	1073	2246	finally
+    //   1073	1092	2246	finally
+    //   1092	1111	2246	finally
+    //   1111	1245	2246	finally
+    //   1245	1252	2246	finally
+    //   1252	1273	2246	finally
+    //   1285	1304	2246	finally
+    //   1304	1323	2246	finally
+    //   1323	1342	2246	finally
+    //   1342	1419	2246	finally
+    //   1422	1441	2246	finally
+    //   1453	1523	2246	finally
+    //   1535	1554	2246	finally
+    //   1566	1608	2246	finally
+    //   1620	1690	2246	finally
+    //   1702	1709	2246	finally
+    //   1721	1740	2246	finally
+    //   1740	1759	2246	finally
+    //   1759	1778	2246	finally
+    //   1778	1798	2246	finally
+    //   1798	1818	2246	finally
+    //   1818	1838	2246	finally
+    //   1838	1858	2246	finally
+    //   1858	1878	2246	finally
+    //   1878	1882	2246	finally
+    //   1894	1913	2246	finally
+    //   1913	1932	2246	finally
+    //   1932	1951	2246	finally
+    //   1951	1970	2246	finally
+    //   1970	1989	2246	finally
+    //   1989	2008	2246	finally
+    //   2008	2027	2246	finally
+    //   2027	2046	2246	finally
+    //   2046	2065	2246	finally
+    //   2065	2084	2246	finally
+    //   2084	2103	2246	finally
+    //   2103	2122	2246	finally
+    //   2122	2141	2246	finally
+    //   2141	2148	2246	finally
+    //   2148	2152	2246	finally
+    //   2171	2202	2246	finally
+    //   2210	2243	2246	finally
+    //   2263	2274	2246	finally
+    //   2277	2336	2246	finally
+    //   2341	2360	2246	finally
+    //   2360	2389	2246	finally
+    //   2392	2421	2246	finally
+    //   2424	2453	2246	finally
+    //   2460	2484	2246	finally
+    //   2484	2512	2246	finally
+    //   2521	2545	2246	finally
+    //   2554	2579	2246	finally
+    //   2588	2612	2246	finally
+    //   2621	2646	2246	finally
+    //   2655	2679	2246	finally
+    //   2682	2706	2246	finally
+    //   2709	2824	2246	finally
+    //   2827	2846	2246	finally
+    //   2849	2919	2246	finally
+    //   2919	2961	2246	finally
+    //   2961	2978	2246	finally
+    //   2984	3233	2246	finally
+    //   3236	3458	2246	finally
+    //   250	256	3461	android/database/SQLException
+  }

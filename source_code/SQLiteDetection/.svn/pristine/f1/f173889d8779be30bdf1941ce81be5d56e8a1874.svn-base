@@ -1,0 +1,329 @@
+--------- beginning of system
+D/SSRM:m  ( 4314): SIOP:: AP = 340, PST = 329, CUR = 500
+--------- beginning of main
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/InputReader( 4314): Input event: value=1
+I/InputReader( 4314): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.283 ] when=7262133000000
+I/InputDispatcher( 4314): Delivering touch to (4530): action: 0x4, toolType: 1
+I/InputDispatcher( 4314): Delivering touch to (24403): action: 0x0, toolType: 1
+D/ViewRootImpl(24403): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4314): Input event: value=0
+I/InputReader( 4314): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=7262229609000
+I/InputDispatcher( 4314): Delivering touch to (24403): action: 0x1, toolType: 1
+I/System.out(24403): StartAction1456094837052
+I/System.out(24403): EndAction1456094837055
+D/ConnectivityService( 4314): returning getActiveNetworkInfo :[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SQL", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/InputReader( 4314): Input event: value=1
+I/InputReader( 4314): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.284 ] when=7263270561000
+I/InputDispatcher( 4314): Delivering touch to (4530): action: 0x4, toolType: 1
+I/InputDispatcher( 4314): Delivering touch to (24403): action: 0x0, toolType: 1
+D/ViewRootImpl(24403): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4314): Input event: value=0
+I/InputReader( 4314): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=7263378505000
+I/InputDispatcher( 4314): Delivering touch to (24403): action: 0x1, toolType: 1
+I/System.out(24403): StartAction1456094838201
+I/System.out(24403): StartLoop1456094838202
+I/System.out(24403): EndLoop1456094838228
+I/ActivityManager( 4314): Killing 22487:com.android.providers.calendar/u0a45 (adj 15): empty for 1809s
+I/ActivityManager( 4314): Killing 22542:com.android.calendar/u0a158 (adj 15): empty for 1809s
+I/System.out(24403): EndAction1456094838259
+W/libprocessgroup( 4314): failed to open /acct/uid_10045/pid_22487/cgroup.procs: No such file or directory
+W/libprocessgroup( 4314): failed to open /acct/uid_10158/pid_22542/cgroup.procs: No such file or directory
+I/SurfaceFlinger( 3614): id=1240 createSurf (1x1),1 flag=4, Toast
+D/PowerManagerService( 4314): [api] acquire WakeLock flags=0x2000000a tag=WindowManager uid=1000 pid=4314
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/PowerManagerService( 4314): [api] [s] userActivity : event: 0 flags: 0 (uid: 1000 pid: 4314) eventTime = 7265460
+D/PowerManagerService( 4314): [api] release WakeLock flags=0x2000000a tag=WindowManager uid=1000 pid=4314 (0x0)
+D/PowerManagerService( 4314): [api] applyWakeLockFlagsOnReleaseLocked : userActivityNoUpdateLocked is called : SCREEN_BRIGHT_WAKE_LOCK        'WindowManager' ON_AFTER_RELEASE (uid=1000, pid=4314, ws=WorkSource{10271}) (elapsedTime=1816)
+I/SurfaceFlinger( 3614): id=1240 Removed Toast (8/8)
+I/SurfaceFlinger( 3614): id=1240 Removed Toast (-2/8)
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/InputReader( 4314): Input event: value=1
+I/InputReader( 4314): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.283 ] when=7268581170000
+I/InputDispatcher( 4314): Delivering touch to (4530): action: 0x4, toolType: 1
+I/InputDispatcher( 4314): Delivering touch to (24403): action: 0x0, toolType: 1
+D/ViewRootImpl(24403): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4314): Input event: value=0
+I/InputReader( 4314): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=7268676988000
+I/InputDispatcher( 4314): Delivering touch to (24403): action: 0x1, toolType: 1
+D/SSRM:m  ( 4314): SIOP:: AP = 330, PST = 329, CUR = 500
+I/System.out(24403): StartAction1456094843504
+I/System.out(24403): EndAction1456094843505
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/InputReader( 4314): Input event: value=1
+I/InputReader( 4314): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.284 ] when=7269717727000
+I/InputDispatcher( 4314): Delivering touch to (4530): action: 0x4, toolType: 1
+I/InputDispatcher( 4314): Delivering touch to (24403): action: 0x0, toolType: 1
+D/ViewRootImpl(24403): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4314): Input event: value=0
+I/InputReader( 4314): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=7269825757000
+I/InputDispatcher( 4314): Delivering touch to (24403): action: 0x1, toolType: 1
+I/System.out(24403): StartAction1456094844647
+I/System.out(24403): StartLoop1456094844647
+I/System.out(24403): EndLoop1456094844673
+I/System.out(24403): EndAction1456094844695
+I/SurfaceFlinger( 3614): id=1241 createSurf (1x1),1 flag=4, Toast
+D/PowerManagerService( 4314): [api] acquire WakeLock flags=0x2000000a tag=WindowManager uid=1000 pid=4314
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/PowerManagerService( 4314): [api] [s] userActivity : event: 0 flags: 0 (uid: 1000 pid: 4314) eventTime = 7271895
+D/PowerManagerService( 4314): [api] release WakeLock flags=0x2000000a tag=WindowManager uid=1000 pid=4314 (0x0)
+D/PowerManagerService( 4314): [api] applyWakeLockFlagsOnReleaseLocked : userActivityNoUpdateLocked is called : SCREEN_BRIGHT_WAKE_LOCK        'WindowManager' ON_AFTER_RELEASE (uid=1000, pid=4314, ws=WorkSource{10271}) (elapsedTime=1812)
+I/SurfaceFlinger( 3614): id=1241 Removed Toast (8/8)
+I/SurfaceFlinger( 3614): id=1241 Removed Toast (-2/8)
+D/InputReader( 4314): Input event: value=1
+I/InputReader( 4314): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.283 ] when=7275027291000
+I/InputDispatcher( 4314): Delivering touch to (4530): action: 0x4, toolType: 1
+I/InputDispatcher( 4314): Delivering touch to (24403): action: 0x0, toolType: 1
+D/ViewRootImpl(24403): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4314): Input event: value=0
+I/InputReader( 4314): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=7275122101000
+I/InputDispatcher( 4314): Delivering touch to (24403): action: 0x1, toolType: 1
+I/System.out(24403): StartAction1456094849939
+I/System.out(24403): EndAction1456094849941
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/InputReader( 4314): Input event: value=1
+I/InputReader( 4314): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.284 ] when=7276162379000
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+I/InputDispatcher( 4314): Delivering touch to (4530): action: 0x4, toolType: 1
+I/InputDispatcher( 4314): Delivering touch to (24403): action: 0x0, toolType: 1
+D/ViewRootImpl(24403): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4314): Input event: value=0
+I/InputReader( 4314): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=7276267706000
+I/InputDispatcher( 4314): Delivering touch to (24403): action: 0x1, toolType: 1
+I/System.out(24403): StartAction1456094851089
+I/System.out(24403): StartLoop1456094851090
+I/System.out(24403): EndLoop1456094851116
+I/System.out(24403): EndAction1456094851147
+I/SurfaceFlinger( 3614): id=1242 createSurf (1x1),1 flag=4, Toast
+D/PowerManagerService( 4314): [api] acquire WakeLock flags=0x2000000a tag=WindowManager uid=1000 pid=4314
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/BatteryService( 4314): !@BatteryListener : batteryPropertiesChanged!
+D/BatteryService( 4314): level:15, scale:100, status:3, health:6, present:false, voltage: 3677, temperature: 298, technology: Li-ion, AC powered:false, USB powered:false, Wireless powered:false, icon:17303729, invalid charger:0
+D/BatteryService( 4314): online:1, current avg:500, charge type:0, power sharing:false, high voltage charger:false, capacity:280000
+D/BatteryService( 4314): Sending ACTION_BATTERY_CHANGED.
+D/KeyguardUpdateMonitor( 4530): received broadcast android.intent.action.BATTERY_CHANGED
+D/KeyguardUpdateMonitor( 4530): handleBatteryUpdate
+D/MotionRecognitionService( 4314):   mReceiver.onReceive : ACTION_BATTERY_CHANGED
+I/MotionRecognitionService( 4314): Unplugged
+D/STATUSBAR-PhoneStatusBar( 4530):  mBrightnessEnablebySettings = true mBrightnessEnablebyBattery = true mBrightnessEnablebyDisableFlag = true mPmsBrightnessEnablebySettings = true
+D/BatteryMeterView( 4530): ACTION_BATTERY_CHANGED : level:15 status:3 health:6
+D/BatteryMeterView( 4530): ACTION_BATTERY_CHANGED : level:15 status:3 health:6
+D/BatteryMeterView( 4530): ACTION_BATTERY_CHANGED : level:15 status:3 health:6
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/PowerManagerService( 4314): [api] [s] userActivity : event: 0 flags: 0 (uid: 1000 pid: 4314) eventTime = 7278344
+D/PowerManagerService( 4314): [api] release WakeLock flags=0x2000000a tag=WindowManager uid=1000 pid=4314 (0x0)
+D/PowerManagerService( 4314): [api] applyWakeLockFlagsOnReleaseLocked : userActivityNoUpdateLocked is called : SCREEN_BRIGHT_WAKE_LOCK        'WindowManager' ON_AFTER_RELEASE (uid=1000, pid=4314, ws=WorkSource{10271}) (elapsedTime=1800)
+D/SSRM:m  ( 4314): SIOP:: AP = 330, PST = 329, CUR = 500
+I/SurfaceFlinger( 3614): id=1242 Removed Toast (8/8)
+I/SurfaceFlinger( 3614): id=1242 Removed Toast (-2/8)
+E/Watchdog( 4314): !@Sync 242
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/InputReader( 4314): Input event: value=1
+I/InputReader( 4314): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.283 ] when=7281481044000
+I/InputDispatcher( 4314): Delivering touch to (4530): action: 0x4, toolType: 1
+I/InputDispatcher( 4314): Delivering touch to (24403): action: 0x0, toolType: 1
+D/ViewRootImpl(24403): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4314): Input event: value=0
+I/InputReader( 4314): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=7281577918000
+I/InputDispatcher( 4314): Delivering touch to (24403): action: 0x1, toolType: 1
+I/System.out(24403): StartAction1456094856397
+I/System.out(24403): EndAction1456094856399
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/InputReader( 4314): Input event: value=1
+I/InputReader( 4314): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.284 ] when=7282618247000
+I/InputDispatcher( 4314): Delivering touch to (4530): action: 0x4, toolType: 1
+I/InputDispatcher( 4314): Delivering touch to (24403): action: 0x0, toolType: 1
+D/ViewRootImpl(24403): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4314): Input event: value=0
+I/InputReader( 4314): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=7282726778000
+I/InputDispatcher( 4314): Delivering touch to (24403): action: 0x1, toolType: 1
+I/System.out(24403): StartAction1456094857547
+I/System.out(24403): StartLoop1456094857548
+I/System.out(24403): EndLoop1456094857578
+I/System.out(24403): EndAction1456094857603
+I/SurfaceFlinger( 3614): id=1243 createSurf (1x1),1 flag=4, Toast
+D/PowerManagerService( 4314): [api] acquire WakeLock flags=0x2000000a tag=WindowManager uid=1000 pid=4314
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/PowerManagerService( 4314): [api] [s] userActivity : event: 0 flags: 0 (uid: 1000 pid: 4314) eventTime = 7284803
+D/PowerManagerService( 4314): [api] release WakeLock flags=0x2000000a tag=WindowManager uid=1000 pid=4314 (0x0)
+D/PowerManagerService( 4314): [api] applyWakeLockFlagsOnReleaseLocked : userActivityNoUpdateLocked is called : SCREEN_BRIGHT_WAKE_LOCK        'WindowManager' ON_AFTER_RELEASE (uid=1000, pid=4314, ws=WorkSource{10271}) (elapsedTime=1813)
+I/SurfaceFlinger( 3614): id=1243 Removed Toast (8/8)
+I/SurfaceFlinger( 3614): id=1243 Removed Toast (-2/8)
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/InputReader( 4314): Input event: value=1
+I/InputReader( 4314): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.283 ] when=7287935237000
+I/InputDispatcher( 4314): Delivering touch to (4530): action: 0x4, toolType: 1
+I/InputDispatcher( 4314): Delivering touch to (24403): action: 0x0, toolType: 1
+D/ViewRootImpl(24403): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4314): Input event: value=0
+I/InputReader( 4314): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=7288031267000
+I/InputDispatcher( 4314): Delivering touch to (24403): action: 0x1, toolType: 1
+I/System.out(24403): StartAction1456094862848
+I/System.out(24403): EndAction1456094862849
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/SSRM:m  ( 4314): SIOP:: AP = 330, PST = 329, CUR = 500
+D/InputReader( 4314): Input event: value=1
+I/InputReader( 4314): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.284 ] when=7289071425000
+I/InputDispatcher( 4314): Delivering touch to (4530): action: 0x4, toolType: 1
+I/InputDispatcher( 4314): Delivering touch to (24403): action: 0x0, toolType: 1
+D/ViewRootImpl(24403): ViewPostImeInputStage ACTION_DOWN
+D/InputReader( 4314): Input event: value=0
+I/InputReader( 4314): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=7289179442000
+I/InputDispatcher( 4314): Delivering touch to (24403): action: 0x1, toolType: 1
+I/System.out(24403): StartAction1456094864001
+I/System.out(24403): StartLoop1456094864002
+I/System.out(24403): EndLoop1456094864025
+I/System.out(24403): EndAction1456094864046
+I/SurfaceFlinger( 3614): id=1244 createSurf (1x1),1 flag=4, Toast
+D/PowerManagerService( 4314): [api] acquire WakeLock flags=0x2000000a tag=WindowManager uid=1000 pid=4314
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/PowerManagerService( 4314): [api] [s] userActivity : event: 0 flags: 0 (uid: 1000 pid: 4314) eventTime = 7291249
+D/PowerManagerService( 4314): [api] release WakeLock flags=0x2000000a tag=WindowManager uid=1000 pid=4314 (0x0)
+D/PowerManagerService( 4314): [api] applyWakeLockFlagsOnReleaseLocked : userActivityNoUpdateLocked is called : SCREEN_BRIGHT_WAKE_LOCK        'WindowManager' ON_AFTER_RELEASE (uid=1000, pid=4314, ws=WorkSource{10271}) (elapsedTime=1808)
+I/SurfaceFlinger( 3614): id=1244 Removed Toast (8/8)
+I/SurfaceFlinger( 3614): id=1244 Removed Toast (-2/8)
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen
+D/StatusBar.NetworkController( 4530): refreshSignalCluster - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 4530): applyOpen

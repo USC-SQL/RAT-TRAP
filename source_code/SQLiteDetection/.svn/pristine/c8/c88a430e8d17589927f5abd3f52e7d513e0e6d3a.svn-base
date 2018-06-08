@@ -1,0 +1,149 @@
+Need to verify:true begin method@[] lock method@[<com.medialets.analytics.e: void a(java.util.List)>, <com.medialets.analytics.e: com.medialets.analytics.d h()>]
+
+<com.medialets.analytics.e: void a(java.util.List)>
+
+  public final void a(List<Run> paramList)
+  {
+    a.lock();
+    try
+    {
+      this.d.beginTransaction();
+      Iterator localIterator = paramList.iterator();
+      while (localIterator.hasNext())
+      {
+        Run localRun = (Run)localIterator.next();
+        String[] arrayOfString = new String[1];
+        arrayOfString[0] = localRun.getId();
+        this.d.execSQL("DELETE FROM v2TrackedEvents WHERE runID = ?", arrayOfString);
+        this.d.execSQL("DELETE FROM v2TrackedRuns WHERE dbID = ?", arrayOfString);
+      }
+    }
+    finally
+    {
+      this.d.endTransaction();
+      a.unlock();
+    }
+    this.d.setTransactionSuccessful();
+    this.d.endTransaction();
+    a.unlock();
+  }
+
+<com.medialets.analytics.e: com.medialets.analytics.d h()>
+  private d h()
+  {
+    a.lock();
+    try
+    {
+      this.d.beginTransaction();
+      long l1 = f.a();
+      ContentValues localContentValues = new ContentValues();
+      long l2 = 1L;
+      long l3 = 1L;
+      long l4 = 1L;
+      Cursor localCursor1 = this.d.rawQuery("SELECT dbID, maxTimestamp, countForMonth, countForDay, countForHour FROM runMaxTimestamps", null);
+      localContentValues.put("maxTimestamp", Long.valueOf(l1));
+      boolean bool4;
+      boolean bool1;
+      boolean bool2;
+      boolean bool3;
+      if (localCursor1.getCount() == 0)
+      {
+        c.c("First install for this app");
+        localContentValues.put("countForMonth", Integer.valueOf(1));
+        localContentValues.put("countForDay", Integer.valueOf(1));
+        localContentValues.put("countForHour", Integer.valueOf(1));
+        bool4 = true;
+        bool1 = true;
+        bool2 = true;
+        bool3 = true;
+        this.d.insert("runMaxTimestamps", "maxTimestamp", localContentValues);
+        localContentValues.put("countForMonth", Long.valueOf(l2));
+        localContentValues.put("countForDay", Long.valueOf(l3));
+        localContentValues.put("countForHour", Long.valueOf(l4));
+        this.d.update("runMaxTimestamps", localContentValues, null, null);
+        localCursor1.close();
+        Cursor localCursor2 = this.d.rawQuery("SELECT MAX(timestamp+dur) FROM v2TrackedRuns", null);
+        localCursor2.moveToFirst();
+        long l6 = localCursor2.getLong(0);
+        localCursor2.close();
+        localContentValues.clear();
+        localContentValues.put("isComplete", Boolean.valueOf(false));
+        localContentValues.put("hadAbEnd", Boolean.valueOf(false));
+        localContentValues.put("wasBroadcast", Boolean.valueOf(false));
+        localContentValues.put("timestamp", Long.valueOf(l1));
+        localContentValues.put("isFirstEver", Boolean.valueOf(bool4));
+        localContentValues.put("isFirstForMonth", Boolean.valueOf(bool1));
+        localContentValues.put("isFirstForDay", Boolean.valueOf(bool2));
+        localContentValues.put("isFirstForHour", Boolean.valueOf(bool3));
+        localContentValues.put("countForMonth", Long.valueOf(l2));
+        localContentValues.put("countForDay", Long.valueOf(l3));
+        localContentValues.put("countForHour", Long.valueOf(l4));
+        if (l6 <= 0L)
+          break label724;
+        localContentValues.put("interval", Long.valueOf(l1 - l6));
+      }
+      while (true)
+      {
+        if (this.c != 0)
+        {
+          localContentValues.put("dbID", Integer.toString(this.c));
+          this.c = 0;
+        }
+        d locald = new d(this.d.insert("v2TrackedRuns", "isComplete", localContentValues), System.currentTimeMillis());
+        this.d.setTransactionSuccessful();
+        return locald;
+        localCursor1.moveToFirst();
+        long l5 = localCursor1.getLong(1);
+        Calendar localCalendar1 = Calendar.getInstance(TimeZone.getTimeZone("UTC"));
+        Calendar localCalendar2 = Calendar.getInstance(TimeZone.getTimeZone("UTC"));
+        localCalendar2.setTimeInMillis(l5);
+        localCalendar1.setTimeInMillis(l1);
+        if (localCalendar1.get(2) != localCalendar2.get(2))
+        {
+          bool1 = true;
+          bool2 = true;
+          bool3 = true;
+          bool4 = false;
+          break;
+        }
+        if (localCalendar1.get(5) != localCalendar2.get(5))
+        {
+          l2 = 1 + localCursor1.getInt(2);
+          bool2 = true;
+          bool3 = true;
+          bool1 = false;
+          bool4 = false;
+          break;
+        }
+        if (localCalendar1.get(11) != localCalendar2.get(11))
+        {
+          l2 = 1 + localCursor1.getInt(2);
+          l3 = 1 + localCursor1.getInt(3);
+          bool3 = true;
+          bool2 = false;
+          bool1 = false;
+          bool4 = false;
+          break;
+        }
+        l2 = 1 + localCursor1.getInt(2);
+        l3 = 1 + localCursor1.getInt(3);
+        l4 = 1 + localCursor1.getInt(4);
+        bool3 = false;
+        bool2 = false;
+        bool1 = false;
+        bool4 = false;
+        break;
+        label724: localContentValues.put("interval", Integer.valueOf(0));
+      }
+    }
+    catch (Exception localException)
+    {
+      c.b("SQLException beginning analytics run: " + localException.toString());
+      return null;
+    }
+    finally
+    {
+      this.d.endTransaction();
+      a.unlock();
+    }
+  }

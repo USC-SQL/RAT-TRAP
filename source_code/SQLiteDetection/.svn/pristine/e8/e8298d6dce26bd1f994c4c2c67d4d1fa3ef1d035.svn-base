@@ -1,0 +1,16 @@
+#!/bin/bash
+FILES=./AndroidApp/*
+for f in $FILES
+do
+  if [[ $f != *"android--1"* ]]
+  then
+	for subf in $f/*
+	do
+	   if [[ $subf == *".apk"* ]]
+   	   then
+	      java -jar Time.jar ./AndroidApp $f /classlist.txt ${subf/$f/""} ./RunningTime.txt
+	      rm -r $f/opt
+	   fi
+        done
+  fi
+done
