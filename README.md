@@ -5,7 +5,7 @@ Developers strive to build feature-filled apps that are responsive and consume a
 ```
 Remove RATs from Your Code: Automated Optimization of Resource Inefficient Database Writes for Mobile Applications
 Yingjun Lyu, Ding Li, William G. J. Halfond
-In Proceedings of the ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA). April 2018. Acceptance rate: 25%. (To appear)
+In Proceedings of the ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA). April 2018.
 ```
 
 ## Replication Package
